@@ -1,0 +1,44 @@
+#!/usr/bin/python3
+
+import sys, os, os.path
+from subprocess import PIPE, Popen, call
+
+def usage(msg=""):
+    """
+    @param msg an additional message
+    @return a message about the right usage of the program
+    """
+    if msg:
+        msg="\n\n"+msg # prepend newlines if the message is not empty
+    return """Usage:
+{0} <destination IP> <destination Dir>
+  will upload (synchronize) files necessary for the website to <destination IP>
+  into the directory <destination Dir>.{1}
+""".format(sys.argv[0], msg)
+
+def checkRoot():
+    l=set(os.listdir(os.getcwd()))
+    must_have=set(["index.html", "microhope.html", "ej-history.html"])
+    return (l | must_have) == l # must_have is included in l
+
+if __name__=="__main__":
+    try:
+        destIP  = sys.argv[1]
+        destDIR = sys.argv[2]
+    except:
+        print(usage())
+        sys.exit(1)
+    if not checkRoot():
+        print(usage("This program must be called from the root directory of the project."))
+    excludes=['*.bak', '*~','*.zip', '.git*']
+    cmd = "ls -d {0}".format(" ".join(excludes))
+    excludedFromRoot=Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE).communicate()[0].decode("utf-8").split()
+    includes=set(os.listdir(os.getcwd())) - set(excludedFromRoot)
+    cmd="""rsync -av --delete {excludes} {includes} {ip}:{Dir}""".format(
+        excludes = " ".join(["--exclude='"+e+"'" for e in excludes]),
+        includes = " ".join(includes),
+        ip       = destIP,
+        Dir      = destDIR,
+    )
+    #print(cmd)
+    call(cmd, shell=True)
