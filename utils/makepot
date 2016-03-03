@@ -28,12 +28,31 @@ def stripTag(tag, f, lines):
     for s in found:
         l= next(i for i in range(len(lines)) if lines[i]>s.start())
         matchinglines.append(1+l)
+    lines="{}:{}".format(f.name,",".join([str(m) for m in matchinglines]))
+    if lines[-1]==":":
+        lines+="??"
     result={
-        "file" :  f.name,
         "text" :  innerHTML,
-        "lines":  matchinglines,
+        "lines":  lines,
         }
     return result
+
+def mergeDuplicates(strings):
+    """
+    merges records with the same text
+    @param strings input descriptions of translatable strings
+    """
+    result=[]
+    d={}
+    for s in strings:
+        if s["text"] in d:
+            d[s["text"]]+="\n"+s["lines"]
+        else:
+            d[s["text"]]=s["lines"]
+    for t in d:
+        result.append({ "text": t, "lines": d[t]})
+    return result
+    
 
 def collectTranslatable(f, strings):
     """
@@ -62,6 +81,7 @@ def xgettext(rootdir, strings=[]):
                 strings=collectTranslatable(open(os.path.join(rootdir, f)),strings)
         for folder in subFolders:
             strings = xgettext(os.path.join(rootdir, folder), strings)
+        strings=mergeDuplicates(strings)
         return strings
 
 def potify(s):
@@ -109,11 +129,8 @@ if __name__=="__main__":
     with open("po/messages.pot","w") as outfile:
         outfile.write(po_header)
         for s in strings:
-            if s["lines"]:
-                for l in s["lines"]:
-                    outfile.write ("#: {}:{}\n".format(s["file"],l))
-            else:
-                outfile.write ("#: {}:??\n".format(s["file"]))
+            for l in s["lines"].split("\n"):
+                outfile.write ("#: {}\n".format(l))
             outfile.write ('msgid {}\n'.format(potify(s["text"])))
             outfile.write ('msgstr ""\n\n')
         print("wrote {}".format(outfile.name))
