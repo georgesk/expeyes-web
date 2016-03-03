@@ -1,0 +1,119 @@
+#!/usr/bin/python3
+import os, os.path
+import sys, re
+from bs4 import BeautifulSoup as bs
+
+def has_class_tr(tag):
+    """
+    boolean function to filter translatable tags
+    @return True if the tag has "tr" in its class
+    """
+    return tag.has_attr('class') and "tr" in tag['class']
+
+tagpattern=re.compile(r"<[^>]+>(.*)</[^>]+>(.*)", re.MULTILINE|re.DOTALL)
+
+def stripTag(tag, f, lines):
+    """
+    @param tag a tag isolated by BeautifulSoup
+    @param f an open text file to get positions.
+    @param lines a list of positions of ends of lines in the file f
+    @return a dictionary with the text contained inside the tag and 
+            information about its position in the source
+    """
+    m=tagpattern.match(str(tag))
+    innerHTML=m.group(1)
+    f.seek(0)
+    found=re.finditer(str(tag), f.read(), re.MULTILINE)
+    matchinglines=[]
+    for s in found:
+        l= next(i for i in range(len(lines)) if lines[i]>s.start())
+        matchinglines.append(1+l)
+    result={
+        "file" :  f.name,
+        "text" :  innerHTML,
+        "lines":  matchinglines,
+        }
+    return result
+
+def collectTranslatable(f, strings):
+    """
+    collects translatables strings
+    @param f some open HTML file
+    @param string already collected strings
+    @return strings collected so far
+    """
+    doc=bs(f, "lxml")
+    translatable=doc.find_all(has_class_tr)
+    f.seek(0)
+    lines= [m.end() for m in re.finditer(r".*\n", f.read())]
+    strings+=[stripTag(t,f, lines) for t in translatable]
+    return strings
+
+def xgettext(rootdir, strings=[]):
+    """
+    collects translatables strings
+    @param rootdir directory to search html files
+    @param string already collected strings if any
+    @return strings collected so far
+    """
+    for root, subFolders, files in os.walk(rootdir):
+        for f in files:
+            if re.match(r".*\.html$", f):
+                strings=collectTranslatable(open(os.path.join(rootdir, f)),strings)
+        for folder in subFolders:
+            strings = xgettext(os.path.join(rootdir, folder), strings)
+        return strings
+
+def potify(s):
+    """
+    Modify a string to match POT file format
+    @param s a string
+    @return the same with double quotes escaped, multi-line breaks, etc.
+    """
+    s=s.replace('"', '\\"')  # escape double quotes
+    s=s.replace('\t', '\\t') # make tabs visible
+    result=""
+    if "\n" in s:
+        lines=s.split("\n")
+        result='""'
+        for l in lines:
+            result+='\n"{}\\n"'.format(l)
+    else:
+        result='"{}"'.format(s)
+    return result
+
+po_header=r"""\
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-22 20:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+"""
+if __name__=="__main__":
+    strings=xgettext(os.getcwd())
+    with open("po/messages.pot","w") as outfile:
+        outfile.write(po_header)
+        for s in strings:
+            if s["lines"]:
+                for l in s["lines"]:
+                    outfile.write ("#: {}:{}\n".format(s["file"],l))
+            else:
+                outfile.write ("#: {}:??\n".format(s["file"]))
+            outfile.write ('msgid {}\n'.format(potify(s["text"])))
+            outfile.write ('msgstr ""\n\n')
+        print("wrote {}".format(outfile.name))
