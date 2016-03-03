@@ -7,4 +7,4 @@ messages.pot: $(SOURCEFILES) ../utils/makepot Makefile
 	cd ..; utils/makepot
 
 %.po: messages.pot
-	msgmerge --update $@ messages.pot
+	msgmerge --update --previous $@ messages.pot
