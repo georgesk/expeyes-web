@@ -1,0 +1,542 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: expeyes website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-22 20:21+0200\n"
+"PO-Revision-Date: 2016-03-03 23:53+0100\n"
+"Last-Translator: Georges Khaznadar <georgesk@debian.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:12
+msgid "Design"
+msgstr "Conception"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:13
+msgid "How to Buy"
+msgstr "Où acheter"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:14
+msgid "Software"
+msgstr "Logiciel"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:15
+msgid "Android"
+msgstr "Android"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:16
+msgid "python"
+msgstr "python"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:17
+msgid "MicroHOPE"
+msgstr "MicroHOPE"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:18
+msgid "People"
+msgstr "L'équipe"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:19
+msgid "News"
+msgstr "Nouveautés"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:22
+msgid "Experiments for Young Engineers and Scientists"
+msgstr "Experiments for Young Engineers and Scientists"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:27
+msgid ""
+"\n"
+"\tA tool for learning science by exploring and experimenting.\n"
+"      \n"
+msgstr "Un outil pour apprendre les sciences par l'exploration et l'expérimentation."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:30
+msgid ""
+"\n"
+"\t50 documented experiments and easy to add more.\n"
+"      \n"
+msgstr "50 expériences documentées, et plus, faciles à créer."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:33
+msgid ""
+"\n"
+"\tWide range, High school and above.\n"
+"      \n"
+msgstr "Pour tous, jusqu'au lycée et au-delà."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:36
+msgid ""
+"\n"
+"\tBuilt-in Signal Generator and Oscilloscope\n"
+"      \n"
+msgstr "Générateur de signaux et oscilloscope intégrés."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:39
+msgid ""
+"\n"
+"\tUSB Powered.\n"
+"      \n"
+msgstr "Alimenté par USB."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:42
+msgid ""
+"\n"
+"\t12bit analog resolution.\n"
+"      \n"
+msgstr "Résolution analogique 12 bit."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:45
+msgid ""
+"\n"
+"\tMicrosecond timing resolution.\n"
+"      \n"
+msgstr "Résolution temporelle d'une microseconde."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:48
+msgid ""
+"\n"
+"\tOpen Hardware and Free Software.\n"
+"      \n"
+msgstr "Matériel ouvert et logiciel libre."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:51
+msgid ""
+"\n"
+"\tSoftware in Python programming language.\n"
+"      \n"
+msgstr "Logiciel en langage de programmation Python."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"\tCompact,\n"
+"\t<span class=\"medium-blue\">8.6x5.8x1.6 cm, 60 gm.</span>\n"
+"\n"
+msgstr "Compact, <span class=\"medium-blue\">8,6&times;5,8&times;1,6 cm, 60 g.</span>"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"\tLow Cost,\n"
+"\t<span class=\"medium-blue\">\n"
+"<a href=\"screenshots/ej-with-agilent.jpg\">Accurate</a> measurements\n"
+"\t</span>\n"
+"\n"
+msgstr ""
+"Bon marché, <span class=\"medium-blue\">mesures\n"
+"<a href=\"screenshots/ej-with-agilent.jpg\">précises</a></span>"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:64
+msgid ""
+"\n"
+"\tSoftware is part of Debian &amp; Ubuntu\n"
+"      \n"
+msgstr "Le logiciel est intégré à Débian et Ubuntu"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"               ExpEYES is from\n"
+"      the <a href=\"http://www.iuac.res.in/%7Eelab/phoenix/\">PHOENIX</a>\n"
+"      project of <a href=\"http://www.iuac.res.in/\">Inter-University\n"
+"      Accelerator Centre</a>,New Delhi. It is a hardware &amp; software\n"
+"      framework for developing science experiments, demonstrations\n"
+"      and projects without getting in to the details of electronics or\n"
+"      computer programming. It converts your PC into a science laboratory.\n"
+"      PHOENIX (Physics with Home-made Equipment and Innovative\n"
+"      Experiments) project was started, in 2005 as a part of IUAC's "
+"outreach\n"
+"      program, with the objectives of developing  affordable laboratory\n"
+"      equipment and training teachers. Design of ExpEYES\n"
+"      combines the real-time measurement capability of micro-controllers "
+"with\n"
+"      the ease and flexibility of\n"
+"      <a href=\"python.html\">\n"
+"\tPython programming language\n"
+"      </a>\n"
+"      for data analysis and visualisation. It also\n"
+"      functions as a test equipment for electronics hobbyists and "
+"engineering\n"
+"      students. Software for all products from PHOENIX are distributed "
+"under\n"
+"      GNU General Public License. The hardware designs are open and\n"
+"      royalty-free <a href=\"hardware.html\">commercial production</a> is\n"
+"      allowed. The current version was <a href=\"ej-history.html\">released "
+"in\n"
+"      Aug-2012</a>.\n"
+"      <br/>\n"
+"\n"
+msgstr ""
+"         ExpEYES est produit par le\n"
+"projet <a href=\"http://www.iuac.res.in/%7Eelab/phoenix/\">PHOENIX</a> du\n"
+"<a href=\"http://www.iuac.res.in/\">Inter-University Accelerator Centre</a>,\n"
+"New Delhi. C'est un ensemble de matériel et de logiciel pour développer des\n"
+"expériences scientifiques, des démonstrations et des projets sans rentrer\n"
+"dans les détails de l'électronique ou de la programmation d'un ordinateur.\n"
+"Il convertit votre PC en un laboratoire de sciences. Le projet PHOENIX\n"
+"(Physics with Home-made Equipment and Innovative Experiments) a démarré en 2005\n"
+"dans le cadre du programme de vulgarisation de l'IUAC, avec pour objectif\n"
+"de développer des équipements de laboratoire à bon marché et de former les\n"
+"professeurs. La conception d'ExpEYES combine la capacité de mesures en\n"
+"temps réel des micro-contrôleurs avec l'aisance et la flexibilité du\n"
+"<a href=\"python.html\">langage de programmation Python</a> pour l'analyse et\n"
+"la visualisation de données. Il sert aussi de système de tests pour les\n"
+"bricoleurs et les étudiants ingénieurs. Le logiciel pour tous les produits de\n"
+"PHOENIX est distribué sous licence libre GNU General Public License. La\n"
+"conception du matériel est ouverte et sans royalties, la\n"
+"<a href=\"hardware.html\">production commerciale</a> est autorisée. La version\n"
+"courante a été <a href=\"ej-history.html\">créée en août 2012</a>. <br/> "
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:94
+msgid "Resources to get started with ExpEYES:"
+msgstr "Ressources pour démarrer avec ExpEYES :"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"\tExpEYES Junior User's Manual. Download from\n"
+"\t<a href=\"http://www.iuac.res.in/%7Eelab/expeyes/Documents/eyesj-a4.pdf"
+"\">\n"
+"\t  here\n"
+"\t</a>\n"
+"        ( or <a href=\"Documents/eyesj-a4.pdf\">here</a>)\n"
+"      \n"
+msgstr ""
+"Le manuel utilisateur d'ExpEYES. À télécharger depuis\n"
+"<a href=\"http://www.iuac.res.in/%7Eelab/expeyes/Documents/eyesj-a4.pdf\">\n"
+"ici</a> (ou <a href=\"Documents/eyesj-a4.pdf\">ici</a>)"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"\tProgrammer's Manual. Download from\n"
+"\t<a href=\"http://www.iuac.res.in/%7Eelab/expeyes/Documents/eyesj-progman."
+"pdf\">\n"
+"\t  here\n"
+"\t</a>\n"
+"        (or <a href=\"Documents/eyesj-progman.pdf\">here</a>)\n"
+"      \n"
+msgstr ""
+"Le manuel du programmeur. À télécharger depuis\n"
+"<a href=\"http://www.iuac.res.in/%7Eelab/expeyes/Documents/eyesj-progman.pdf\">\n"
+"ici</a> (ou <a href=\"Documents/eyesj-progman.pdf\">ici</a>)"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"\tPython Programming of ExpEYES ,\n"
+"\t<a href=\"https://www.youtube.com/watch?v=5P5Qu1qnYWY\">\n"
+"\t  video\n"
+"\t</a>\n"
+"\n"
+msgstr ""
+"La programmation d'ExpEYES en Python,\n"
+"<a href=\"https://www.youtube.com/watch?v=5P5Qu1qnYWY\">\n"
+"en vidéo</a>"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"<a href=\"https://www.youtube.com/watch?v=z8iVJdpkwIY\">\n"
+"\t  Spoken Tutorial on ExpEYES\n"
+"\t</a>\n"
+"\n"
+msgstr ""
+"<a href=\"https://www.youtube.com/watch?v=z8iVJdpkwIY\">\n"
+"Un tutoriel ExpEYES parlé</a>"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"\tExpEYES Brochure. Download from\n"
+"\t<a href=\"http://www.iuac.res.in/%7Eelab/expeyes/Documents/ej-brochure.pdf"
+"\">\n"
+"\t  here\n"
+"\t</a>\n"
+"        (or <a href=\"Documents/ej-brochure.pdf\">here</a>)\n"
+"      \n"
+msgstr ""
+"Brochure ExpEYES. À télécharger depuis\n"
+"<a href=\"http://www.iuac.res.in/%7Eelab/expeyes/Documents/ej-brochure.pdf\">\n"
+"ici</a> (ou <a href=\"Documents/ej-brochure.pdf\">ici</a>)"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:136
+msgid ""
+"Join the\n"
+"      <a href=\"http://www.freelists.org/list/phoenix-project\">\n"
+"\tPhoenix Mailing List\n"
+"      </a>\n"
+"      to be informed about the\n"
+"      <a href=\"http://www.iuac.res.in/%7Eelab/phoenix/workshops/index.html"
+"\">\n"
+"\tTraining Programs\n"
+"      </a>\n"
+"      and new developments.\n"
+"      \n"
+msgstr ""
+"Rejoignez la\n"
+"<a href=\"http://www.freelists.org/list/phoenix-project\">\n"
+"liste de courriel Phoenix</a> pour rester informé des\n"
+"<a href=\"http://www.iuac.res.in/%7Eelab/phoenix/workshops/index.html\">\n"
+"Programmes de Formation</a> et des nouveaux développement."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"      Click on the icons below for information\n"
+"      about some of the experiments performed and documented.\n"
+"    \n"
+msgstr ""
+"Cliquez sur les icones ci-dessous pour des informations au sujet de\n"
+"quelques-unes des expériences présentées et documentées."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:153
+msgid "EYES GUI"
+msgstr "Interface grphique EYES"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:155
+msgid "AC &amp; DC"
+msgstr "Courant continu et alternatif"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:159
+msgid "Resistance"
+msgstr "Résistance"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:162
+msgid ""
+"Resistance\n"
+"          of water\n"
+msgstr "Résistance de l'eau"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:165
+msgid "Powerline Pickup"
+msgstr "Effet d'antenne"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:168
+msgid "Capacitance"
+msgstr "Capacité électrique"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:171
+msgid ""
+"Dielectric\n"
+"          Constant\n"
+msgstr "Constante diélectrique"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:174
+msgid ""
+"AC\n"
+"          and DC Separation\n"
+msgstr "Séparation de composantes continue et alternative"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:177
+msgid ""
+"AC\n"
+"          Circuits\n"
+msgstr "Circuits en courant alternatif"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:180
+msgid ""
+"RC\n"
+"          Transient\n"
+msgstr "RC, régime transitoire"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:183
+msgid ""
+"RL\n"
+"          Transient\n"
+msgstr "RL, régime transitoire"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:186
+msgid ""
+"RLC\n"
+"          Transient\n"
+msgstr "RLC, régime transitoire"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:189
+msgid ""
+"RC\n"
+"          integration \n"
+msgstr "Intégration RC"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:192
+msgid ""
+"EM\n"
+"          Induction \n"
+msgstr "Induction électromagnétique"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:195
+msgid "Transformer"
+msgstr "Transformateur"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:198
+msgid ""
+"AC\n"
+"          Generator\n"
+msgstr "Générateur de courant alternatif"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:201
+msgid ""
+"Singing\n"
+"          magnet\n"
+msgstr "Aimant chanteur"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:204
+msgid ""
+"Driven\n"
+"          Pendulum\n"
+msgstr "Pendule entretenu"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:207
+msgid ""
+"Blinking\n"
+"          LED\n"
+msgstr "DEL clignotante"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:210
+msgid "Stroboscope"
+msgstr "Stroboscope"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:213
+msgid ""
+"Light\n"
+"          Barrier\n"
+msgstr "Barrière lumineuse"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:216
+msgid "Opto-Coupler"
+msgstr "Opto-Coupleur"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:219
+msgid ""
+"Gravity\n"
+"          by Pendulum\n"
+msgstr "Détermination de la gravité avec un pendule"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:222
+msgid "Study LDR"
+msgstr "Étude d'une photorésistance"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:224
+msgid ""
+"Halfwave\n"
+"          Rectifier\n"
+msgstr "Redressement demi-onde"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:227
+msgid ""
+"Fulwave\n"
+"          Rectifier\n"
+msgstr "Redressement double alternance"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:230
+msgid "Diode IV"
+msgstr "Caractéristique IU d'une diode"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:233
+msgid "Transistor-CE"
+msgstr "Caractéristique CE d'un transitor"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:236
+msgid ""
+"Logic\n"
+"          gate\n"
+msgstr "Porte logique"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:239
+msgid ""
+"555\n"
+"          oscillator\n"
+msgstr "Oscillateur 555"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:242
+msgid ""
+"555\n"
+"          monoshot\n"
+msgstr "Monostable 555"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:245
+msgid ""
+"Clock\n"
+"          divider\n"
+msgstr "Diviseur d'horloge"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:248
+msgid "AM and FM"
+msgstr "Modulation d'amplitude et de fréquence"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:251
+msgid ""
+"Filter\n"
+"          Circuits\n"
+msgstr "Circuits de filtrage"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:254
+msgid ""
+"Sound\n"
+"          Frequency\n"
+msgstr "Fréquence d'un son"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:257
+msgid ""
+"Piezo\n"
+"          Buzzer\n"
+msgstr "Buzzer piézo"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:260
+msgid ""
+"Sound\n"
+"          Beats\n"
+msgstr "Battements sonores"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:263
+msgid ""
+"Sound\n"
+"          Velocity\n"
+msgstr "Vitesse du son"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:266
+msgid ""
+"Ultra-sound\n"
+"          \n"
+msgstr "Ultra-sons"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:269
+msgid ""
+"Temperature\n"
+"          Sensors\n"
+msgstr "Capteur de température"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:272
+msgid ""
+"Cooling\n"
+"          Curve\n"
+msgstr "Courbe de refroidissement"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:275
+msgid ""
+"gravity\n"
+"          by TOF\n"
+msgstr "gravité par temps de vol"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:278
+msgid "Pendulum"
+msgstr "Pendule"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:281
+msgid ""
+"\n"
+"      contact:  Ajith Kumar B P, Inter-University Accelerator Centre, New\n"
+"      Delhi 110067, bpajith at gmail.com\n"
+"    \n"
+msgstr ""
+"contact:  Ajith Kumar B P, Inter-University Accelerator Centre, New\n"
+"Delhi 110067, bpajith at gmail.com"
