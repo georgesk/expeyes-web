@@ -1,1 +1,25 @@
 #!/usr/bin/python3
+
+import cherrypy, os, os.path, sys, re
+from hashtable import HashTable
+
+class Root(object):
+    @cherrypy.expose
+    def index(self):
+        return "this server should be rather used as a JSON server."
+
+
+pathToPo=sys.argv[1]
+translations={}
+if os.path.isfile(pathToPo):
+    pathToPo=os.path.dirname(pathToPo)
+pofiles=[f for f in os.listdir(pathToPo) if re.match(r"^.*\.po$",f)]
+for po in pofiles:
+    lang=po.replace(".po","")
+    translations[lang]=HashTable(open(po))
+print (translations)
+conf_path = os.path.dirname(os.path.abspath(__file__))
+conf_path = os.path.join(conf_path, "server.conf")
+cherrypy.config.update(conf_path)
+
+cherrypy.quickstart(Root())
