@@ -3,3 +3,6 @@
 *.zip
 *.pot
 #*
+__pycache__
+access.log
+error.log
