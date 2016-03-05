@@ -13,15 +13,20 @@ class Root(object):
     
     @cherrypy.expose
     @cherrypy.tools.json_out()
+    @cherrypy.tools.json_in()
     def translate(self, key = None, lang = None):
         if lang in Root.translations:
-            return {
+            return dumps({
                 "lang": lang,
                 "key" : key,
                 "tr"  : Root.translations[lang].get(key,"")
-            }
+            })
         else:
-            return list(range(1,100))
+            return dumps({
+                "lang": "??",
+                "key" : key,
+                "tr"  : ""
+            })
 
 
 pathToPo=sys.argv[1]
