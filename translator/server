@@ -16,17 +16,17 @@ class Root(object):
     @cherrypy.tools.json_in()
     def translate(self, key = None, lang = None):
         if lang in Root.translations:
-            return dumps({
+            return {
                 "lang": lang,
                 "key" : key,
                 "tr"  : Root.translations[lang].get(key,"")
-            })
+            }
         else:
-            return dumps({
+            return {
                 "lang": "??",
                 "key" : key,
                 "tr"  : ""
-            })
+            }
 
 
 pathToPo=sys.argv[1]
