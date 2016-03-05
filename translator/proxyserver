@@ -1,0 +1,83 @@
+#!/usr/bin/python3
+
+import cherrypy, os, os.path, sys, re
+from hashtable import HashTable, toHash
+import urllib.request
+from bs4 import BeautifulSoup as bs
+
+tagpattern=re.compile(r"<[^>]+>(.*)</[^>]+>(.*)", re.MULTILINE|re.DOTALL)
+
+class Root(object):
+
+
+    def __init__(self):
+        """
+        the constructor
+        intializes the translation dictionaries
+        """
+        self.translations={}
+        path=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        path=os.path.join(path,"po")
+        pofiles=[f for f in os.listdir(path) if re.match(r"^.*\.po$",f)]
+        for po in pofiles:
+            lang=po.replace(".po","")
+            self.translations[lang]=HashTable(open(os.path.join(path,po))).toHash()
+        print(self.translations)
+        return
+    
+    def translate(self, lang, webpage):
+        """
+        translates a web page
+        @param lang a language id
+        @param webpage a byte string featuring the web page
+        @return a byte string, after translation
+        """
+        print("GRRR translate")
+        doc=bs(webpage, "lxml")
+        translatable=doc.find_all(class_="tr")
+        for tr in translatable:
+            m=tagpattern.match(str(tr))
+            innerHTML=m.group(1)
+            h=toHash(innerHTML)
+            translation=self.translations[lang].get(h,"")
+            if translation:
+                tr.string=translation
+            else:
+                print(tr.string)
+                if tr.string:
+                    soup=bs("<b></b>","lxml")
+                    new=soup.new_tag("span", style="background:red; color: white;")
+                    new.string="!"
+                    tr.string.insert_before(new)
+                else:
+                    print("GRRR", tr)
+        return (doc.prettify()+"<!-- translated to {} -->".format(lang)).encode("utf-8")
+    
+    @cherrypy.expose
+    def fr(self, *args):
+        #cherrypy.response.headers['Retry-After'] = 60
+        url="http://expeyes.freeduc.org/"+"/".join(args)
+        f = urllib.request.urlopen(url)
+        html=False
+        for k,v in f.info().items():
+            cherrypy.response.headers[k]=v
+            if k == "Content-Type" and v == "text/html":
+                html=True
+        if not html:
+            result = f.read()
+        else:
+            result = self.translate ('fr', f.read())
+        return result
+        
+
+
+conf_path = os.path.dirname(os.path.abspath(__file__))
+conf_path = os.path.join(conf_path, "server.conf")
+cherrypy.config.update(conf_path)
+cherrypy.config.update({
+    'log.access_file': "{0}/access.log".format(os.path.dirname(__file__)),
+    'log.error_file': "{0}/error.log".format(os.path.dirname(__file__)),
+    'log.screen': False,
+})
+
+cherrypy.quickstart(Root())
