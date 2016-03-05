@@ -45,6 +45,9 @@ class Root(object):
                 tr.append(soup.body.contents[0])
                 if tr.p == tr.contents[0]:
                     tr.p.unwrap()
+            else:
+                soup=bs('<span style="background:red; color:white;">!</span>')
+                tr.insert(0,soup.span)
         return (doc.prettify()+"<!-- translated to {} -->".format(lang)).encode("utf-8")
     
     @cherrypy.expose
