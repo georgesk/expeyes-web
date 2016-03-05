@@ -22,7 +22,6 @@ class Root(object):
         for po in pofiles:
             lang=po.replace(".po","")
             self.translations[lang]=HashTable(open(os.path.join(path,po))).toHash()
-        print(self.translations)
         return
     
     def translate(self, lang, webpage):
@@ -32,7 +31,6 @@ class Root(object):
         @param webpage a byte string featuring the web page
         @return a byte string, after translation
         """
-        print("GRRR translate")
         doc=bs(webpage, "lxml")
         translatable=doc.find_all(class_="tr")
         for tr in translatable:
@@ -41,16 +39,12 @@ class Root(object):
             h=toHash(innerHTML)
             translation=self.translations[lang].get(h,"")
             if translation:
-                tr.string=translation
-            else:
-                print(tr.string)
-                if tr.string:
-                    soup=bs("<b></b>","lxml")
-                    new=soup.new_tag("span", style="background:red; color: white;")
-                    new.string="!"
-                    tr.string.insert_before(new)
-                else:
-                    print("GRRR", tr)
+                soup=bs(translation,"lxml")
+                # we must save tr's attributes
+                tr.clear()
+                tr.append(soup.body.contents[0])
+                if tr.p == tr.contents[0]:
+                    tr.p.unwrap()
         return (doc.prettify()+"<!-- translated to {} -->".format(lang)).encode("utf-8")
     
     @cherrypy.expose
