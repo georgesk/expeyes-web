@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <link rel="stylesheet" type="text/css" href="css/menu.css"/>
     <title>Evolution of expeyes junior</title>
   </head>
-  <body> <a href="index.html"><img src="images/eyes-logo.png" height="100" width="420"></a>
+  <body> <a href="index.html"><img src="images/eyes-logo.png" height="100" width="420" alt="eyes logo"/></a>
     <div id="mynb">
       <ul>
         <li><a href="design.html"> <span>Design</span></a></li>
@@ -42,16 +42,16 @@
         decided to explore the options for lowering the cost further. A design
         using Atmega328, from Atmel Corp., was made, using built-in 10 bit ADC
         and PWM DAC. PCB size reduced to 9mm x6 mm</span></p>
-    <p><span style="font-size:14px;">29-Dec-11 : PCB sent for fabrication.&nbsp;
+    <p><span style="font-size:14px;">29-Dec-11 : PCB sent for fabrication. 
       </span></p>
     <p><span style="font-size:14px;">3-Jan-12 : Sent another version of PCB for
-        fabrication. To reduce size, it replaced TC7660&nbsp; with TC1240A
+        fabrication. To reduce size, it replaced TC7660  with TC1240A
         voltage doubler.</span></p>
     <p><span style="font-size:14px;">12-Jan-12 : Went back to TC7660 since one
         of the TC1240A failed during continuous testing, keeping both versions.</span></p>
     <p><span style="font-size:14px;">Tested by writing the required C and Python
         programs, like CRO. </span></p>
-    <p><span style="font-size:14px;"><img src="images/proto-trial2.jpg" style="width: 450px; height: 232px;"></span></p>
+    <p><span style="font-size:14px;"><img src="images/proto-trial2.jpg" style="width: 450px; height: 232px;" alt="a trial"/></span></p>
     <p><span style="font-size:14px;">Started looking for micro-controllers with
         built-in USB, 12bit ADC and 2k RAM. Found PIC18F2458, from Microchip
         Inc., having both. After contacting Microchip, it was realised that the
@@ -61,13 +61,13 @@
         decided to go for a PIC controller.</span></p>
     <p><span style="font-size:14px;">29-Jan-12 : Sent the PIC based PCB for
         fabrication. The memory bank switching found too slow for C code filling
-        large arrays. The uC architecture doesn't&nbsp; look very C compiler
-        friendly. Searched, with inputs from Pramode CE,&nbsp; for a 16 bit
+        large arrays. The uC architecture doesn't  look very C compiler
+        friendly. Searched, with inputs from Pramode CE,  for a 16 bit
         version satisfying the requirements, found PIC24FV32KA302. Supported by
         gcc.</span></p>
     <p><span style="font-size:14px;">31-Jan-12 : Attended the Technical Training
         Seminar by Microchip. Fortunately Microchip released development tools,
-        MPLABX,&nbsp; for GNU/Linux also.</span></p>
+        MPLABX,  for GNU/Linux also.</span></p>
     <p><span style="font-size:14px;">9-Feb-12 : Sent PIC24 uC based PCB for
         fabrication.</span></p>
     <p><span style="font-size:14px;">18-Feb-12 : Received PICKIT3 programmer and
@@ -78,10 +78,10 @@
         things are getting sorted out. Solving a UART error took days, to
         realize that the watchdog timer is enabled by default.</span></p>
     <p><span style="font-size:14px;">13-Mar-12: Transmitted 1 million blocks, of
-        256bytes,&nbsp; from uC to PC without any error. ADC seems to be at par
+        256bytes,  from uC to PC without any error. ADC seems to be at par
         with the MCP3208 used in expEYES.</span></p>
     <p><span style="font-size:14px;">20-Mar-12 : C language code failed to meet
-        the 100 ksamples/sec rate for&nbsp; ADC blockread. Started learning
+        the 100 ksamples/sec rate for  ADC blockread. Started learning
         PIC24 assembly language, great help from the <a href="http://my.safaribooksonline.com/book/electrical-engineering/semiconductor-technology/9781584505839/introduction-to-the-pic24-microcontroller-family/ch03lev1sec5#X2ludGVybmFsX0ZsYXNoUmVhZGVyP3htbGlkPTk3ODE1ODQ1MDU4MzkvNzg=">online
           book</a> by Robert Reese, Bryan Jones and J. W. Bruce. </span></p>
     <p><span style="font-size:14px;">26-Mar-12: With assembler code ADC
@@ -101,7 +101,7 @@
     <p><span style="font-size:14px;">8-Apr-12: Having trouble with Charge Time
         Measurement Unit of PIC micro. A = 5.5 uA, 48.6 uA &amp; 451 uA in 3
         different ranges, measured using DMM. With 10x CRO probe connected V
-        =1.25 after&nbsp; feeding 5.5 uA for 10 usecs. Error reported but no
+        =1.25 after  feeding 5.5 uA for 10 usecs. Error reported but no
         solution yet.</span></p>
     <p><span style="font-size:14px;">18-Apr-2012: The Rpi board arrived. Help
         for testing came from Alex Bradbury.</span></p>
@@ -134,7 +134,7 @@
         PCB. The read back of Square waves shifted to the after the buffer.
         Series resistors added to A1 and A2 inputs after level shifting. Got the
         plastic cabinets.</span></p>
-    <p><span style="font-size:14px;"><img src="images/proto-trial3.jpg" style="width: 400px; height: 203px;"></span></p>
+    <p><span style="font-size:14px;"><img src="images/proto-trial3.jpg" style="width: 400px; height: 203px;" alt="a trial"/></span></p>
     <p><span style="font-size:14px;">1-Jul-2012: Final PCB send for fabrication.</span></p>
     <p><span style="font-size:14px;">16-Jul-2012: Units send to Pramode &amp;
         Georges, for testing.</span></p>
@@ -147,6 +147,11 @@
         Piezo Buzzer.</span></p>
     <p><span style="font-size:14px;">20-Aug-2012: First lot of commercial
         production started.</span></p>
-    <p><span style="font-size:14px;"><img src="images/ejphoto.jpg" style="width: 380px; height: 355px;"></span></p>
+    <p><span style="font-size:14px;"><img src="images/ejphoto.jpg" style="width: 380px; height: 355px;" alt="e.j."/></span></p>
   </body>
 </html>
+<!--
+    Local Variables:
+    mode: nxml
+    End:
+-->
