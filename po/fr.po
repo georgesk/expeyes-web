@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: expEYES website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-22 20:21+0200\n"
-"PO-Revision-Date: 2016-03-06 11:58+0100\n"
+"PO-Revision-Date: 2016-03-06 12:40+0100\n"
 "Last-Translator: Georges Khaznadar <georgesk@debian.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -460,14 +460,14 @@ msgid ""
 "        Series resistors added to A1 and A2 inputs after level shifting. Got "
 "the\n"
 "        plastic cabinets.\n"
-msgstr ""
+msgstr "2012-06-07 : Commencé à écrire le logiciel et la documentation. Un programme de CRO avec quelques fonctionnalités supplémentaires a d'abord été créé. Vers la fin de juin plusieurs cartes ont été assemblées. Quelques changements mineurs au circuit imprimé. La boucle de lecture des signaux carrés a été déplacée après le tampon. Des résistances en série ont été ajoutées aux entrées de A1 et A2 après relèvement du niveau. Reçu les coques plastique."
 
 #: /home/georgesk/expEYES-web/expEYES-web/ej-history.html:80
 msgid ""
 "13-Mar-12: Transmitted 1 million blocks, of\n"
 "        256bytes,  from uC to PC without any error. ADC seems to be at par\n"
 "        with the MCP3208 used in expEYES.\n"
-msgstr ""
+msgstr "2012-03-13 : Transmis 1 million de de blocs de 256 octets, du microcontrôleur au PC, sans une seule erreur. La conversion analogique-numérique semble de qualité comparable avec celle faite dans expEYES avec le MCP3208."
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:??
 msgid ""
@@ -549,7 +549,7 @@ msgstr "Résistance de l'eau"
 msgid ""
 "9-Feb-12 : Sent PIC24 uC based PCB for\n"
 "        fabrication.\n"
-msgstr ""
+msgstr "2012-02-09 : Envoyé le ciruit imprimé basé sur un microcontrôleur PIC à la fabrication."
 
 #: /home/georgesk/expEYES-web/expEYES-web/ej-history.html:90
 msgid ""
@@ -558,7 +558,7 @@ msgid ""
 "raspberrypi.org/\">Raspberry\n"
 "          Pi</a> Foundation, asking whether expEYES work with Raspberry Pi.\n"
 "        Requested her to send one Rpi board.\n"
-msgstr ""
+msgstr "2012-04-01 : Reçu un e-mail de Myra Van Inwegen, coordinatrice d'éducation pour la fondation <a href=\\\"http://www.raspberrypi.org/\\\">Raspberry Pi</a>, qui demandait si expEYES fonctionne avec Raspberry Pi. Je lui ai demandé d'envoyer une carte Raspberry Pi."
 
 #: /home/georgesk/expEYES-web/expEYES-web/ej-history.html:83
 msgid ""
@@ -570,7 +570,7 @@ msgid ""
 "ch03lev1sec5#X2ludGVybmFsX0ZsYXNoUmVhZGVyP3htbGlkPTk3ODE1ODQ1MDU4MzkvNzg="
 "\">online\n"
 "          book</a> by Robert Reese, Bryan Jones and J. W. Bruce. \n"
-msgstr ""
+msgstr "2012-03-20 : le code en langage C échoue à réaliser la vitesse de transmission de 100 kéch/s pour la lecture en bloc de conversion analogique-numérique. Commencé à apprendre le langage assembleur PIC24, beaucoup d'aide du <a href=\\\"http://my.safaribooksonline.com/book/electrical-engineering/semiconductor-technology/9781584505839/introduction-to-the-pic24-microcontroller-family/ch03lev1sec5#X2ludGVybmFsX0ZsYXNoUmVhZGVyP3htbGlkPTk3ODE1ODQ1MDU4MzkvNzg=\\\">livre en ligne</a> de Robert Reese, Bryan Jones et J. W. Bruce."
 
 #: /home/georgesk/expEYES-web/expEYES-web/ej-history.html:97
 msgid ""
@@ -580,7 +580,7 @@ msgid ""
 "        all using a CMOS buffer IC. Introduced TC1240A after some "
 "continuous\n"
 "        testing.\n"
-msgstr ""
+msgstr "2012-04-07 : Encore quelques changements matériels. Décidé de ne fournir qu'un seul amplificateur. Une sortie numérique autre que les lsignaux carrés, tous utilisant un circuit intégré CMOS amplificateur. Introduit le TC1240A après des tests approfondis."
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:97
 msgid "Resources to get started with expEYES:"
@@ -605,7 +605,7 @@ msgid ""
 "        Seminar by Microchip. Fortunately Microchip released development "
 "tools,\n"
 "        MPLABX,  for GNU/Linux also.\n"
-msgstr ""
+msgstr "2012-01-31 : Assisté au Séminaire de Formation Technique par Microchip. Heureusement, Microchip a publié des outils de développement, MPLABX, pour GNU/Linux aussi."
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:210
 msgid ""
@@ -628,7 +628,7 @@ msgid ""
 "12-Jan-12 : Went back to TC7660 since one\n"
 "        of the TC1240A failed during continuous testing, keeping both "
 "versions.\n"
-msgstr ""
+msgstr "2012-01-12 : Retour au TC7660 comme un des TC1240A a échoué durant les tests approfondis, gardé les deux versions."
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:257
 msgid ""
@@ -718,7 +718,7 @@ msgid ""
 "        availability. Planning to make USB &amp; Serial version (for Rpi), "
 "both\n"
 "        having almost identical layout.\n"
-msgstr ""
+msgstr "2012-05-16 : expEYES a été annoncé sur une page web de <a href=\\\"http://www.raspberrypi.org/archives/1228\\\">Raspberry Pi</a>. On a un feedback raisonnable et des réponses au sujet de l'approvisionnement. On fait des plans pour faire une version USB &amp; série (pour le RPi), avec un brochage pratiquement identique."
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:177
 msgid ""
@@ -743,7 +743,7 @@ msgstr "Résolution temporelle d'une microseconde."
 msgid ""
 "16-Jul-2012: Units send to Pramode &amp;\n"
 "        Georges, for testing.\n"
-msgstr ""
+msgstr "2012-07-16 : Envoi d'échantillons à Pramode &amp; Georges, pour tester."
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:45
 msgid ""
@@ -791,13 +791,13 @@ msgid ""
 "        blockread giving 250 ksample/sec sampling rate, Timer1 ISR is used.\n"
 "        Tested single channel block reads by capturing and fitting sine "
 "wave.\n"
-msgstr ""
+msgstr "2012-03-26 : Avec le code assembleur, la lecture de blocs du convertisseur analogique-numérique donne une vitesse d'échantillonnage de 250 kéch/s, on utilise l'ISR Timer1. Testé les lectures de blocs sur un canal en capturant et modélisant un signal sinusoïdal."
 
 #: /home/georgesk/expEYES-web/expEYES-web/ej-history.html:45
 msgid ""
 "29-Dec-11 : PCB sent for fabrication. \n"
 "      \n"
-msgstr ""
+msgstr "2011-12-29 : Circuit imprimé envoyé à la fabrication."
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:263
 msgid ""
@@ -841,7 +841,7 @@ msgid ""
 "        Vinod &amp; Pramode did ADC &amp; UART testing of PIC18F2458. "
 "Almost\n"
 "        decided to go for a PIC controller.\n"
-msgstr ""
+msgstr "Commencé à chercher des micro-contrôleurs avec l'USB implémenté, un DAC 12 bit et 2k de RAM. Trouvé le PIC18F2458, de Microchip Inc., qui ales deux. Après un contact avec Microchip, on a réalisé que l'USB intégré ne pouvait pas être utilisé em même temps que les mesures en temps réel nécessaires. Changé pour une combinaison de PIC18F25KA80 + MCP2200. Vinod &amp; Pramode ont fait les tests de l'ADC &amp; UART du PIC18F2458. Pratiquement décidé de partir pour un contrôleur PIC."
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:30
 msgid ""
@@ -859,7 +859,7 @@ msgstr "Opto-Coupleur"
 msgid ""
 "5-Dec-2011 : Met <a href=\"http://www.che.iitb.ac.in/online/node/52\">Prof.\n"
 "          Kannan Moudgalya</a> and gave a demo expEYES.\n"
-msgstr ""
+msgstr "2011-12-05 : Rencontré <a href=\\\"http://www.che.iitb.ac.in/online/node/52\\\">Prof. Kannan Moudgalya</a> et fait une démonstration d'expEYES."
 
 #: /home/georgesk/expEYES-web/expEYES-web/ej-history.html:145
 msgid ""
@@ -868,13 +868,15 @@ msgid ""
 "a\n"
 "        Piezo Buzzer.\n"
 msgstr ""
+"<a href=\"http://expEYES.in/articles/55/expEYES-junior\">expEYES\n"
+"          Junior</a> est pr. La photo ci-dessous le montre qui capture un son issu d'un buzzer piézo."
 
 #: /home/georgesk/expEYES-web/expEYES-web/ej-history.html:23
 msgid ""
 "Nov-2011: expEYS was released in Mar-2011\n"
 "        and is doing reasonably well. There was no plan to develop another\n"
 "        version.\n"
-msgstr ""
+msgstr "2011-11-xx : expEYES a été publié en mars 2011 et fonctionne raisonnablement bien. Il n'y a pas de plan pour développer une autre version."
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:54
 msgid ""
@@ -905,7 +907,7 @@ msgid ""
 "        mail ..Looking forward to seeing you at <a href=\"http://scipy.in/"
 "scipyin/2011/talks-cfp/speakers/\">SciPy.in\n"
 "          2011</a>.\n"
-msgstr ""
+msgstr "2011-11-06 : e-mail de <a href=\\\"http://www.aero.iitb.ac.in/%7Eprabhu/\\\">Prabhu</a> « ..Looking forward to seeing you at <a href=\\\"http://scipy.in/scipyin/2011/talks-cfp/speakers/\\\">SciPy.in 2011</a> »."
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:??
 msgid ""
@@ -958,7 +960,7 @@ msgstr ""
 msgid ""
 "<img alt=\"a trial\" src=\"images/proto-trial3.jpg\" style=\"width: 400px; "
 "height: 203px;\"/>"
-msgstr ""
+msgstr "<img alt=\"a trial\" src=\"images/proto-trial3.jpg\" style=\"width: 400px; height: 203px;\"/>"
 
 #: /home/georgesk/expEYES-web/expEYES-web/index.html:230
 msgid ""
