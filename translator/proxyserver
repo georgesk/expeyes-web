@@ -39,14 +39,12 @@ class Root(object):
             h=toHash(innerHTML)
             translation=self.translations[lang].get(h,"")
             if translation:
-                soup=bs(translation,"lxml")
+                soup=bs("<span class='translated' lang='{}'>".format(lang)+translation+"</span>","lxml")
                 # we must save tr's attributes
                 tr.clear()
-                tr.append(soup.body.contents[0])
-                if tr.p == tr.contents[0]:
-                    tr.p.unwrap()
+                tr.append(soup.span)
             else:
-                soup=bs('<span style="background:red; color:white;">!</span>')
+                soup=bs('<span style="background:red; color:white;">!</span>','lxml')
                 tr.insert(0,soup.span)
         return (doc.prettify()+"<!-- translated to {} -->".format(lang)).encode("utf-8")
     
