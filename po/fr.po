@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: expEYES website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-22 20:21+0200\n"
-"PO-Revision-Date: 2016-03-06 16:41+0100\n"
+"PO-Revision-Date: 2016-03-06 17:54+0100\n"
 "Last-Translator: Georges Khaznadar <georgesk@debian.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -16,545 +16,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:115
-msgid ""
-"     Currently expEYES is available from several\n"
-"      vendors. However, it would be convenient if it is available from a "
-"local\n"
-"      store, especially for institution that cannot order online by making\n"
-"      advance payment. One option is to ask some computer vendor in your\n"
-"      locality to become a dealer of expEYES. They will be able to sell at "
-"the\n"
-"      same price by getting commission from the manufacturers.\n"
-msgstr ""
-"     Actuellement expEYES est disponible chez plusieurs vendeurs. Cependant, "
-"il serait convenable qu'il soit disponible chez un magasin local, "
-"particulièrement pour les institutions qui ne peuvent pas commander en ligne "
-"selement en payant d'avance. Une oprion est de demander à un vendeur "
-"d'ordinateurs dans votre ville de devenir revendeur d'expEYES. Il pourra "
-"vendre au même prix en recevant une commission des fabricants."
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:62
+msgid "MicroHOPE Library"
+msgstr "Bibliothèque microHOPE"
 
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
-msgid ""
-"Vibrant Systems and Softwares<br/>\n"
-"            1/4869H, 1st Floor Koyisco Building,<br/>\n"
-"            Wyanad Road, East Nadakkavu,<br/>\n"
-"            Calicut-673011.<br/>\n"
-"            Ph: 9847193371.<br/>\n"
-"            email: vibsys_n_soft at yahoo.com<br/>\n"
-"\n"
-msgstr ""
-"Vibrant Systems and Softwares<br/>\n"
-"            1/4869H, 1st Floor Koyisco Building,<br/>\n"
-"            Wyanad Road, East Nadakkavu,<br/>\n"
-"            Calicut-673011.<br/>\n"
-"            Tél. : 9847193371.<br/>\n"
-"            Courriel : vibsys_n_soft at yahoo.com<br/>\n"
-"\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
-msgid ""
-"\n"
-"\tProgrammer's Manual. Download from\n"
-"\t<a href=\"http://www.iuac.res.in/%7Eelab/expeyes/Documents/eyesj-progman."
-"pdf\">\n"
-"\t  here\n"
-"\t</a>\n"
-"        (or <a href=\"Documents/eyesj-progman.pdf\">here</a>)\n"
-"      \n"
-msgstr ""
-"Le manuel du programmeur. À télécharger depuis\n"
-"<a href=\"http://www.iuac.res.in/%7Eelab/expEYES/Documents/eyesj-progman.pdf"
-"\">\n"
-"ici</a> (ou <a href=\"Documents/eyesj-progman.pdf\">ici</a>)"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:111
-msgid ""
-"1-May-2012: A serial port version of\n"
-"        expEYES has been developed for Rpi. Communication tested between uC "
-"and\n"
-"        Rpi. The PCB has been send for fabrication.\n"
-msgstr ""
-"2012-05-01 : Un version port-série d'expEYES a été développée pour RPi. "
-"Communication testée entre le micro-contrôleur et le RPi. Le circuit imprimé "
-"a été envoyé à la fabrication."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:114
-msgid ""
-"9-May-12: Did several iterations of\n"
-"        prototyping. Added a 1mA constant current source with ON/OFF "
-"control.\n"
-"        Firmware almost done. Wrote a CRO program with extra features. "
-"Drawings\n"
-"        of the plastic shell given for making the mould. Almost getting "
-"ready\n"
-"        for production.\n"
-msgstr ""
-"2012-05-09 : Plusieurs itérations de prototypes. Ajout d'une source de "
-"courant de 1 mA avec contrôle on/off."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:??
-msgid ""
-"Started looking for micro-controllers with\n"
-"        built-in USB, 12bit ADC and 2k RAM. Found PIC18F2458, from "
-"Microchip\n"
-"        Inc., having both. After contacting Microchip, it was realised that "
-"the\n"
-"        built-in USB cannot be used simultaneously with the real-time\n"
-"        measurements required. Changed to PIC18F25KA80 + MCP2200 "
-"combination.\n"
-"        Vinod &amp; Pramode did ADC &amp; UART testing of PIC18F2458. "
-"Almost\n"
-"        decided to go for a PIC controller.\n"
-msgstr ""
-"Commencé à chercher des micro-contrôleurs avec l'USB implémenté, un DAC 12 "
-"bit et 2k de RAM. Trouvé le PIC18F2458, de Microchip Inc., qui ales deux. "
-"Après un contact avec Microchip, on a réalisé que l'USB intégré ne pouvait "
-"pas être utilisé em même temps que les mesures en temps réel nécessaires. "
-"Changé pour une combinaison de PIC18F25KA80 + MCP2200. Vinod &amp; Pramode "
-"ont fait les tests de l'ADC &amp; UART du PIC18F2458. Pratiquement décidé de "
-"partir pour un contrôleur PIC."
-
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:49
-msgid "The Opening Screen of ExpEYES program"
-msgstr "L'écran d'accueil du programme expEYES"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:275
-msgid ""
-"Cooling\n"
-"          Curve\n"
-msgstr "Courbe de refroidissement"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:83
-msgid ""
-"20-Mar-12 : C language code failed to meet\n"
-"        the 100 ksamples/sec rate for  ADC blockread. Started learning\n"
-"        PIC24 assembly language, great help from the <a href=\"http://my."
-"safaribooksonline.com/book/electrical-engineering/semiconductor-"
-"technology/9781584505839/introduction-to-the-pic24-microcontroller-family/"
-"ch03lev1sec5#X2ludGVybmFsX0ZsYXNoUmVhZGVyP3htbGlkPTk3ODE1ODQ1MDU4MzkvNzg="
-"\">online\n"
-"          book</a> by Robert Reese, Bryan Jones and J. W. Bruce. \n"
-msgstr ""
-"2012-03-20 : le code en langage C échoue à réaliser la vitesse de "
-"transmission de 100 kéch/s pour la lecture en bloc de conversion analogique-"
-"numérique. Commencé à apprendre le langage assembleur PIC24, beaucoup d'aide "
-"du <a href=\\\"http://my.safaribooksonline.com/book/electrical-engineering/"
-"semiconductor-technology/9781584505839/introduction-to-the-pic24-"
-"microcontroller-family/"
-"ch03lev1sec5#X2ludGVybmFsX0ZsYXNoUmVhZGVyP3htbGlkPTk3ODE1ODQ1MDU4MzkvNzg=\\"
-"\">livre en ligne</a> de Robert Reese, Bryan Jones et J. W. Bruce."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:26
-msgid ""
-"6-Nov-2011 : <a href=\"http://www.aero.iitb.ac.in/%7Eprabhu/\">Prabhu</a>,s\n"
-"        mail ..Looking forward to seeing you at <a href=\"http://scipy.in/"
-"scipyin/2011/talks-cfp/speakers/\">SciPy.in\n"
-"          2011</a>.\n"
-msgstr ""
-"2011-11-06 : e-mail de <a href=\\\"http://www.aero.iitb.ac.in/%7Eprabhu/\\"
-"\">Prabhu</a> « ..Looking forward to seeing you at <a href=\\\"http://scipy."
-"in/scipyin/2011/talks-cfp/speakers/\\\">SciPy.in 2011</a> »."
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:??
-msgid ""
-"<a href=\"http://www.youtube.com/watch?v=7wNq-MWa0vc\">FOSS.IN\n"
-"          2012,  29-Nov-2012 to 1-Dec-2012, Bengaluru</a>\n"
-msgstr ""
-"<a href=\"http://www.youtube.com/watch?v=7wNq-MWa0vc\">FOSS.IN\n"
-"          2012, 29 novembre 2012 à 1er décembre 2012, Bengaluru</a>\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:34
-msgid "Short description:"
-msgstr "Description courte :"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:??
-msgid ""
-"<a href=\"http://iopscience.iop.org/0031-9120/44/5/002/?"
-"rss=1.0\">Innovative\n"
-"          Science Experiments Using PHOENIX</a>, IOP Physics Education, "
-"2009\n"
-msgstr ""
-"<a href=\"http://iopscience.iop.org/0031-9120/44/5/002/?"
-"rss=1.0\">Expériences de sciences innovantes utilisant PHOENIX</a>, IOP "
-"Physics Education, 2009\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:245
-msgid ""
-"555\n"
-"          monoshot\n"
-msgstr "Monostable 555"
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:21
-msgid "Micro-controllers for Hobby Projects and Education"
-msgstr "Micro-contrôleurs pour des projets de loisir et éducatifs"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
-msgid ""
-"\n"
-"\tExpEYES Brochure. Download from\n"
-"\t<a href=\"http://www.iuac.res.in/%7Eelab/expeyes/Documents/ej-brochure.pdf"
-"\">\n"
-"\t  here\n"
-"\t</a>\n"
-"        (or <a href=\"Documents/ej-brochure.pdf\">here</a>)\n"
-"      \n"
-msgstr ""
-"Brochure expEYES. À télécharger depuis\n"
-"<a href=\"http://www.iuac.res.in/%7Eelab/expEYES/Documents/ej-brochure.pdf"
-"\">\n"
-"ici</a> (ou <a href=\"Documents/ej-brochure.pdf\">ici</a>)"
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
-msgid ""
-"<a href=\"http://s2s2.in/\">S2S2 Services</a><br/>\n"
-"            TV 33/268, Third Floor Elite Complex<br/>\n"
-"            Netaji Road, Kannur 670 001<br/>\n"
-"            Kerala<br/>\n"
-"            Ph: 09447449107<br/>\n"
-"            email : s2s2service at gmail.com <br/>\n"
-"\n"
-msgstr ""
-"<a href=\"http://s2s2.in/\">S2S2 Services</a><br/>\n"
-"            TV 33/268, Third Floor Elite Complex<br/>\n"
-"            Netaji Road, Kannur 670 001<br/>\n"
-"            Kerala<br/>\n"
-"            Tél. : 09447449107<br/>\n"
-"            Courriel : s2s2service at gmail.com <br/>\n"
-"\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:21
-msgid " Hardware Availability "
-msgstr "Disponibilité du matériel"
-
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:??
-msgid ""
-"Design of ExpEYES<br/>\n"
-"<br/>\n"
-"      A simplified block diagram of ExpEYES is shown in the figure. The\n"
-"      sensor/control elements are connected to the micro-controller. The "
-"user\n"
-"      programs uses the Python Library to communicate to the micro-"
-"controller,\n"
-"      running a program, written in C and Assembler. The micro-controller\n"
-"      performs the control/measurement operations and sends the result back "
-"to\n"
-"      the PC. The job is divided according to the capabilities and strong "
-"points\n"
-"      of each device. The micro-controller does all the real time "
-"measurements\n"
-"      and pass on the results to the PC where Python code is used\n"
-"      for processing and displaying the data.\n"
-msgstr ""
-"Conception d'expEYES<br/>\n"
-"<br/>\n"
-"La figure présente un diagramme-bloc d'expEYES. Les\n"
-"éléments de contrôle et les capteurs sont connectés au micro-contrôleur.\n"
-"Les programmes utilisent la bibliothèque Python pour communiquer avec le\n"
-"micro-contrôleur, pour faire tourner le programme, écrit en C et en "
-"assembleur.\n"
-"Le micro-contrôleur effectue les opérations de contrôle/mesures et renvoie "
-"le\n"
-"résultat au PC. La division du travail est faite selon les points forts de\n"
-"chaque appareil. Le micro-contrôleur fait toute les mesures en temps réel\n"
-"et passe les résultats au PC où du code Python est utilisé pour traiter et\n"
-"afficher les données."
-
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:34
-msgid "<a href=\"Code/eyesj.py\">Python Library</a>, on the PC side"
-msgstr "<a href=\"Code/eyesj.py\">La bibliothèque Python</a>, du côté du PC"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:239
-msgid ""
-"Logic\n"
-"          gate\n"
-msgstr "Porte logique"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:67
-msgid ""
-"\n"
-"\tSoftware is part of Debian &amp; Ubuntu\n"
-"      \n"
-msgstr "Le logiciel est intégré à Débian et Ubuntu"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:33
-msgid ""
-"\n"
-"\t50 documented experiments and easy to add more.\n"
-"      \n"
-msgstr "50 expériences documentées, et plus, faciles à créer."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:174
-msgid ""
-"Dielectric\n"
-"          Constant\n"
-msgstr "Constante diélectrique"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:284
-msgid ""
-"\n"
-"      contact:  Ajith Kumar B P, Inter-University Accelerator Centre, New\n"
-"      Delhi 110067, bpajith at gmail.com\n"
-"    \n"
-msgstr ""
-"contact:  Ajith Kumar B P, Inter-University Accelerator Centre, New\n"
-"Delhi 110067, bpajith at gmail.com"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:42
-msgid ""
-"\n"
-"\tUSB Powered.\n"
-"      \n"
-msgstr "Alimenté par USB."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:204
-msgid ""
-"Singing\n"
-"          magnet\n"
-msgstr "Aimant chanteur"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:183
-msgid ""
-"RC\n"
-"          Transient\n"
-msgstr "RC, régime transitoire"
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:52
-msgid "IR Receiver"
-msgstr "Récepteur IR"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:80
-msgid ""
-"13-Mar-12: Transmitted 1 million blocks, of\n"
-"        256bytes,  from uC to PC without any error. ADC seems to be at par\n"
-"        with the MCP3208 used in expEYES.\n"
-msgstr ""
-"2012-03-13 : Transmis 1 million de de blocs de 256 octets, du "
-"microcontrôleur au PC, sans une seule erreur. La conversion analogique-"
-"numérique semble de qualité comparable avec celle faite dans expEYES avec le "
-"MCP3208."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:31
-msgid ""
-"5-Dec-2011 : Met <a href=\"http://www.che.iitb.ac.in/online/node/52\">Prof.\n"
-"          Kannan Moudgalya</a> and gave a demo expEYES.\n"
-msgstr ""
-"2011-12-05 : Rencontré <a href=\\\"http://www.che.iitb.ac.in/online/node/52\\"
-"\">Prof. Kannan Moudgalya</a> et fait une démonstration d'expEYES."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:201
-msgid ""
-"AC\n"
-"          Generator\n"
-msgstr "Générateur de courant alternatif"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:13
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:13
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:13
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:13
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:13
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:17
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:13
-#: /home/georgesk/expeyes-web/expeyes-web/header.html:13
-msgid "Software"
-msgstr "Logiciel"
-
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:36
-msgid ""
-"\n"
-"\t  The downside of the Android version is that one cannot\n"
-"        write simple Python scripts to develop new experiments, as done on "
-"the\n"
-"        GNU/Linux version. An option to execute a sequence of function call "
-"is\n"
-"        provided to remedy this.\n"
-msgstr ""
-"L'inconvénient de la version Android est qu'on ne peut pas écrire des "
-"scripts\n"
-"Python simples pour développer de nouvelles expériences, comme cela se fait\n"
-"dans la version GNU/Linux. Une option reste d'exécuter une séquence "
-"d'appels\n"
-"de fonction mises à disposition pour y remédier."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:148
-msgid ""
-"20-Aug-2012: First lot of commercial\n"
-"        production started.\n"
-msgstr "2012-08-20 : Démarrage du premier lot de production commerciale."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:236
-msgid "Transistor-CE"
-msgstr "Caractéristique CE d'un transitor"
-
-#: /home/georgesk/expeyes-web/expeyes-web/header.html:23
-msgid "T"
-msgstr "T"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:225
-msgid "Study LDR"
-msgstr "Étude d'une photorésistance"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:180
-msgid ""
-"AC\n"
-"          Circuits\n"
-msgstr "Circuits en courant alternatif"
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
-msgid ""
-"Shankar Systems<br/>\n"
-"            Plot 21, Gali 6/2, Block C,<br/>\n"
-"            Dechave Enclave,<br/>\n"
-"            Najafgarh, NEW DELHI-110043.<br/>\n"
-"            Ph:- 09810841403<br/>\n"
-"            email : shankarsystemsdelhi1997 at gmail.com<br/>\n"
-"\n"
-msgstr ""
-"Shankar Systems<br/>\n"
-"            Plot 21, Gali 6/2, Block C,<br/>\n"
-"            Dechave Enclave,<br/>\n"
-"            Najafgarh, NEW DELHI-110043.<br/>\n"
-"            Tél. :- 09810841403<br/>\n"
-"            Courriel : shankarsystemsdelhi1997 at gmail.com<br/>\n"
-"\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:71
-msgid ""
-"9-Feb-12 : Sent PIC24 uC based PCB for\n"
-"        fabrication.\n"
-msgstr ""
-"2012-02-09 : Envoyé le ciruit imprimé basé sur un microcontrôleur PIC à la "
-"fabrication."
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:64
-msgid "MicroHOPE software"
-msgstr "Logiciel MicroHOPE"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:33
-msgid ""
-"9-Dec-2011 : Prof. Kannan arranged meeting\n"
-"        with N K Sinha, Director of NMEICT project, MHRD. Talked about the\n"
-"        possibility of using expEYES with the Akash tablet PC. Shri Sinha "
-"wanted\n"
-"        something costing only few hundred rupees. Also gave a demo at "
-"their\n"
-"        committee meeting. Submitted a proposal to NMEICT for some human\n"
-"        resource to conduct expEYES training programs and attended meeting "
-"on\n"
-"        26-Dec-11.\n"
-msgstr ""
-"2011-12-09 : Prof. Kannan a arrangé une rencontre avec N K Sinha, directeur "
-"du projet NMEICT. Parlé de la possibilité d'utiliser expEYES avec la "
-"tablette Akash. Shri Sinha voulait quelque chose qui coûte seulement "
-"quelques centaines de roupies. Donné aussi une démonstration durant la "
-"réunion de leur comité. Soumis une proposition au NMEICT pour une ressource "
-"humaine afin de mener des programmes de formation à expEYES et assisté à la "
-"réunion du 26 décembre 2011."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:25
-msgid "Experiments for Young Engineers and Scientists"
-msgstr "Experiments for Young Engineers and Scientists"
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:110
-msgid ""
-"    The prototype approved by IUAC should be duplicated\n"
-"        without changes\n"
-msgstr ""
-"    Le prototype validé par l'IUAC doit être dupliqué sans modifications."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:227
-msgid ""
-"Halfwave\n"
-"          Rectifier\n"
-msgstr "Redressement demi-onde"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:222
-msgid ""
-"Gravity\n"
-"          by Pendulum\n"
-msgstr "Détermination de la gravité avec un pendule"
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:22
-msgid " ExpEYES is currently available from the following firms: "
-msgstr "ExpEYES est actuellement disponible chez les firmes suivantes :"
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
-msgid ""
-"<a href=\"http://www.buyapi.ca/\">BuyaPi.ca</a><br/>\n"
-"            25 Northside Rd, Unit C<br/>\n"
-"            Ottawa, ON K2H 8S1<br/>\n"
-"            Canada<br/>\n"
-"\n"
-msgstr ""
-"<a href=\"http://www.buyapi.ca/\">BuyaPi.ca</a><br/>\n"
-"            25 Northside Rd, Unit C<br/>\n"
-"            Ottawa, ON K2H 8S1<br/>\n"
-"            Canada<br/>\n"
-"\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
-msgid "Library and Examples"
-msgstr "Bibliothèque et exemples"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:??
-msgid ""
-"ExpEYES ( Experiments for Young\n"
-"      Engineers and Scientists) is an Open Hardware and Free Software "
-"framework\n"
-"      for developing science experiments and classroom demonstrations. This\n"
-"      project will work on developing a set of plug-ins for ExpEYES. These\n"
-"      plug-ins with GUI's will enhance the scope of ExpEYES for using it to\n"
-"      perform several experiments in mechanics, sound and waves. Project "
-"will\n"
-"      also focus on adding features for using acoustic and motion sensors "
-"for\n"
-"      various science experiments.\n"
-msgstr "ExpEYES ( Experiments for Young Engineers and Scientists) est un environnement logiciel et matériel libre pour développer des expériences scientifiques et des démonstrations en classe. Ce projet fonctionnera en développant un ensemble de greffons pour expEYES. Ces greffons avec des intrfaces graphiques augmenteront la portée  d'expEYES pour l'utiliser dans plusieurs expériences en mécanique, acoustique et physique ondulatoire. Le projet s'attachera aussi à ajouter des fonctionalités pour utiliser des capteurs de son et de déplacement pour plusieurs expériences scientifiques."
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
-msgid ""
-"<a href=\"http://www.svtechnocrafts.in/\">S.V. Techno Crafts</a><br/>\n"
-"            86, J.D. Nagar, Patamata,<br/>\n"
-"            VIJAYAWADA - 520010<br/>\n"
-"            Ph:  09440978459<br/>\n"
-"            email : pur.svtc@gmail.com<br/>\n"
-"\n"
-msgstr ""
-"<a href=\"http://www.svtechnocrafts.in/\">S.V. Techno Crafts</a><br/>\n"
-"            86, J.D. Nagar, Patamata,<br/>\n"
-"            VIJAYAWADA - 520010<br/>\n"
-"            Tél. : 09440978459<br/>\n"
-"            Courriel : pur.svtc@gmail.com<br/>\n"
-"\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:257
-msgid ""
-"Sound\n"
-"          Frequency\n"
-msgstr "Fréquence d'un son"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:192
-msgid ""
-"RC\n"
-"          integration \n"
-msgstr "Intégration RC"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:230
-msgid ""
-"Fulwave\n"
-"          Rectifier\n"
-msgstr "Redressement double alternance"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:14
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:14
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:14
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:14
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:14
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:18
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:14
-#: /home/georgesk/expeyes-web/expeyes-web/header.html:14
-msgid "Android"
-msgstr "Android"
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:16
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:16
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:16
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:16
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:16
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:16
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:20
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:16
+#: /home/georgesk/expeyes-web/expeyes-web/header.html:16
+msgid "MicroHOPE"
+msgstr "MicroHOPE"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:73
 msgid ""
@@ -578,52 +54,193 @@ msgstr ""
 "jours pour résoudre une erreur UART, avant de réaliser que le timer watchdog "
 "est activé par défaut."
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:30
-msgid ""
-"\n"
-"\tA tool for learning science by exploring and experimenting.\n"
-"      \n"
-msgstr ""
-"Un outil pour apprendre les sciences par l'exploration et l'expérimentation."
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:63
+msgid "People from IUAC"
+msgstr "Personnel de l'IUAC"
 
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:11
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:11
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:11
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:11
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:11
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:15
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:11
-#: /home/georgesk/expeyes-web/expeyes-web/header.html:11
-msgid "Design"
-msgstr "Conception"
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:68
+msgid ""
+"<a href=\"http://linuxgazette.net/111/pramode.html\">Experiments Physics\n"
+"          with Phoenix and Python</a>, Feb-2005, by Pramode\n"
+msgstr ""
+"<a href=\"http://linuxgazette.net/111/pramode.html\">Expériences de physique "
+"avec Phoenix et Python</a>, février 2005, par Pramode\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:278
+msgid ""
+"gravity\n"
+"          by TOF\n"
+msgstr "gravité par temps de vol"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:47
+msgid ""
+"3-Jan-12 : Sent another version of PCB for\n"
+"        fabrication. To reduce size, it replaced TC7660  with TC1240A\n"
+"        voltage doubler.\n"
+msgstr ""
+"2012-01-03 : Envoi d'une autre version du circuit imprimé à la fabrication. "
+"Pour réduire la taille, il remplace le TC7660 par le doubleur de tension "
+"TC1240A."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:207
+msgid ""
+"Driven\n"
+"          Pendulum\n"
+msgstr "Pendule entretenu"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:183
+msgid ""
+"RC\n"
+"          Transient\n"
+msgstr "RC, régime transitoire"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:254
+msgid ""
+"Filter\n"
+"          Circuits\n"
+msgstr "Circuits de filtrage"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:141
+msgid ""
+"2-Aug-2012: Finished <a href=\"software.html\">Software</a>\n"
+"        and a <a href=\"http://expeyes.in/Documents/eyesj-a4.pdf\">User "
+"Manual</a>\n"
+"        describing around 50 experiments are ready. Website update and "
+"videos\n"
+"        are pending.\n"
+msgstr ""
+"2012-08-02 : Terminé le <a href=\\\"software.html\\\">logiciel</a> et le <a "
+"href=\\\"http://expeyes.in/Documents/eyesj-a4.pdf\\\">manuel utilisateur</a> "
+"qui décrit quelques 50 expériences. Mise à jour du site web, les vidéos sont "
+"en cours de réalisation."
+
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:35
+msgid ""
+"<a href=\"Code/main.c\">C Code</a> and <a href=\"Code/asm.s\">Assembler\n"
+"          Code</a>, on the micro-controller\n"
+msgstr ""
+"<a href=\"Code/main.c\">le Code C</a> et <a href=\"Code/asm.s\">le code "
+"Assembleur\n"
+"</a>, sur le micro-contrôleur"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:21
+msgid "People Involved"
+msgstr "Personnes impliquées"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:54
+msgid ""
+"<a href=\"http://www.raspberrypi.org/archives/tag/expeyes\">expEYES\n"
+"          meets Raspberry Pi</a> , May 16, 2012\n"
+msgstr ""
+"<a href=\"http://www.raspberrypi.org/archives/tag/expeyes\">expEYES "
+"rencontre Raspberry Pi</a>, 16 mai 2012\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:83
+msgid ""
+"20-Mar-12 : C language code failed to meet\n"
+"        the 100 ksamples/sec rate for  ADC blockread. Started learning\n"
+"        PIC24 assembly language, great help from the <a href=\"http://my."
+"safaribooksonline.com/book/electrical-engineering/semiconductor-"
+"technology/9781584505839/introduction-to-the-pic24-microcontroller-family/"
+"ch03lev1sec5#X2ludGVybmFsX0ZsYXNoUmVhZGVyP3htbGlkPTk3ODE1ODQ1MDU4MzkvNzg="
+"\">online\n"
+"          book</a> by Robert Reese, Bryan Jones and J. W. Bruce. \n"
+msgstr ""
+"2012-03-20 : le code en langage C échoue à réaliser la vitesse de "
+"transmission de 100 kéch/s pour la lecture en bloc de conversion analogique-"
+"numérique. Commencé à apprendre le langage assembleur PIC24, beaucoup d'aide "
+"du <a href=\\\"http://my.safaribooksonline.com/book/electrical-engineering/"
+"semiconductor-technology/9781584505839/introduction-to-the-pic24-"
+"microcontroller-family/"
+"ch03lev1sec5#X2ludGVybmFsX0ZsYXNoUmVhZGVyP3htbGlkPTk3ODE1ODQ1MDU4MzkvNzg=\\"
+"\">livre en ligne</a> de Robert Reese, Bryan Jones et J. W. Bruce."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:248
+msgid ""
+"Clock\n"
+"          divider\n"
+msgstr "Diviseur d'horloge"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:??
 msgid ""
+"<a href=\"http://www.youtube.com/watch?feature=player_embedded&amp;v=F1h4q-"
+"Kw7W8\">PHOENIX\n"
+"          at ADOC2.0</a>, 5-6 Oct-2010, Taipei.\n"
+msgstr ""
+"<a href=\"http://www.youtube.com/watch?feature=player_embedded&amp;v=F1h4q-"
+"Kw7W8\">PHOENIX à ADOC2.0</a>, 5-6 octobre 2010, Taipei.\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:42
+msgid ""
 "\n"
-"    This page contains links to various articles and presentations about "
-"expEYES\n"
-"    and the PHOENIX Project\n"
-"    \n"
-msgstr ""
-"Cette page contient des liens vers divers articles et présentations au sujet "
-"d'expEYES et du projet PHOENIX"
+"\tUSB Powered.\n"
+"      \n"
+msgstr "Alimenté par USB."
 
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:139
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:56
 msgid ""
-"16-Jul-2012: Units send to Pramode &amp;\n"
-"        Georges, for testing.\n"
+"<a href=\"http://urtalk.kpoint.com/playlist/43/kapsule/gcc-"
+"b73217cf-469a-4c52-ad22-e2c40c88bd5d\">Presentation\n"
+"          at Scipy.in</a>, Dec-2011, IITB, Mumbai\n"
 msgstr ""
-"2012-07-16 : Envoi d'échantillons à Pramode &amp; Georges, pour tester."
+"2011-12-04 : <a href=\\\"http://urtalk.kpoint.in/playlist/43/kapsule/gcc-"
+"b73217cf-469a-4c52-ad22-e2c40c88bd5d\\\">Présentation à Scipy.in</a>, "
+"décembre 2011, IITB, Mumbai ;"
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:195
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:??
 msgid ""
-"EM\n"
-"          Induction \n"
-msgstr "Induction électromagnétique"
+"<a href=\"http://www.youtube.com/watch?v=7wNq-MWa0vc\">FOSS.IN\n"
+"          2012,  29-Nov-2012 to 1-Dec-2012, Bengaluru</a>\n"
+msgstr ""
+"<a href=\"http://www.youtube.com/watch?v=7wNq-MWa0vc\">FOSS.IN\n"
+"          2012, 29 novembre 2012 à 1er décembre 2012, Bengaluru</a>\n"
 
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:138
-msgid "1-Jul-2012: Final PCB send for fabrication."
-msgstr "2011-12-29 : Circuit imprimé envoyé à la fabrication."
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:57
+msgid ""
+"Praveen Patil, Department of Physics,G S S College,\n"
+"    Tilakwadi, Belgaum 590006\n"
+msgstr ""
+"Praveen Patil, Département de Physique, G S S College,\n"
+"    Tilakwadi, Belgaum 590006\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:39
+msgid ""
+"\n"
+"\tBuilt-in Signal Generator and Oscilloscope\n"
+"      \n"
+msgstr "Générateur de signaux et oscilloscope intégrés."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:272
+msgid ""
+"Temperature\n"
+"          Sensors\n"
+msgstr "Capteur de température"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:227
+msgid ""
+"Halfwave\n"
+"          Rectifier\n"
+msgstr "Redressement demi-onde"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"\tLow Cost,\n"
+"\t<span class=\"medium-blue\">\n"
+"<a href=\"screenshots/ej-with-agilent.jpg\">Accurate</a> measurements\n"
+"\t</span>\n"
+"\n"
+msgstr ""
+"Bon marché, <span class=\"medium-blue\">mesures\n"
+"<a href=\"screenshots/ej-with-agilent.jpg\">précises</a></span>"
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:108
+msgid ""
+"    One sample piece has to be certified by IUAC for\n"
+"        quality of material and workmanship.\n"
+msgstr ""
+"    Un échantillon doit être certifié par l'IUAC quant à la qualité du "
+"matériel et de la fabrication."
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:131
 msgid ""
@@ -647,411 +264,45 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
 msgid ""
-"<a href=\"http://www.pi-supply.com/product-category/raspberry-pi-add-on-"
-"boards/phoenix/\">Pi-Supply</a><br/>\n"
-"            Kent<br/>\n"
-"            United Kingdom<br/>\n"
-"            Phone : 01732590665<br/>\n"
-"            email: sales at pi-supply.com   <br/>\n"
+"<a href=\"http://www.buyapi.ca/\">BuyaPi.ca</a><br/>\n"
+"            25 Northside Rd, Unit C<br/>\n"
+"            Ottawa, ON K2H 8S1<br/>\n"
+"            Canada<br/>\n"
 "\n"
 msgstr ""
-"<a href=\"http://www.pi-supply.com/product-category/raspberry-pi-add-on-"
-"boards/phoenix/\">Pi-Supply</a><br/>\n"
-"            Kent<br/>\n"
-"            United Kingdom<br/>\n"
-"            Tél. : 01732590665<br/>\n"
-"            Courriel : sales at pi-supply.com   <br/>\n"
+"<a href=\"http://www.buyapi.ca/\">BuyaPi.ca</a><br/>\n"
+"            25 Northside Rd, Unit C<br/>\n"
+"            Ottawa, ON K2H 8S1<br/>\n"
+"            Canada<br/>\n"
 "\n"
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:219
-msgid "Opto-Coupler"
-msgstr "Opto-Coupleur"
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:52
+msgid "IR Receiver"
+msgstr "Récepteur IR"
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:278
-msgid ""
-"gravity\n"
-"          by TOF\n"
-msgstr "gravité par temps de vol"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:31
-msgid "Organization:"
-msgstr "Organisation :"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:186
-msgid ""
-"RL\n"
-"          Transient\n"
-msgstr "RL, régime transitoire"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:141
-msgid ""
-"2-Aug-2012: Finished <a href=\"software.html\">Software</a>\n"
-"        and a <a href=\"http://expeyes.in/Documents/eyesj-a4.pdf\">User "
-"Manual</a>\n"
-"        describing around 50 experiments are ready. Website update and "
-"videos\n"
-"        are pending.\n"
-msgstr ""
-"2012-08-02 : Terminé le <a href=\\\"software.html\\\">logiciel</a> et le <a "
-"href=\\\"http://expeyes.in/Documents/eyesj-a4.pdf\\\">manuel utilisateur</a> "
-"qui décrit quelques 50 expériences. Mise à jour du site web, les vidéos sont "
-"en cours de réalisation."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:272
-msgid ""
-"Temperature\n"
-"          Sensors\n"
-msgstr "Capteur de température"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:145
-msgid ""
-"<a href=\"http://expeyes.in/articles/55/expeyes-junior\">ExpEYES\n"
-"          Junior</a> is ready. Photograph below shows capturing sound from "
-"a\n"
-"        Piezo Buzzer.\n"
-msgstr ""
-"<a href=\"http://expEYES.in/articles/55/expEYES-junior\">expEYES\n"
-"          Junior</a> est prêt. La photo ci-dessous le montre qui capture un "
-"son issu d'un buzzer piézo."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:213
-msgid "Stroboscope"
-msgstr "Stroboscope"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:101
-msgid ""
-"8-Apr-12: Having trouble with Charge Time\n"
-"        Measurement Unit of PIC micro. A = 5.5 uA, 48.6 uA &amp; 451 uA in "
-"3\n"
-"        different ranges, measured using DMM. With 10x CRO probe connected "
-"V\n"
-"        =1.25 after  feeding 5.5 uA for 10 usecs. Error reported but no\n"
-"        solution yet.\n"
-msgstr ""
-"2012-04-08 : des difficultés avec l'unité de mesure de temps de chargement "
-"du micro PIC. I = 5,5 µA, 48,6 µA &amp; 451 µA pour trois calibres "
-"différents, mesurés avec DMM. Avec une sonde d'oscillo 10&times;, U=1,25 "
-"après l'envoi de 5,5 µA pendant 10 µs. L'erreur a été signalée, mais pas de "
-"solution pour le moment."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:87
-msgid ""
-"26-Mar-12: With assembler code ADC\n"
-"        blockread giving 250 ksample/sec sampling rate, Timer1 ISR is used.\n"
-"        Tested single channel block reads by capturing and fitting sine "
-"wave.\n"
-msgstr ""
-"2012-03-26 : Avec le code assembleur, la lecture de blocs du convertisseur "
-"analogique-numérique donne une vitesse d'échantillonnage de 250 kéch/s, on "
-"utilise l'ISR Timer1. Testé les lectures de blocs sur un canal en capturant "
-"et modélisant un signal sinusoïdal."
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:17
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:17
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:17
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:17
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:17
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:21
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:17
-#: /home/georgesk/expeyes-web/expeyes-web/header.html:17
-msgid "People"
-msgstr "L'équipe"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:47
-msgid ""
-"3-Jan-12 : Sent another version of PCB for\n"
-"        fabrication. To reduce size, it replaced TC7660  with TC1240A\n"
-"        voltage doubler.\n"
-msgstr ""
-"2012-01-03 : Envoi d'une autre version du circuit imprimé à la fabrication. "
-"Pour réduire la taille, il remplace le TC7660 par le doubleur de tension "
-"TC1240A."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:106
-msgid ""
-"18-Apr-2012: The Rpi board arrived. Help\n"
-"        for testing came from Alex Bradbury.\n"
-msgstr ""
-"2012-04-18 : Arrivée de la carte Raspberry Pi. L'aide pour les tests est "
-"venue d'Alex Bradbury."
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
-msgid "Infrared Receiver"
-msgstr "Récepteur infrarouge"
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:34
-msgid ""
-"       We start with simple C programs,\n"
-"      treating the uC as a device with programmable Input/Output pins, and "
-"then\n"
-"      introduce the peripherals like ADC, communication ports etc. The uC\n"
-"      architecture is explored using simple assembly language programs and "
-"LEDs\n"
-"      connected to the I/O ports. \n"
-msgstr ""
-"       On commence ave des programmes en C simples, qui traitent le micro-"
-"contrôleur comme un appareil avec des bornes d'entrée/sortie programmables, "
-"puis on introduit les périphériques comme de convertisseur analogique-"
-"numérique, les ports de communication, etc. L'architecture du micro-"
-"contrôleur est explorée à l'aide de programmes simples en assembleur et de "
-"DELs connectés aux ports d'entrée/sortie."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:54
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:30
 msgid ""
 "\n"
-"\tSoftware in Python programming language.\n"
+"\tA tool for learning science by exploring and experimenting.\n"
 "      \n"
-msgstr "Logiciel en langage de programmation Python."
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:88
-msgid ""
-"Pricing:<br/>\n"
-"      The development ExpEYES is done by Inter-University Accelerator "
-"Centre,\n"
-"      New Delhi. Since the objective of PHOENIX project is to make the "
-"products\n"
-"      available to maximum number of people, they  are kept royalty-free.\n"
-"      The cost of expEYES is depends on the cost of raw materials, labour\n"
-"      involved, and the sales overheads. The vendors have fixed the Maximum\n"
-"      Retail Price considering the expenses and paperwork involved in "
-"securing\n"
-"      orders and the delay in payments from institutions. However, they "
-"will\n"
-"      offer discount when payment is done in advance so that individual "
-"buyers\n"
-"      get it cheaper.\n"
 msgstr ""
-"Politique de prix :<br/>\n"
-"Le développement d'expEYES est fait par le « Inter-University Accelerator "
-"Centre », New Delhi. Comme l'objectif du projet PHOENIX est de rendre les "
-"produits accessibles au nombre maximum d'utilisateurs, il est distribué sans "
-"royalties. Le coût d'expEYES dépend du prix des matières premières, du "
-"travail nécessaire, et des bénéfices à la vente. Les vendeurs ont fixé le "
-"prix maximum conseillé en considérant les dépenses et le travail de "
-"sécurisation des factures et des délais dans le paiement par les "
-"institutions. Cependant, ils peuvent offrir des réductions si le paiement "
-"est fait d'avance, de telle façon que les acheteurs individuels puissent "
-"l'avoir meilleur marché."
+"Un outil pour apprendre les sciences par l'exploration et l'expérimentation."
 
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
-msgid "Audio Recording &amp; playback"
-msgstr "Enregistrement audio &amp; restitution"
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:62
-msgid "MicroHOPE Library"
-msgstr "Bibliothèque microHOPE"
-
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:35
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:195
 msgid ""
-"<a href=\"Code/main.c\">C Code</a> and <a href=\"Code/asm.s\">Assembler\n"
-"          Code</a>, on the micro-controller\n"
-msgstr ""
-"<a href=\"Code/main.c\">le Code C</a> et <a href=\"Code/asm.s\">le code "
-"Assembleur\n"
-"</a>, sur le micro-contrôleur"
+"EM\n"
+"          Induction \n"
+msgstr "Induction électromagnétique"
 
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:??
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:257
 msgid ""
-"16-May-12 : expEYES was announced on <a href=\"http://www.raspberrypi.org/"
-"archives/1228\">Raspberry\n"
-"          Pi</a> webpage. Getting resonably good feedback and enquiries "
-"about\n"
-"        availability. Planning to make USB &amp; Serial version (for Rpi), "
-"both\n"
-"        having almost identical layout.\n"
-msgstr ""
-"2012-05-16 : expEYES a été annoncé sur une page web de <a href=\\\"http://"
-"www.raspberrypi.org/archives/1228\\\">Raspberry Pi</a>. On a un feedback "
-"raisonnable et des réponses au sujet de l'approvisionnement. On fait des "
-"plans pour faire une version USB &amp; série (pour le RPi), avec un brochage "
-"pratiquement identique."
+"Sound\n"
+"          Frequency\n"
+msgstr "Fréquence d'un son"
 
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:29
-msgid ""
-"Plugins\n"
-"        for ExpEYES\n"
-msgstr "Greffons pour expEYES"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:43
-msgid "Student : "
-msgstr "Étudiant :"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:32
-msgid ""
-"<strong>Mentors:</strong> Mario Behling, Phuc Hau &amp;\n"
-"      Hong Phuc\n"
-msgstr ""
-"<strong>Mentors :</strong> Mario Behling, Phuc Hau &amp;\n"
-"      Hong Phuc\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:15
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:15
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:15
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:15
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:15
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:19
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:15
-#: /home/georgesk/expeyes-web/expeyes-web/header.html:15
-msgid "python"
-msgstr "python"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:39
-msgid ""
-"\n"
-"\tBuilt-in Signal Generator and Oscilloscope\n"
-"      \n"
-msgstr "Générateur de signaux et oscilloscope intégrés."
-
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:37
-msgid "<a href=\"images/eyes.pdf\">Circuit Schematic</a>"
-msgstr "<a href=\"images/eyes.pdf\">Schémas du circuit</a>"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:50
-msgid ""
-"12-Jan-12 : Went back to TC7660 since one\n"
-"        of the TC1240A failed during continuous testing, keeping both "
-"versions.\n"
-msgstr ""
-"2012-01-12 : Retour au TC7660 comme un des TC1240A a échoué durant les tests "
-"approfondis, gardé les deux versions."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:52
-msgid ""
-"Tested by writing the required C and Python\n"
-"        programs, like CRO. \n"
-msgstr "Testé en écrivant les programmes requis en C et Python, comme CRO."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:23
-msgid ""
-"Nov-2011: expEYS was released in Mar-2011\n"
-"        and is doing reasonably well. There was no plan to develop another\n"
-"        version.\n"
-msgstr ""
-"2011-11-xx : expEYES a été publié en mars 2011 et fonctionne raisonnablement "
-"bien. Il n'y a pas de plan pour développer une autre version."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:260
-msgid ""
-"Piezo\n"
-"          Buzzer\n"
-msgstr "Buzzer piézo"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:216
-msgid ""
-"Light\n"
-"          Barrier\n"
-msgstr "Barrière lumineuse"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:??
-msgid ""
-"<a href=\"http://ijedict.dec.uwi.edu/viewarticle.php?id=1202\">Example\n"
-"          of PHOENIX usage at UPSI</a>, Malaysia, 2011\n"
-msgstr ""
-"<a href=\"http://ijedict.dec.uwi.edu/viewarticle.php?id=1202\">Exemple "
-"d'utilisation de PHOENIX à l'UPSI</a>, Malaisie, 2011\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:165
-msgid ""
-"Resistance\n"
-"          of water\n"
-msgstr "Résistance de l'eau"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:127
-msgid ""
-"23-May-12: The first lot of PBCs send for\n"
-"        fabrication, asked the vendor in Delhi to start making some sample\n"
-"        pieces. Stopped work for two weeks, programs at JIT, Coimbatore and "
-"NIT,\n"
-"        Calicut.\n"
-msgstr ""
-"201-05-23 : Premier lot de circuits imprimés envoyé à la fabrication, "
-"demandé au vendeur à Delhi de faire quelques échantillons. Arrêt du travail "
-"pour deux semaines, programmes au JIT, Coimbatore et NIT, Calicut."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:177
-msgid ""
-"AC\n"
-"          and DC Separation\n"
-msgstr "Séparation de composantes continue et alternative"
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
-msgid ""
-"Fab.to.Lab  (<a href=\"http://fabtolab.com/index.php?route=product/"
-"product&amp;product_id=80\">Order\n"
-"              Online</a>)<br/>\n"
-"            Koramangala,<br/>\n"
-"            Bangalore – 560095<br/>\n"
-"            Ph: +91 8050032228/9<br/>\n"
-"            email: sales at fabtolab.com<br/>\n"
-"                <br/>\n"
-"\n"
-msgstr ""
-"Fab.to.Lab  (<a href=\"http://fabtolab.com/index.php?route=product/"
-"product&amp;product_id=80\">Commande en ligne</a>)<br/>\n"
-"            Koramangala,<br/>\n"
-"            Bangalore – 560095<br/>\n"
-"            Tél. : +91 8050032228/9<br/>\n"
-"            Courriel : sales at fabtolab.com<br/>\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
-msgid "Hardwere"
-msgstr "Matériel"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:29
-msgid ""
-"4-Dec-2011 : <a href=\"http://urtalk.kpoint.in/playlist/43/kapsule/gcc-"
-"b73217cf-469a-4c52-ad22-e2c40c88bd5d\">Gave\n"
-"          a demo</a> of expEYES at Scipy.in 2011\n"
-msgstr ""
-"2011-12-04 : <a href=\\\"http://urtalk.kpoint.in/playlist/43/kapsule/gcc-"
-"b73217cf-469a-4c52-ad22-e2c40c88bd5d\\\">Fait une démo</a> d'ExpEUES à  "
-"Scipy.in 2011"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:171
-msgid "Capacitance"
-msgstr "Capacité électrique"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
-msgid ""
-"\n"
-"\tPython Programming of ExpEYES ,\n"
-"\t<a href=\"https://www.youtube.com/watch?v=5P5Qu1qnYWY\">\n"
-"\t  video\n"
-"\t</a>\n"
-"\n"
-msgstr ""
-"La programmation d'expEYES en Python,\n"
-"<a href=\"https://www.youtube.com/watch?v=5P5Qu1qnYWY\">\n"
-"en vidéo</a>"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:40
-msgid ""
-"Even though no Android version of expEYES\n"
-"        made, the<strong> idea of a very low cost device</strong> came up. "
-"I\n"
-"        decided to explore the options for lowering the cost further. A "
-"design\n"
-"        using Atmega328, from Atmel Corp., was made, using built-in 10 bit "
-"ADC\n"
-"        and PWM DAC. PCB size reduced to 9mm x6 mm\n"
-msgstr ""
-"Même si on n'a pas fait de version Android pour expEYES, l'<strong>idée d'un "
-"appareil très bon marché</strong> a émergé. J'ai décidé d'explorer les "
-"options pour diminuer le coût encore un peu. On a fait une concetion basée "
-"sur l'Atmega328, d'Atmel Corp, qui utilise les convertisserseurs analogique-"
-"numérique et numérique analogique 10 bit, et la modulation PWM. La taille du "
-"circuit imprimé a été réduite à 9mm &times; 6mm."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:94
-msgid ""
-"5-Apr-12 : Time measurement routines are\n"
-"        almost done. A numbering scheme is worked out to make the functions "
-"more\n"
-"        generic. A CRO program is running now.\n"
-msgstr ""
-"2012-04-05 : Les routines de mesures temporelles sont pratiquement au point. "
-"Un schéma de numérotation est élaboré afin de rendre les fonctions plus "
-"génériques. Un programme CRO fonctionne maintenant."
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:47
+msgid "<a href=\"MicroHOPE/usbasp.html\">USBASP</a> programmer"
+msgstr "programmeur <a href=\"MicroHOPE/usbasp.html\">USBASP</a>"
 
 #: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
 msgid ""
@@ -1085,66 +336,19 @@ msgstr ""
 "avrdude (pour compiler et télécharger le code) est tout ce que l'on a. Il "
 "est testé sous GNU/Linux et MS-Windows. Des paquets Debian sont disponibles."
 
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:??
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:281
+msgid "Pendulum"
+msgstr "Pendule"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:68
 msgid ""
-"The\n"
-"        Android version is contributed by Jithin B P , IISER Mohali, "
-"(jithinbp\n"
-"        at gmail.com).\n"
-msgstr ""
-"La version Android est une contribution de Jithin B P , IISER Mohali,\n"
-"(jithinbp at gmail.com)."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
-msgid ""
-"\n"
-"\tLow Cost,\n"
-"\t<span class=\"medium-blue\">\n"
-"<a href=\"screenshots/ej-with-agilent.jpg\">Accurate</a> measurements\n"
-"\t</span>\n"
-"\n"
-msgstr ""
-"Bon marché, <span class=\"medium-blue\">mesures\n"
-"<a href=\"screenshots/ej-with-agilent.jpg\">précises</a></span>"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:48
-msgid ""
-"\n"
-"\tMicrosecond timing resolution.\n"
-"      \n"
-msgstr "Résolution temporelle d'une microseconde."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:158
-msgid "AC &amp; DC"
-msgstr "Courant continu et alternatif"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:18
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:18
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:18
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:18
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:18
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:22
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:18
-#: /home/georgesk/expeyes-web/expeyes-web/header.html:18
-msgid "News"
-msgstr "Nouveautés"
-
-#: /home/georgesk/expeyes-web/expeyes-web/header.html:21
-msgid "H"
-msgstr "H"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:123
-msgid ""
-"17-May-12 : Started testing and documenting\n"
-"        experiments for the new model. Modifying firmare and Python code\n"
-"        whereever required. Some modifications are done to the hardware "
-"also.\n"
-"        Trying to reach the final PCB at the earliest.\n"
-msgstr ""
-"2012-05-17 : Commncé à tester et à documenter les expériences pour le "
-"nouveau modèle. Modification du code firmware et Python pourtout où c'est "
-"nécessaire. Quelques modifications sont faites aussi au matériel. On essaie "
-"d'arriver au circuit imprimé final le plus tôt possible."
+"Initiated the PHOENIX project by designing a parallel\n"
+"  port based interface and organized a training program for\n"
+"  teachers in 2005, and continuing with it. Does designing,\n"
+"  developing experiments and writing software and\n"
+"  documentaion for all the equipment from this project.\n"
+"  Spend some amount of time in conducting training programs.\n"
+msgstr "A initié le projet PHOENIX en créant une interface basée sur le port parallèle et en organisant un programme de formation pour les enseignants en 2005, et en continuant ensuite. S'occupe de la conception, du développement des expériences et de l'écriture du logiciel et de la documentation pour tous les équipements de ce projet. Passe un peu de temps a mener des programmes de formation."
 
 #: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
 msgid ""
@@ -1170,218 +374,18 @@ msgstr ""
 "produit et le support des utilisateurs, les vendeurs doivent satisfaire les "
 "conditions suivantes :"
 
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:12
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:12
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:12
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:12
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:12
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:16
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:12
-#: /home/georgesk/expeyes-web/expeyes-web/header.html:12
-msgid "How to Buy"
-msgstr "Où acheter"
+#: /home/georgesk/expeyes-web/expeyes-web/header.html:21
+msgid "H"
+msgstr "H"
 
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:54
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:23
 msgid ""
-"<a href=\"http://www.raspberrypi.org/archives/tag/expeyes\">expEYES\n"
-"          meets Raspberry Pi</a> , May 16, 2012\n"
+"Nov-2011: expEYS was released in Mar-2011\n"
+"        and is doing reasonably well. There was no plan to develop another\n"
+"        version.\n"
 msgstr ""
-"<a href=\"http://www.raspberrypi.org/archives/tag/expeyes\">expEYES "
-"rencontre Raspberry Pi</a>, 16 mai 2012\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:162
-msgid "Resistance"
-msgstr "Résistance"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:56
-msgid ""
-"<a href=\"http://urtalk.kpoint.com/playlist/43/kapsule/gcc-"
-"b73217cf-469a-4c52-ad22-e2c40c88bd5d\">Presentation\n"
-"          at Scipy.in</a>, Dec-2011, IITB, Mumbai\n"
-msgstr ""
-"2011-12-04 : <a href=\\\"http://urtalk.kpoint.in/playlist/43/kapsule/gcc-"
-"b73217cf-469a-4c52-ad22-e2c40c88bd5d\\\">Présentation à Scipy.in</a>, "
-"décembre 2011, IITB, Mumbai ;"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:139
-msgid ""
-"Join the\n"
-"      <a href=\"http://www.freelists.org/list/phoenix-project\">\n"
-"\tPhoenix Mailing List\n"
-"      </a>\n"
-"      to be informed about the\n"
-"      <a href=\"http://www.iuac.res.in/%7Eelab/phoenix/workshops/index.html"
-"\">\n"
-"\tTraining Programs\n"
-"      </a>\n"
-"      and new developments.\n"
-"      \n"
-msgstr ""
-"Rejoignez la\n"
-"<a href=\"http://www.freelists.org/list/phoenix-project\">\n"
-"liste de courriel Phoenix</a> pour rester informé des\n"
-"<a href=\"http://www.iuac.res.in/%7Eelab/phoenix/workshops/index.html\">\n"
-"Programmes de Formation</a> et des nouveaux développement."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:233
-msgid "Diode IV"
-msgstr "Caractéristique IU d'une diode"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:21
-msgid "Evolution of expEYES Junior"
-msgstr "Évolutions d'expEYES Junior"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:66
-msgid ""
-"<a href=\"http://kishoreathrasseri.wordpress.com/2008/06/28/the-story-of-"
-"phoenix/\">The\n"
-"          story of PHOENIX</a>, by Kishore, 28-Jun2,2008\n"
-msgstr ""
-"<a href=\"http://kishoreathrasseri.wordpress.com/2008/06/28/the-story-of-"
-"phoenix/\">L'histoire de PHOENIX</a>, par Kishore, 28 juin 2008\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:266
-msgid ""
-"Sound\n"
-"          Velocity\n"
-msgstr "Vitesse du son"
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:112
-msgid ""
-"    Vendor should inform IUAC about the sales so that\n"
-"        we can keep track of the user community.\n"
-msgstr ""
-"    Les vendeurs sont censés informer l'IUAC des ventes afin qu'on puisse "
-"garder trace de la communauté des utilisateurs."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:269
-msgid ""
-"Ultra-sound\n"
-"          \n"
-msgstr "Ultra-sons"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:??
-msgid ""
-"<a href=\"http://2010.rmll.info/Experimental-Physics-with-Phoenix-and-Python."
-"html?lang=fr\">PHOENIX\n"
-"          presentation</a>, by Kishore, accepted for RMLL2010\n"
-msgstr ""
-"<a href=\"http://2010.rmll.info/Experimental-Physics-with-Phoenix-and-Python."
-"html?lang=fr\">Présentation de PHOENIX</a>, par Kishore, accepté pour "
-"RMLL2010\n"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:36
-msgid ""
-"\n"
-"\tWide range, High school and above.\n"
-"      \n"
-msgstr "Pour tous, jusqu'au lycée et au-delà."
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
-msgid "Assembler Examples"
-msgstr "Exemples en assembleur"
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:108
-msgid ""
-"    One sample piece has to be certified by IUAC for\n"
-"        quality of material and workmanship.\n"
-msgstr ""
-"    Un échantillon doit être certifié par l'IUAC quant à la qualité du "
-"matériel et de la fabrication."
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
-msgid ""
-"User's manual, in PDF format, may be downloaded from <a href=\"http://www."
-"iuac.res.in/%7Eelab/expeyes/Documents/microhope.pdf\">here</a>\n"
-"      (or <a href=\"file:///home/ajith/expeyes-website/Documents/microhope."
-"pdf\">here</a>)\n"
-msgstr ""
-"Le manuel du programmeur. À télécharger depuis\n"
-"<a href=\"http://www.iuac.res.in/%7Eelab/expEYES/Documents/microhope.pdf\">\n"
-"ici</a> (ou <a href=\"Documents/microhope.pdf\">ici</a>)"
-
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:47
-msgid "<a href=\"MicroHOPE/usbasp.html\">USBASP</a> programmer"
-msgstr "programmeur <a href=\"MicroHOPE/usbasp.html\">USBASP</a>"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:156
-msgid "EYES GUI"
-msgstr "Interface grphique EYES"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:108
-msgid ""
-"20-Apr-2012: expEYES tested on Rpi.\n"
-"        Everything is fine except a USB error that allows only keyboard or "
-"mouse\n"
-"        along with expEYES. Bug report filed.\n"
-msgstr ""
-"2012-04-20 : test de expEYES sur Raspberry Pi. Tout va bien sauf une erreur "
-"USB qui autorise seulement le clavier ou la souris en même temps qu'expEYES. "
-"Envoi d'un rapport de bug."
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:97
-msgid ""
-"7-Apr-12: Again some changes in hardware.\n"
-"        Decided to provide only one amplifier. A digital output other that "
-"SQRs,\n"
-"        all using a CMOS buffer IC. Introduced TC1240A after some "
-"continuous\n"
-"        testing.\n"
-msgstr ""
-"2012-04-07 : Encore quelques changements matériels. Décidé de ne fournir "
-"qu'un seul amplificateur. Une sortie numérique autre que les lsignaux "
-"carrés, tous utilisant un circuit intégré CMOS amplificateur. Introduit le "
-"TC1240A après des tests approfondis."
-
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:??
-msgid ""
-"Reducing the\n"
-"        Total cost (ExpEYES + the Computer) has been one of our goals. "
-"ExpEYES\n"
-"        was tested earlier on the <a href=\"https://www.youtube.com/watch?"
-"v=oMFFx91vdKI\">Aakash2\n"
-"          tablet</a> running GNU/Linux. However most of the tablets\n"
-"        currently available in the market comes with Android installed. The\n"
-"        Android version of the ExpEYES software makes use of that to reduce "
-"the\n"
-"        total cost. It can also be installed from <a href=\"https://play."
-"google.com/store/search?q=expeyes&amp;c=apps\">Google\n"
-"        play store</a>. \n"
-msgstr ""
-"Un de nos buts a été de réduire le coût total (expEYES + ordinateur).\n"
-"expEYES a été testé plus tôt sur la\n"
-"<a href=\"https://www.youtube.com/watch?v=oMFFx91vdKI\">tablette Aakash2</"
-"a>\n"
-"sous GNU/Linux. Cependant la plupart des tablettes disponibles couramment\n"
-"viennent avec Android pré-installé. La version Android du logiciel expEYES\n"
-"se sert de ça pour réduire le coût total. On peut aussi l'installer à partir "
-"du\n"
-"<a href=\"https://play.google.com/store/search?q=expEYES&amp;c=apps\">\n"
-"Google play store</a>."
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:263
-msgid ""
-"Sound\n"
-"          Beats\n"
-msgstr "Battements sonores"
-
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:??
-msgid ""
-"<img alt=\"a trial\" src=\"images/proto-trial3.jpg\" style=\"width: 400px; "
-"height: 203px;\"/>"
-msgstr ""
-"<img alt=\"a trial\" src=\"images/proto-trial3.jpg\" style=\"width: 400px; "
-"height: 203px;\"/>"
-
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:??
-msgid ""
-" OTG cable\n"
-"        (the one used for connecting pendrive to tablet) to connect "
-"ExpEYES.\n"
-"        Works only on Android versions 4.0.0 and above. \n"
-msgstr ""
-"Câble OTG (celui qui est utilisé pour relier la clé USB à la tablette) pour\n"
-"connecter expEYES. Ne fonctionne que sur Android version 4.0.0 ou plus."
+"2011-11-xx : expEYES a été publié en mars 2011 et fonctionne raisonnablement "
+"bien. Il n'y a pas de plan pour développer une autre version."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:??
 msgid ""
@@ -1442,24 +446,9 @@ msgstr ""
 "version\n"
 "courante a été <a href=\"ej-history.html\">créée en août 2012</a>. <br/> "
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:254
-msgid ""
-"Filter\n"
-"          Circuits\n"
-msgstr "Circuits de filtrage"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:168
-msgid "Powerline Pickup"
-msgstr "Effet d'antenne"
-
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:50
-msgid ""
-"<a href=\"http://www.downtoearth.org.in/content/lab-lap\">Lab on the Lap</"
-"a>,\n"
-"        Down to Earth Magazine, Jul 31, 2012\n"
-msgstr ""
-"<a href=\"http://www.downtoearth.org.in/content/lab-lap\">Labo sur le "
-"portable</a>, Magazine <i>Down to Earth Magazine</i>, 31 juillet 2012\n"
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:50
+msgid "The Oscilloscope Screen"
+msgstr "L'écran de l'oscillographe"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:??
 msgid ""
@@ -1472,70 +461,333 @@ msgstr ""
 "<a href=\"https://www.youtube.com/watch?v=z8iVJdpkwIY\">\n"
 "Un tutoriel expEYES parlé</a>"
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:51
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:127
+msgid ""
+"23-May-12: The first lot of PBCs send for\n"
+"        fabrication, asked the vendor in Delhi to start making some sample\n"
+"        pieces. Stopped work for two weeks, programs at JIT, Coimbatore and "
+"NIT,\n"
+"        Calicut.\n"
+msgstr ""
+"201-05-23 : Premier lot de circuits imprimés envoyé à la fabrication, "
+"demandé au vendeur à Delhi de faire quelques échantillons. Arrêt du travail "
+"pour deux semaines, programmes au JIT, Coimbatore et NIT, Calicut."
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:31
+msgid "Organization:"
+msgstr "Organisation :"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:??
+msgid ""
+"<img alt=\"a trial\" src=\"images/proto-trial3.jpg\" style=\"width: 400px; "
+"height: 203px;\"/>"
+msgstr ""
+"<img alt=\"a trial\" src=\"images/proto-trial3.jpg\" style=\"width: 400px; "
+"height: 203px;\"/>"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:260
+msgid ""
+"Piezo\n"
+"          Buzzer\n"
+msgstr "Buzzer piézo"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:??
+msgid ""
+"<a href=\"http://community.ofset.org/index.php/Georges_Khaznadar\">Georges\n"
+"    Khaznadar</a>, Teacher of Physics at <a class=\"external text\" href="
+"\"http://www.lyceejeanbart.fr/\" title=\"http://www.lyceejeanbart.fr"
+"\">lycée\n"
+"    Jean Bart, Dunkerque, France</a> (georges.khaznadar\n"
+"    _at_ free.fr)\n"
+msgstr ""
+"<a href=\"http://community.ofset.org/index.php/Georges_Khaznadar\">Georges\n"
+"    Khaznadar</a>, professeur de physique au <a class=\"external text\" href=\"http://www.lyceejeanbart.fr/\" title=\"http://www.lyceejeanbart.fr\">lycée\n"
+"    Jean Bart, Dunkerque, France</a> (georges.khaznadar\n"
+"    _at_ free.fr)\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:11
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:11
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:11
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:11
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:11
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:11
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:15
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:11
+#: /home/georgesk/expeyes-web/expeyes-web/header.html:11
+msgid "Design"
+msgstr "Conception"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:35
+msgid ""
+"Introduced the idea of using <a href=\"http://linuxgazette.net/111/pramode."
+"html\">Python\n"
+"  language for Phoenix</a> , something that had a\n"
+"  tremendous impact on the project. Suggests new ideas and\n"
+"  solutions and also works for spreading awareness about the\n"
+"  project.\n"
+msgstr "A introduit l'idée d'utiliser <a href=\"http://linuxgazette.net/111/pramode.html\">le langage Python pour Phoenix</a>, ce qui a eu un impact considérable sur le projet. Suggère de nouvelles idées et des solutions et travaille aussi à promouvoir la connaissance du projet."
+
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
+msgid ""
+"User's manual, in PDF format, may be downloaded from <a href=\"http://www."
+"iuac.res.in/%7Eelab/expeyes/Documents/microhope.pdf\">here</a>\n"
+"      (or <a href=\"file:///home/ajith/expeyes-website/Documents/microhope."
+"pdf\">here</a>)\n"
+msgstr ""
+"Le manuel du programmeur. À télécharger depuis\n"
+"<a href=\"http://www.iuac.res.in/%7Eelab/expEYES/Documents/microhope.pdf\">\n"
+"ici</a> (ou <a href=\"Documents/microhope.pdf\">ici</a>)"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:66
+msgid ""
+"<a href=\"http://kishoreathrasseri.wordpress.com/2008/06/28/the-story-of-"
+"phoenix/\">The\n"
+"          story of PHOENIX</a>, by Kishore, 28-Jun2,2008\n"
+msgstr ""
+"<a href=\"http://kishoreathrasseri.wordpress.com/2008/06/28/the-story-of-"
+"phoenix/\">L'histoire de PHOENIX</a>, par Kishore, 28 juin 2008\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
 msgid ""
 "\n"
-"\tOpen Hardware and Free Software.\n"
+"\tExpEYES Brochure. Download from\n"
+"\t<a href=\"http://www.iuac.res.in/%7Eelab/expeyes/Documents/ej-brochure.pdf"
+"\">\n"
+"\t  here\n"
+"\t</a>\n"
+"        (or <a href=\"Documents/ej-brochure.pdf\">here</a>)\n"
 "      \n"
-msgstr "Matériel ouvert et logiciel libre."
-
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:50
-msgid "The Oscilloscope Screen"
-msgstr "L'écran de l'oscillographe"
-
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:63
-msgid ""
-"Sys-Con Engineering<br/>\n"
-"            53B Mirza Galib Street<br/>\n"
-"            Kolkata 700 016<br/>\n"
-"            Ph: 09830417377 , 033 40014680<br/>\n"
-"            email : sceskm at yahoo.com \n"
 msgstr ""
-"Sys-Con Engineering<br/>\n"
-"            53B Mirza Galib Street<br/>\n"
-"            Kolkata 700 016<br/>\n"
-"            Tél : 09830417377 , 033 40014680<br/>\n"
-"            courriel : sceskm at yahoo.com \n"
+"Brochure expEYES. À télécharger depuis\n"
+"<a href=\"http://www.iuac.res.in/%7Eelab/expEYES/Documents/ej-brochure.pdf"
+"\">\n"
+"ici</a> (ou <a href=\"Documents/ej-brochure.pdf\">ici</a>)"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:106
+msgid ""
+"18-Apr-2012: The Rpi board arrived. Help\n"
+"        for testing came from Alex Bradbury.\n"
+msgstr ""
+"2012-04-18 : Arrivée de la carte Raspberry Pi. L'aide pour les tests est "
+"venue d'Alex Bradbury."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:171
+msgid "Capacitance"
+msgstr "Capacité électrique"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:75
+msgid "V V V Satyanarayana, Data Support laboratory, IUAC"
+msgstr "V V V Satyanarayana, Data Support laboratory, IUAC"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:233
+msgid "Diode IV"
+msgstr "Caractéristique IU d'une diode"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:33
+msgid ""
+"\n"
+"\t50 documented experiments and easy to add more.\n"
+"      \n"
+msgstr "50 expériences documentées, et plus, faciles à créer."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:25
+msgid "Experiments for Young Engineers and Scientists"
+msgstr "Experiments for Young Engineers and Scientists"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:94
+msgid ""
+"5-Apr-12 : Time measurement routines are\n"
+"        almost done. A numbering scheme is worked out to make the functions "
+"more\n"
+"        generic. A CRO program is running now.\n"
+msgstr ""
+"2012-04-05 : Les routines de mesures temporelles sont pratiquement au point. "
+"Un schéma de numérotation est élaboré afin de rendre les fonctions plus "
+"génériques. Un programme CRO fonctionne maintenant."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"\tCompact,\n"
+"\t<span class=\"medium-blue\">8.6x5.8x1.6 cm, 60 gm.</span>\n"
+"\n"
+msgstr ""
+"Compact, <span class=\"medium-blue\">8,6&times;5,8&times;1,6 cm, 60 g.</span>"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:29
+msgid ""
+"4-Dec-2011 : <a href=\"http://urtalk.kpoint.in/playlist/43/kapsule/gcc-"
+"b73217cf-469a-4c52-ad22-e2c40c88bd5d\">Gave\n"
+"          a demo</a> of expEYES at Scipy.in 2011\n"
+msgstr ""
+"2011-12-04 : <a href=\\\"http://urtalk.kpoint.in/playlist/43/kapsule/gcc-"
+"b73217cf-469a-4c52-ad22-e2c40c88bd5d\\\">Fait une démo</a> d'ExpEUES à  "
+"Scipy.in 2011"
+
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:??
+msgid ""
+"The\n"
+"        Android version is contributed by Jithin B P , IISER Mohali, "
+"(jithinbp\n"
+"        at gmail.com).\n"
+msgstr ""
+"La version Android est une contribution de Jithin B P , IISER Mohali,\n"
+"(jithinbp at gmail.com)."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:198
+msgid "Transformer"
+msgstr "Transformateur"
+
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
+msgid "Assembler Examples"
+msgstr "Exemples en assembleur"
+
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
+msgid "Infrared Receiver"
+msgstr "Récepteur infrarouge"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:145
+msgid ""
+"<a href=\"http://expeyes.in/articles/55/expeyes-junior\">ExpEYES\n"
+"          Junior</a> is ready. Photograph below shows capturing sound from "
+"a\n"
+"        Piezo Buzzer.\n"
+msgstr ""
+"<a href=\"http://expEYES.in/articles/55/expEYES-junior\">expEYES\n"
+"          Junior</a> est prêt. La photo ci-dessous le montre qui capture un "
+"son issu d'un buzzer piézo."
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:43
+msgid "Student : "
+msgstr "Étudiant :"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:139
+msgid ""
+"Join the\n"
+"      <a href=\"http://www.freelists.org/list/phoenix-project\">\n"
+"\tPhoenix Mailing List\n"
+"      </a>\n"
+"      to be informed about the\n"
+"      <a href=\"http://www.iuac.res.in/%7Eelab/phoenix/workshops/index.html"
+"\">\n"
+"\tTraining Programs\n"
+"      </a>\n"
+"      and new developments.\n"
+"      \n"
+msgstr ""
+"Rejoignez la\n"
+"<a href=\"http://www.freelists.org/list/phoenix-project\">\n"
+"liste de courriel Phoenix</a> pour rester informé des\n"
+"<a href=\"http://www.iuac.res.in/%7Eelab/phoenix/workshops/index.html\">\n"
+"Programmes de Formation</a> et des nouveaux développement."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:284
+msgid ""
+"\n"
+"      contact:  Ajith Kumar B P, Inter-University Accelerator Centre, New\n"
+"      Delhi 110067, bpajith at gmail.com\n"
+"    \n"
+msgstr ""
+"contact:  Ajith Kumar B P, Inter-University Accelerator Centre, New\n"
+"Delhi 110067, bpajith at gmail.com"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:??
 msgid ""
-"<a href=\"http://www.youtube.com/watch?feature=player_embedded&amp;v=F1h4q-"
-"Kw7W8\">PHOENIX\n"
-"          at ADOC2.0</a>, 5-6 Oct-2010, Taipei.\n"
+"<a href=\"http://iopscience.iop.org/0031-9120/44/5/002/?"
+"rss=1.0\">Innovative\n"
+"          Science Experiments Using PHOENIX</a>, IOP Physics Education, "
+"2009\n"
 msgstr ""
-"<a href=\"http://www.youtube.com/watch?feature=player_embedded&amp;v=F1h4q-"
-"Kw7W8\">PHOENIX à ADOC2.0</a>, 5-6 octobre 2010, Taipei.\n"
+"<a href=\"http://iopscience.iop.org/0031-9120/44/5/002/?"
+"rss=1.0\">Expériences de sciences innovantes utilisant PHOENIX</a>, IOP "
+"Physics Education, 2009\n"
 
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:48
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:219
+msgid "Opto-Coupler"
+msgstr "Opto-Coupleur"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:54
 msgid ""
-"<a href=\"http://www.dnaindia.com/bangalore/report_turning-your-pc-into-a-"
-"science-lab_1749442\">Turning\n"
-"          your PC into a Science Lab</a>, Oct 6, Daily News and Analysis\n"
+"\n"
+"\tSoftware in Python programming language.\n"
+"      \n"
+msgstr "Logiciel en langage de programmation Python."
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:??
+msgid ""
+"ExpEYES ( Experiments for Young\n"
+"      Engineers and Scientists) is an Open Hardware and Free Software "
+"framework\n"
+"      for developing science experiments and classroom demonstrations. This\n"
+"      project will work on developing a set of plug-ins for ExpEYES. These\n"
+"      plug-ins with GUI's will enhance the scope of ExpEYES for using it to\n"
+"      perform several experiments in mechanics, sound and waves. Project "
+"will\n"
+"      also focus on adding features for using acoustic and motion sensors "
+"for\n"
+"      various science experiments.\n"
 msgstr ""
-"<a href=\"http://www.dnaindia.com/bangalore/report_turning-your-pc-into-a-"
-"science-lab_1749442\">Transformez votre PC en labo de science</a>, 6 "
-"octobre, <i>Daily News and Analysis</i>"
+"ExpEYES ( Experiments for Young Engineers and Scientists) est un "
+"environnement logiciel et matériel libre pour développer des expériences "
+"scientifiques et des démonstrations en classe. Ce projet fonctionnera en "
+"développant un ensemble de greffons pour expEYES. Ces greffons avec des "
+"intrfaces graphiques augmenteront la portée  d'expEYES pour l'utiliser dans "
+"plusieurs expériences en mécanique, acoustique et physique ondulatoire. Le "
+"projet s'attachera aussi à ajouter des fonctionalités pour utiliser des "
+"capteurs de son et de déplacement pour plusieurs expériences scientifiques."
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:251
-msgid "AM and FM"
-msgstr "Modulation d'amplitude et de fréquence"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:242
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:275
 msgid ""
-"555\n"
-"          oscillator\n"
-msgstr "Oscillateur 555"
+"Cooling\n"
+"          Curve\n"
+msgstr "Courbe de refroidissement"
 
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:68
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:165
 msgid ""
-"31-Jan-12 : Attended the Technical Training\n"
-"        Seminar by Microchip. Fortunately Microchip released development "
-"tools,\n"
-"        MPLABX,  for GNU/Linux also.\n"
+"Resistance\n"
+"          of water\n"
+msgstr "Résistance de l'eau"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:101
+msgid ""
+"8-Apr-12: Having trouble with Charge Time\n"
+"        Measurement Unit of PIC micro. A = 5.5 uA, 48.6 uA &amp; 451 uA in "
+"3\n"
+"        different ranges, measured using DMM. With 10x CRO probe connected "
+"V\n"
+"        =1.25 after  feeding 5.5 uA for 10 usecs. Error reported but no\n"
+"        solution yet.\n"
 msgstr ""
-"2012-01-31 : Assisté au Séminaire de Formation Technique par Microchip. "
-"Heureusement, Microchip a publié des outils de développement, MPLABX, pour "
-"GNU/Linux aussi."
+"2012-04-08 : des difficultés avec l'unité de mesure de temps de chargement "
+"du micro PIC. I = 5,5 µA, 48,6 µA &amp; 451 µA pour trois calibres "
+"différents, mesurés avec DMM. Avec une sonde d'oscillo 10&times;, U=1,25 "
+"après l'envoi de 5,5 µA pendant 10 µs. L'erreur a été signalée, mais pas de "
+"solution pour le moment."
+
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:37
+msgid "<a href=\"images/eyes.pdf\">Circuit Schematic</a>"
+msgstr "<a href=\"images/eyes.pdf\">Schémas du circuit</a>"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:36
+msgid ""
+"\n"
+"\tWide range, High school and above.\n"
+"      \n"
+msgstr "Pour tous, jusqu'au lycée et au-delà."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:174
+msgid ""
+"Dielectric\n"
+"          Constant\n"
+msgstr "Constante diélectrique"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:60
+msgid ""
+"Created and maintaining an <a href=\"http://expeyes.wordpress.com/"
+"\">expEYES\n"
+"  blog site</a>. Actively involved in conducting training\n"
+"  programs. Working on a new Live CD.\n"
+msgstr "Acréé et maintient un <a href=\"http://expeyes.wordpress.com/\">blog sur expEYES</a>. Impliqué activement dans les programmes de formation. Travaille sur un nouveau CD vif."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:??
 msgid ""
@@ -1552,33 +804,42 @@ msgstr ""
 "<a href=\"http://www.iuac.res.in/%7Eelab/expEYES/Documents/eyesj-a4.pdf\">\n"
 "ici</a> (ou <a href=\"Documents/eyesj-a4.pdf\">ici</a>)"
 
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:29
-msgid "Project Title :"
-msgstr "Titre du projet :"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:??
 msgid ""
-"\n"
-"\tCompact,\n"
-"\t<span class=\"medium-blue\">8.6x5.8x1.6 cm, 60 gm.</span>\n"
-"\n"
+"Started looking for micro-controllers with\n"
+"        built-in USB, 12bit ADC and 2k RAM. Found PIC18F2458, from "
+"Microchip\n"
+"        Inc., having both. After contacting Microchip, it was realised that "
+"the\n"
+"        built-in USB cannot be used simultaneously with the real-time\n"
+"        measurements required. Changed to PIC18F25KA80 + MCP2200 "
+"combination.\n"
+"        Vinod &amp; Pramode did ADC &amp; UART testing of PIC18F2458. "
+"Almost\n"
+"        decided to go for a PIC controller.\n"
 msgstr ""
-"Compact, <span class=\"medium-blue\">8,6&times;5,8&times;1,6 cm, 60 g.</span>"
+"Commencé à chercher des micro-contrôleurs avec l'USB implémenté, un DAC 12 "
+"bit et 2k de RAM. Trouvé le PIC18F2458, de Microchip Inc., qui ales deux. "
+"Après un contact avec Microchip, on a réalisé que l'USB intégré ne pouvait "
+"pas être utilisé em même temps que les mesures en temps réel nécessaires. "
+"Changé pour une combinaison de PIC18F25KA80 + MCP2200. Vinod &amp; Pramode "
+"ont fait les tests de l'ADC &amp; UART du PIC18F2458. Pratiquement décidé de "
+"partir pour un contrôleur PIC."
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:45
-msgid ""
-"\n"
-"\t12bit analog resolution.\n"
-"      \n"
-msgstr "Résolution analogique 12 bit."
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:21
+msgid "Evolution of expEYES Junior"
+msgstr "Évolutions d'expEYES Junior"
 
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:34
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:139
 msgid ""
-"Requires\n"
-"        USB OTG support in hardware and the USB API software in the OS.\n"
+"16-Jul-2012: Units send to Pramode &amp;\n"
+"        Georges, for testing.\n"
 msgstr ""
-"Le support d'USB OTG est nécessaire au niveau matériel et dans l'API du "
-"pilote USB du système d'exploitation."
+"2012-07-16 : Envoi d'échantillons à Pramode &amp; Georges, pour tester."
+
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:21
+msgid "Micro-controllers for Hobby Projects and Education"
+msgstr "Micro-contrôleurs pour des projets de loisir et éducatifs"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:??
 msgid ""
@@ -1588,48 +849,84 @@ msgstr ""
 "<a href=\"http://schedule2012.rmll.info/Atelier-expEYES?lang=en\">ExpEYES "
 "aux RMLL2012</a>, presenté par K K Abdulla &amp; P A Subha\n"
 
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:28
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:??
+msgid ""
+" OTG cable\n"
+"        (the one used for connecting pendrive to tablet) to connect "
+"ExpEYES.\n"
+"        Works only on Android versions 4.0.0 and above. \n"
+msgstr ""
+"Câble OTG (celui qui est utilisé pour relier la clé USB à la tablette) pour\n"
+"connecter expEYES. Ne fonctionne que sur Android version 4.0.0 ou plus."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:51
 msgid ""
 "\n"
-"\tThe source files are <a href=\"https://github.com/jithinbp/ExpEYES_android"
-"\">HERE</a>.\n"
-"        You need to have an\n"
-msgstr ""
-"Les fichiers sources sont <a href=\"https://github.com/jithinbp/"
-"expEYES_android\">ICI</a>. Il faut avoir un"
+"\tOpen Hardware and Free Software.\n"
+"      \n"
+msgstr "Matériel ouvert et logiciel libre."
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:248
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:112
 msgid ""
-"Clock\n"
-"          divider\n"
-msgstr "Diviseur d'horloge"
+"    Vendor should inform IUAC about the sales so that\n"
+"        we can keep track of the user community.\n"
+msgstr ""
+"    Les vendeurs sont censés informer l'IUAC des ventes afin qu'on puisse "
+"garder trace de la communauté des utilisateurs."
 
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:16
-#: /home/georgesk/expeyes-web/expeyes-web/design.html:16
-#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:16
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:16
-#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:16
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:20
-#: /home/georgesk/expeyes-web/expeyes-web/android.html:16
-#: /home/georgesk/expeyes-web/expeyes-web/header.html:16
-msgid "MicroHOPE"
-msgstr "MicroHOPE"
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:162
+msgid "Resistance"
+msgstr "Résistance"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:67
+msgid ""
+"\n"
+"\tSoftware is part of Debian &amp; Ubuntu\n"
+"      \n"
+msgstr "Le logiciel est intégré à Débian et Ubuntu"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:13
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:13
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:13
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:13
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:13
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:13
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:17
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:13
+#: /home/georgesk/expeyes-web/expeyes-web/header.html:13
+msgid "Software"
+msgstr "Logiciel"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:30
 msgid " - An Open Source Portable Science Lab"
 msgstr " - Un laboratoire de sciences portable à source ouverte"
 
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:26
-msgid "Selected for Google Summer of Code 2014."
-msgstr "Sélectionné pour le « Google Summer of Code » 2014"
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:12
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:12
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:12
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:12
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:12
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:12
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:16
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:12
+#: /home/georgesk/expeyes-web/expeyes-web/header.html:12
+msgid "How to Buy"
+msgstr "Où acheter"
 
-#: /home/georgesk/expeyes-web/expeyes-web/news.html:68
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:189
 msgid ""
-"<a href=\"http://linuxgazette.net/111/pramode.html\">Experiments Physics\n"
-"          with Phoenix and Python</a>, Feb-2005, by Pramode\n"
+"RLC\n"
+"          Transient\n"
+msgstr "RLC, régime transitoire"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:50
+msgid ""
+"12-Jan-12 : Went back to TC7660 since one\n"
+"        of the TC1240A failed during continuous testing, keeping both "
+"versions.\n"
 msgstr ""
-"<a href=\"http://linuxgazette.net/111/pramode.html\">Expériences de physique "
-"avec Phoenix et Python</a>, février 2005, par Pramode\n"
+"2012-01-12 : Retour au TC7660 comme un des TC1240A a échoué durant les tests "
+"approfondis, gardé les deux versions."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:??
 msgid ""
@@ -1640,6 +937,251 @@ msgid ""
 msgstr ""
 "Cliquez sur les icones ci-dessous pour des informations au sujet de\n"
 "quelques-unes des expériences présentées et documentées."
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
+msgid ""
+"<a href=\"http://www.pi-supply.com/product-category/raspberry-pi-add-on-"
+"boards/phoenix/\">Pi-Supply</a><br/>\n"
+"            Kent<br/>\n"
+"            United Kingdom<br/>\n"
+"            Phone : 01732590665<br/>\n"
+"            email: sales at pi-supply.com   <br/>\n"
+"\n"
+msgstr ""
+"<a href=\"http://www.pi-supply.com/product-category/raspberry-pi-add-on-"
+"boards/phoenix/\">Pi-Supply</a><br/>\n"
+"            Kent<br/>\n"
+"            United Kingdom<br/>\n"
+"            Tél. : 01732590665<br/>\n"
+"            Courriel : sales at pi-supply.com   <br/>\n"
+"\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:68
+msgid ""
+"31-Jan-12 : Attended the Technical Training\n"
+"        Seminar by Microchip. Fortunately Microchip released development "
+"tools,\n"
+"        MPLABX,  for GNU/Linux also.\n"
+msgstr ""
+"2012-01-31 : Assisté au Séminaire de Formation Technique par Microchip. "
+"Heureusement, Microchip a publié des outils de développement, MPLABX, pour "
+"GNU/Linux aussi."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:245
+msgid ""
+"555\n"
+"          monoshot\n"
+msgstr "Monostable 555"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:47
+msgid ""
+"Due to his efforts expEYES software is now part of Debian\n"
+"  GNU/Linux and it's derivatives like Ubuntu. He did the\n"
+"  localisation of software and documentation, French\n"
+"  versions are already available, Created a logo. Introduced\n"
+"  PHOENIX in Europe, first using in his school, then took to\n"
+"  others, resulted in a <a href=\"http://hackable-devices.org/shop/product/"
+"expeyes\">retailer\n"
+"  for expEYES</a> there. Manages  the <a href=\"https://github.com/expeyes"
+"\">expEYES\n"
+"  resository</a> on github. Suggested a lot of creative\n"
+"  ideas for the project.\n"
+msgstr "Grâce à ses efforts, le logiciel expEYES fait maintenant partie de Debian GNU/Linux et de ses dérivés comme Ubuntu. A fait l'internationalisation puis la localisation en français du logiciel et de la documentation, des versions en français sont actuellement disponibles, créé un logo. A introduit PHOENIX en Europe, en l'utilisant le premier dans son lycée, puis en le montrant à d'autres, ce qui a eu pour résultat <a href=\"http://hackable-devices.org/shop/product/expeyes\">un revendeur pour expEYES</a> therelocal. Gère le <a href=\"https://github.com/expeyes\">dépôt expEYES</a> sur github. A suggéré plusieurs idée créatives pour le projet."
+
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:49
+msgid "The Opening Screen of ExpEYES program"
+msgstr "L'écran d'accueil du programme expEYES"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:201
+msgid ""
+"AC\n"
+"          Generator\n"
+msgstr "Générateur de courant alternatif"
+
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:34
+msgid "<a href=\"Code/eyesj.py\">Python Library</a>, on the PC side"
+msgstr "<a href=\"Code/eyesj.py\">La bibliothèque Python</a>, du côté du PC"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:31
+msgid ""
+"5-Dec-2011 : Met <a href=\"http://www.che.iitb.ac.in/online/node/52\">Prof.\n"
+"          Kannan Moudgalya</a> and gave a demo expEYES.\n"
+msgstr ""
+"2011-12-05 : Rencontré <a href=\\\"http://www.che.iitb.ac.in/online/node/52\\"
+"\">Prof. Kannan Moudgalya</a> et fait une démonstration d'expEYES."
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
+msgid ""
+"<a href=\"http://s2s2.in/\">S2S2 Services</a><br/>\n"
+"            TV 33/268, Third Floor Elite Complex<br/>\n"
+"            Netaji Road, Kannur 670 001<br/>\n"
+"            Kerala<br/>\n"
+"            Ph: 09447449107<br/>\n"
+"            email : s2s2service at gmail.com <br/>\n"
+"\n"
+msgstr ""
+"<a href=\"http://s2s2.in/\">S2S2 Services</a><br/>\n"
+"            TV 33/268, Third Floor Elite Complex<br/>\n"
+"            Netaji Road, Kannur 670 001<br/>\n"
+"            Kerala<br/>\n"
+"            Tél. : 09447449107<br/>\n"
+"            Courriel : s2s2service at gmail.com <br/>\n"
+"\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:52
+msgid ""
+"Tested by writing the required C and Python\n"
+"        programs, like CRO. \n"
+msgstr "Testé en écrivant les programmes requis en C et Python, comme CRO."
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:138
+msgid "1-Jul-2012: Final PCB send for fabrication."
+msgstr "2011-12-29 : Circuit imprimé envoyé à la fabrication."
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:40
+msgid ""
+"Even though no Android version of expEYES\n"
+"        made, the<strong> idea of a very low cost device</strong> came up. "
+"I\n"
+"        decided to explore the options for lowering the cost further. A "
+"design\n"
+"        using Atmega328, from Atmel Corp., was made, using built-in 10 bit "
+"ADC\n"
+"        and PWM DAC. PCB size reduced to 9mm x6 mm\n"
+msgstr ""
+"Même si on n'a pas fait de version Android pour expEYES, l'<strong>idée d'un "
+"appareil très bon marché</strong> a émergé. J'ai décidé d'explorer les "
+"options pour diminuer le coût encore un peu. On a fait une concetion basée "
+"sur l'Atmega328, d'Atmel Corp, qui utilise les convertisserseurs analogique-"
+"numérique et numérique analogique 10 bit, et la modulation PWM. La taille du "
+"circuit imprimé a été réduite à 9mm &times; 6mm."
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:18
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:18
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:18
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:18
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:18
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:18
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:22
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:18
+#: /home/georgesk/expeyes-web/expeyes-web/header.html:18
+msgid "News"
+msgstr "Nouveautés"
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:88
+msgid ""
+"Pricing:<br/>\n"
+"      The development ExpEYES is done by Inter-University Accelerator "
+"Centre,\n"
+"      New Delhi. Since the objective of PHOENIX project is to make the "
+"products\n"
+"      available to maximum number of people, they  are kept royalty-free.\n"
+"      The cost of expEYES is depends on the cost of raw materials, labour\n"
+"      involved, and the sales overheads. The vendors have fixed the Maximum\n"
+"      Retail Price considering the expenses and paperwork involved in "
+"securing\n"
+"      orders and the delay in payments from institutions. However, they "
+"will\n"
+"      offer discount when payment is done in advance so that individual "
+"buyers\n"
+"      get it cheaper.\n"
+msgstr ""
+"Politique de prix :<br/>\n"
+"Le développement d'expEYES est fait par le « Inter-University Accelerator "
+"Centre », New Delhi. Comme l'objectif du projet PHOENIX est de rendre les "
+"produits accessibles au nombre maximum d'utilisateurs, il est distribué sans "
+"royalties. Le coût d'expEYES dépend du prix des matières premières, du "
+"travail nécessaire, et des bénéfices à la vente. Les vendeurs ont fixé le "
+"prix maximum conseillé en considérant les dépenses et le travail de "
+"sécurisation des factures et des délais dans le paiement par les "
+"institutions. Cependant, ils peuvent offrir des réductions si le paiement "
+"est fait d'avance, de telle façon que les acheteurs individuels puissent "
+"l'avoir meilleur marché."
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:97
+msgid ""
+"7-Apr-12: Again some changes in hardware.\n"
+"        Decided to provide only one amplifier. A digital output other that "
+"SQRs,\n"
+"        all using a CMOS buffer IC. Introduced TC1240A after some "
+"continuous\n"
+"        testing.\n"
+msgstr ""
+"2012-04-07 : Encore quelques changements matériels. Décidé de ne fournir "
+"qu'un seul amplificateur. Une sortie numérique autre que les lsignaux "
+"carrés, tous utilisant un circuit intégré CMOS amplificateur. Introduit le "
+"TC1240A après des tests approfondis."
+
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:34
+msgid ""
+"Requires\n"
+"        USB OTG support in hardware and the USB API software in the OS.\n"
+msgstr ""
+"Le support d'USB OTG est nécessaire au niveau matériel et dans l'API du "
+"pilote USB du système d'exploitation."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:216
+msgid ""
+"Light\n"
+"          Barrier\n"
+msgstr "Barrière lumineuse"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:192
+msgid ""
+"RC\n"
+"          integration \n"
+msgstr "Intégration RC"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:213
+msgid "Stroboscope"
+msgstr "Stroboscope"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:263
+msgid ""
+"Sound\n"
+"          Beats\n"
+msgstr "Battements sonores"
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
+msgid ""
+"Shankar Systems<br/>\n"
+"            Plot 21, Gali 6/2, Block C,<br/>\n"
+"            Dechave Enclave,<br/>\n"
+"            Najafgarh, NEW DELHI-110043.<br/>\n"
+"            Ph:- 09810841403<br/>\n"
+"            email : shankarsystemsdelhi1997 at gmail.com<br/>\n"
+"\n"
+msgstr ""
+"Shankar Systems<br/>\n"
+"            Plot 21, Gali 6/2, Block C,<br/>\n"
+"            Dechave Enclave,<br/>\n"
+"            Najafgarh, NEW DELHI-110043.<br/>\n"
+"            Tél. :- 09810841403<br/>\n"
+"            Courriel : shankarsystemsdelhi1997 at gmail.com<br/>\n"
+"\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:239
+msgid ""
+"Logic\n"
+"          gate\n"
+msgstr "Porte logique"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:??
+msgid ""
+"\n"
+"    This page contains links to various articles and presentations about "
+"expEYES\n"
+"    and the PHOENIX Project\n"
+"    \n"
+msgstr ""
+"Cette page contient des liens vers divers articles et présentations au sujet "
+"d'expEYES et du projet PHOENIX"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:266
+msgid ""
+"Sound\n"
+"          Velocity\n"
+msgstr "Vitesse du son"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:90
 msgid ""
@@ -1654,37 +1196,234 @@ msgstr ""
 "a>, qui demandait si expEYES fonctionne avec Raspberry Pi. Je lui ai demandé "
 "d'envoyer une carte Raspberry Pi."
 
-#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:45
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:28
 msgid ""
-"29-Dec-11 : PCB sent for fabrication. \n"
+"\n"
+"\tThe source files are <a href=\"https://github.com/jithinbp/ExpEYES_android"
+"\">HERE</a>.\n"
+"        You need to have an\n"
+msgstr ""
+"Les fichiers sources sont <a href=\"https://github.com/jithinbp/"
+"expEYES_android\">ICI</a>. Il faut avoir un"
+
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
+msgid "Audio Recording &amp; playback"
+msgstr "Enregistrement audio &amp; restitution"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:83
+msgid ""
+"Other people from IUAC who has contributed to this\n"
+"  project are: Jimson Sacharias, Kundan Singh,\n"
+"  Parmanand Singh, Deepak Munda and S Venkataramanan.\n"
+msgstr ""
+"Les autres personnes de l'IUAC qui ont contribué à ce projet sont : Jimson Sacharias, Kundan Singh,\n"
+"  Parmanand Singh, Deepak Munda et S Venkataramanan.\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:158
+msgid "AC &amp; DC"
+msgstr "Courant continu et alternatif"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:204
+msgid ""
+"Singing\n"
+"          magnet\n"
+msgstr "Aimant chanteur"
+
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:64
+msgid "MicroHOPE software"
+msgstr "Logiciel MicroHOPE"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:33
+msgid ""
+"9-Dec-2011 : Prof. Kannan arranged meeting\n"
+"        with N K Sinha, Director of NMEICT project, MHRD. Talked about the\n"
+"        possibility of using expEYES with the Akash tablet PC. Shri Sinha "
+"wanted\n"
+"        something costing only few hundred rupees. Also gave a demo at "
+"their\n"
+"        committee meeting. Submitted a proposal to NMEICT for some human\n"
+"        resource to conduct expEYES training programs and attended meeting "
+"on\n"
+"        26-Dec-11.\n"
+msgstr ""
+"2011-12-09 : Prof. Kannan a arrangé une rencontre avec N K Sinha, directeur "
+"du projet NMEICT. Parlé de la possibilité d'utiliser expEYES avec la "
+"tablette Akash. Shri Sinha voulait quelque chose qui coûte seulement "
+"quelques centaines de roupies. Donné aussi une démonstration durant la "
+"réunion de leur comité. Soumis une proposition au NMEICT pour une ressource "
+"humaine afin de mener des programmes de formation à expEYES et assisté à la "
+"réunion du 26 décembre 2011."
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:22
+msgid " ExpEYES is currently available from the following firms: "
+msgstr "ExpEYES est actuellement disponible chez les firmes suivantes :"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:230
+msgid ""
+"Fulwave\n"
+"          Rectifier\n"
+msgstr "Redressement double alternance"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:17
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:17
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:17
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:17
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:17
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:17
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:21
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:17
+#: /home/georgesk/expeyes-web/expeyes-web/header.html:17
+msgid "People"
+msgstr "L'équipe"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:114
+msgid ""
+"9-May-12: Did several iterations of\n"
+"        prototyping. Added a 1mA constant current source with ON/OFF "
+"control.\n"
+"        Firmware almost done. Wrote a CRO program with extra features. "
+"Drawings\n"
+"        of the plastic shell given for making the mould. Almost getting "
+"ready\n"
+"        for production.\n"
+msgstr ""
+"2012-05-09 : Plusieurs itérations de prototypes. Ajout d'une source de "
+"courant de 1 mA avec contrôle on/off."
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:111
+msgid ""
+"1-May-2012: A serial port version of\n"
+"        expEYES has been developed for Rpi. Communication tested between uC "
+"and\n"
+"        Rpi. The PCB has been send for fabrication.\n"
+msgstr ""
+"2012-05-01 : Un version port-série d'expEYES a été développée pour RPi. "
+"Communication testée entre le micro-contrôleur et le RPi. Le circuit imprimé "
+"a été envoyé à la fabrication."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:251
+msgid "AM and FM"
+msgstr "Modulation d'amplitude et de fréquence"
+
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:34
+msgid ""
+"       We start with simple C programs,\n"
+"      treating the uC as a device with programmable Input/Output pins, and "
+"then\n"
+"      introduce the peripherals like ADC, communication ports etc. The uC\n"
+"      architecture is explored using simple assembly language programs and "
+"LEDs\n"
+"      connected to the I/O ports. \n"
+msgstr ""
+"       On commence ave des programmes en C simples, qui traitent le micro-"
+"contrôleur comme un appareil avec des bornes d'entrée/sortie programmables, "
+"puis on introduit les périphériques comme de convertisseur analogique-"
+"numérique, les ports de communication, etc. L'architecture du micro-"
+"contrôleur est explorée à l'aide de programmes simples en assembleur et de "
+"DELs connectés aux ports d'entrée/sortie."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:45
+msgid ""
+"\n"
+"\t12bit analog resolution.\n"
 "      \n"
-msgstr "2011-12-29 : Circuit imprimé envoyé à la fabrication."
+msgstr "Résolution analogique 12 bit."
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:198
-msgid "Transformer"
-msgstr "Transformateur"
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:168
+msgid "Powerline Pickup"
+msgstr "Effet d'antenne"
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:189
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:29
+msgid "Project Title :"
+msgstr "Titre du projet :"
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:63
 msgid ""
-"RLC\n"
+"Sys-Con Engineering<br/>\n"
+"            53B Mirza Galib Street<br/>\n"
+"            Kolkata 700 016<br/>\n"
+"            Ph: 09830417377 , 033 40014680<br/>\n"
+"            email : sceskm at yahoo.com \n"
+msgstr ""
+"Sys-Con Engineering<br/>\n"
+"            53B Mirza Galib Street<br/>\n"
+"            Kolkata 700 016<br/>\n"
+"            Tél : 09830417377 , 033 40014680<br/>\n"
+"            courriel : sceskm at yahoo.com \n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:156
+msgid "EYES GUI"
+msgstr "Interface grphique EYES"
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
+msgid ""
+"<a href=\"http://www.svtechnocrafts.in/\">S.V. Techno Crafts</a><br/>\n"
+"            86, J.D. Nagar, Patamata,<br/>\n"
+"            VIJAYAWADA - 520010<br/>\n"
+"            Ph:  09440978459<br/>\n"
+"            email : pur.svtc@gmail.com<br/>\n"
+"\n"
+msgstr ""
+"<a href=\"http://www.svtechnocrafts.in/\">S.V. Techno Crafts</a><br/>\n"
+"            86, J.D. Nagar, Patamata,<br/>\n"
+"            VIJAYAWADA - 520010<br/>\n"
+"            Tél. : 09440978459<br/>\n"
+"            Courriel : pur.svtc@gmail.com<br/>\n"
+"\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:48
+msgid ""
+"<a href=\"http://www.dnaindia.com/bangalore/report_turning-your-pc-into-a-"
+"science-lab_1749442\">Turning\n"
+"          your PC into a Science Lab</a>, Oct 6, Daily News and Analysis\n"
+msgstr ""
+"<a href=\"http://www.dnaindia.com/bangalore/report_turning-your-pc-into-a-"
+"science-lab_1749442\">Transformez votre PC en labo de science</a>, 6 "
+"octobre, <i>Daily News and Analysis</i>"
+
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:??
+msgid ""
+"Reducing the\n"
+"        Total cost (ExpEYES + the Computer) has been one of our goals. "
+"ExpEYES\n"
+"        was tested earlier on the <a href=\"https://www.youtube.com/watch?"
+"v=oMFFx91vdKI\">Aakash2\n"
+"          tablet</a> running GNU/Linux. However most of the tablets\n"
+"        currently available in the market comes with Android installed. The\n"
+"        Android version of the ExpEYES software makes use of that to reduce "
+"the\n"
+"        total cost. It can also be installed from <a href=\"https://play."
+"google.com/store/search?q=expeyes&amp;c=apps\">Google\n"
+"        play store</a>. \n"
+msgstr ""
+"Un de nos buts a été de réduire le coût total (expEYES + ordinateur).\n"
+"expEYES a été testé plus tôt sur la\n"
+"<a href=\"https://www.youtube.com/watch?v=oMFFx91vdKI\">tablette Aakash2</"
+"a>\n"
+"sous GNU/Linux. Cependant la plupart des tablettes disponibles couramment\n"
+"viennent avec Android pré-installé. La version Android du logiciel expEYES\n"
+"se sert de ça pour réduire le coût total. On peut aussi l'installer à partir "
+"du\n"
+"<a href=\"https://play.google.com/store/search?q=expEYES&amp;c=apps\">\n"
+"Google play store</a>."
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:15
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:15
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:15
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:15
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:15
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:15
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:19
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:15
+#: /home/georgesk/expeyes-web/expeyes-web/header.html:15
+msgid "python"
+msgstr "python"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:186
+msgid ""
+"RL\n"
 "          Transient\n"
-msgstr "RLC, régime transitoire"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:210
-msgid ""
-"Blinking\n"
-"          LED\n"
-msgstr "DEL clignotante"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:97
-msgid "Resources to get started with ExpEYES:"
-msgstr "Ressources pour démarrer avec expEYES :"
-
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:207
-msgid ""
-"Driven\n"
-"          Pendulum\n"
-msgstr "Pendule entretenu"
+msgstr "RL, régime transitoire"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:62
 msgid ""
@@ -1704,9 +1443,410 @@ msgstr ""
 "de Pramode CE, pour une version 16 bit qui satisfasse les besoins, trouvé le "
 "PIC24FV32KA302. Supporté par gcc."
 
-#: /home/georgesk/expeyes-web/expeyes-web/index.html:281
-msgid "Pendulum"
-msgstr "Pendule"
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:14
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:14
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:14
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:14
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:14
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:14
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:18
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:14
+#: /home/georgesk/expeyes-web/expeyes-web/header.html:14
+msgid "Android"
+msgstr "Android"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:??
+msgid ""
+"16-May-12 : expEYES was announced on <a href=\"http://www.raspberrypi.org/"
+"archives/1228\">Raspberry\n"
+"          Pi</a> webpage. Getting resonably good feedback and enquiries "
+"about\n"
+"        availability. Planning to make USB &amp; Serial version (for Rpi), "
+"both\n"
+"        having almost identical layout.\n"
+msgstr ""
+"2012-05-16 : expEYES a été annoncé sur une page web de <a href=\\\"http://"
+"www.raspberrypi.org/archives/1228\\\">Raspberry Pi</a>. On a un feedback "
+"raisonnable et des réponses au sujet de l'approvisionnement. On fait des "
+"plans pour faire une version USB &amp; série (pour le RPi), avec un brochage "
+"pratiquement identique."
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:80
+msgid ""
+"13-Mar-12: Transmitted 1 million blocks, of\n"
+"        256bytes,  from uC to PC without any error. ADC seems to be at par\n"
+"        with the MCP3208 used in expEYES.\n"
+msgstr ""
+"2012-03-13 : Transmis 1 million de de blocs de 256 octets, du "
+"microcontrôleur au PC, sans une seule erreur. La conversion analogique-"
+"numérique semble de qualité comparable avec celle faite dans expEYES avec le "
+"MCP3208."
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:21
+msgid " Hardware Availability "
+msgstr "Disponibilité du matériel"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:65
+msgid ""
+"Ajith Kumar B.P. , RF &amp; Electronics Laboratory,\n"
+"    IUAC\n"
+msgstr ""
+"Ajith Kumar B.P. , RF &amp; Electronics Laboratory,\n"
+"    IUAC\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:??
+msgid ""
+"<a href=\"http://ijedict.dec.uwi.edu/viewarticle.php?id=1202\">Example\n"
+"          of PHOENIX usage at UPSI</a>, Malaysia, 2011\n"
+msgstr ""
+"<a href=\"http://ijedict.dec.uwi.edu/viewarticle.php?id=1202\">Exemple "
+"d'utilisation de PHOENIX à l'UPSI</a>, Malaisie, 2011\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:77
+msgid ""
+"Actively involved in this project from the beginning,\n"
+"  providing support in hardware fabrication and testing,\n"
+"  trouble shooting and , if required, modifying the analog\n"
+"  circuits involved. Did the analog circuits for the alpha\n"
+"  spectrometer. Also involved in the activities of the\n"
+"  teaching Lab maintenance.\n"
+msgstr "Activement impliqué dans ce projet depuis le début, fournissant de l'aide à la fabrication du matériel et pour les tests, les résolutions de problèmes, et si nécessaire, modifiant les circuits analogiques nécessaires. A réalisé les circuits analogiques pour le spectromètre alpha. Aussi impliqué dans les activités d'enseignement de la maintenance de laboratoire."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:97
+msgid "Resources to get started with ExpEYES:"
+msgstr "Ressources pour démarrer avec expEYES :"
+
+#: /home/georgesk/expeyes-web/expeyes-web/header.html:23
+msgid "T"
+msgstr "T"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:45
+msgid ""
+"29-Dec-11 : PCB sent for fabrication. \n"
+"      \n"
+msgstr "2011-12-29 : Circuit imprimé envoyé à la fabrication."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:180
+msgid ""
+"AC\n"
+"          Circuits\n"
+msgstr "Circuits en courant alternatif"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"\tProgrammer's Manual. Download from\n"
+"\t<a href=\"http://www.iuac.res.in/%7Eelab/expeyes/Documents/eyesj-progman."
+"pdf\">\n"
+"\t  here\n"
+"\t</a>\n"
+"        (or <a href=\"Documents/eyesj-progman.pdf\">here</a>)\n"
+"      \n"
+msgstr ""
+"Le manuel du programmeur. À télécharger depuis\n"
+"<a href=\"http://www.iuac.res.in/%7Eelab/expEYES/Documents/eyesj-progman.pdf"
+"\">\n"
+"ici</a> (ou <a href=\"Documents/eyesj-progman.pdf\">ici</a>)"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:26
+msgid ""
+"6-Nov-2011 : <a href=\"http://www.aero.iitb.ac.in/%7Eprabhu/\">Prabhu</a>,s\n"
+"        mail ..Looking forward to seeing you at <a href=\"http://scipy.in/"
+"scipyin/2011/talks-cfp/speakers/\">SciPy.in\n"
+"          2011</a>.\n"
+msgstr ""
+"2011-11-06 : e-mail de <a href=\\\"http://www.aero.iitb.ac.in/%7Eprabhu/\\"
+"\">Prabhu</a> « ..Looking forward to seeing you at <a href=\\\"http://scipy."
+"in/scipyin/2011/talks-cfp/speakers/\\\">SciPy.in 2011</a> »."
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:50
+msgid ""
+"<a href=\"http://www.downtoearth.org.in/content/lab-lap\">Lab on the Lap</"
+"a>,\n"
+"        Down to Earth Magazine, Jul 31, 2012\n"
+msgstr ""
+"<a href=\"http://www.downtoearth.org.in/content/lab-lap\">Labo sur le "
+"portable</a>, Magazine <i>Down to Earth Magazine</i>, 31 juillet 2012\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:123
+msgid ""
+"17-May-12 : Started testing and documenting\n"
+"        experiments for the new model. Modifying firmare and Python code\n"
+"        whereever required. Some modifications are done to the hardware "
+"also.\n"
+"        Trying to reach the final PCB at the earliest.\n"
+msgstr ""
+"2012-05-17 : Commncé à tester et à documenter les expériences pour le "
+"nouveau modèle. Modification du code firmware et Python pourtout où c'est "
+"nécessaire. Quelques modifications sont faites aussi au matériel. On essaie "
+"d'arriver au circuit imprimé final le plus tôt possible."
+
+#: /home/georgesk/expeyes-web/expeyes-web/design.html:??
+msgid ""
+"Design of ExpEYES<br/>\n"
+"<br/>\n"
+"      A simplified block diagram of ExpEYES is shown in the figure. The\n"
+"      sensor/control elements are connected to the micro-controller. The "
+"user\n"
+"      programs uses the Python Library to communicate to the micro-"
+"controller,\n"
+"      running a program, written in C and Assembler. The micro-controller\n"
+"      performs the control/measurement operations and sends the result back "
+"to\n"
+"      the PC. The job is divided according to the capabilities and strong "
+"points\n"
+"      of each device. The micro-controller does all the real time "
+"measurements\n"
+"      and pass on the results to the PC where Python code is used\n"
+"      for processing and displaying the data.\n"
+msgstr ""
+"Conception d'expEYES<br/>\n"
+"<br/>\n"
+"La figure présente un diagramme-bloc d'expEYES. Les\n"
+"éléments de contrôle et les capteurs sont connectés au micro-contrôleur.\n"
+"Les programmes utilisent la bibliothèque Python pour communiquer avec le\n"
+"micro-contrôleur, pour faire tourner le programme, écrit en C et en "
+"assembleur.\n"
+"Le micro-contrôleur effectue les opérations de contrôle/mesures et renvoie "
+"le\n"
+"résultat au PC. La division du travail est faite selon les points forts de\n"
+"chaque appareil. Le micro-contrôleur fait toute les mesures en temps réel\n"
+"et passe les résultats au PC où du code Python est utilisé pour traiter et\n"
+"afficher les données."
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:22
+msgid ""
+"The PHOENIX project started in 2005 and many people, both\n"
+"  from <a href=\"http://www.iuac.res.in/indexhighres.html\">IUAC</a>\n"
+"  and outside, has contributed at various stages. Only those\n"
+"  who have worked in developing equipment are mentioned\n"
+"  below. Equally important are the numerous members of the\n"
+"  academic community who took interest in it and worked for\n"
+"  spreading it, by conducting programs and also introducing\n"
+"  it to the syllabus at some places.\n"
+msgstr "Le projet PHOENIX a démarré en 2005 et beaucoup de personnes, tant de l'<a href=\\\"http://www.iuac.res.in/indexhighres.html\\\">IUAC</a> que de l'extérieur, ont contribué à diverses étapes. Seuls sont mentionnés ci-dessous ceux qui ont travaillé à developper l'équipement. Sont aussi importants les membres de la communauté éducative qui s'y sont intéressés et qui ont travaillé à le faire connaître, en menant des programmes de formation et aussi en l'introduisant dans la formation intiale à certains endroits."
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:87
+msgid ""
+"26-Mar-12: With assembler code ADC\n"
+"        blockread giving 250 ksample/sec sampling rate, Timer1 ISR is used.\n"
+"        Tested single channel block reads by capturing and fitting sine "
+"wave.\n"
+msgstr ""
+"2012-03-26 : Avec le code assembleur, la lecture de blocs du convertisseur "
+"analogique-numérique donne une vitesse d'échantillonnage de 250 kéch/s, on "
+"utilise l'ISR Timer1. Testé les lectures de blocs sur un canal en capturant "
+"et modélisant un signal sinusoïdal."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:??
+msgid ""
+"\n"
+"\tPython Programming of ExpEYES ,\n"
+"\t<a href=\"https://www.youtube.com/watch?v=5P5Qu1qnYWY\">\n"
+"\t  video\n"
+"\t</a>\n"
+"\n"
+msgstr ""
+"La programmation d'expEYES en Python,\n"
+"<a href=\"https://www.youtube.com/watch?v=5P5Qu1qnYWY\">\n"
+"en vidéo</a>"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:242
+msgid ""
+"555\n"
+"          oscillator\n"
+msgstr "Oscillateur 555"
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
+msgid ""
+"Fab.to.Lab  (<a href=\"http://fabtolab.com/index.php?route=product/"
+"product&amp;product_id=80\">Order\n"
+"              Online</a>)<br/>\n"
+"            Koramangala,<br/>\n"
+"            Bangalore – 560095<br/>\n"
+"            Ph: +91 8050032228/9<br/>\n"
+"            email: sales at fabtolab.com<br/>\n"
+"                <br/>\n"
+"\n"
+msgstr ""
+"Fab.to.Lab  (<a href=\"http://fabtolab.com/index.php?route=product/"
+"product&amp;product_id=80\">Commande en ligne</a>)<br/>\n"
+"            Koramangala,<br/>\n"
+"            Bangalore – 560095<br/>\n"
+"            Tél. : +91 8050032228/9<br/>\n"
+"            Courriel : sales at fabtolab.com<br/>\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:225
+msgid "Study LDR"
+msgstr "Étude d'une photorésistance"
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:115
+msgid ""
+"     Currently expEYES is available from several\n"
+"      vendors. However, it would be convenient if it is available from a "
+"local\n"
+"      store, especially for institution that cannot order online by making\n"
+"      advance payment. One option is to ask some computer vendor in your\n"
+"      locality to become a dealer of expEYES. They will be able to sell at "
+"the\n"
+"      same price by getting commission from the manufacturers.\n"
+msgstr ""
+"     Actuellement expEYES est disponible chez plusieurs vendeurs. Cependant, "
+"il serait convenable qu'il soit disponible chez un magasin local, "
+"particulièrement pour les institutions qui ne peuvent pas commander en ligne "
+"selement en payant d'avance. Une oprion est de demander à un vendeur "
+"d'ordinateurs dans votre ville de devenir revendeur d'expEYES. Il pourra "
+"vendre au même prix en recevant une commission des fabricants."
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:34
+msgid "Short description:"
+msgstr "Description courte :"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:29
+msgid ""
+"Plugins\n"
+"        for ExpEYES\n"
+msgstr "Greffons pour expEYES"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:269
+msgid ""
+"Ultra-sound\n"
+"          \n"
+msgstr "Ultra-sons"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:71
+msgid ""
+"9-Feb-12 : Sent PIC24 uC based PCB for\n"
+"        fabrication.\n"
+msgstr ""
+"2012-02-09 : Envoyé le ciruit imprimé basé sur un microcontrôleur PIC à la "
+"fabrication."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:236
+msgid "Transistor-CE"
+msgstr "Caractéristique CE d'un transitor"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:177
+msgid ""
+"AC\n"
+"          and DC Separation\n"
+msgstr "Séparation de composantes continue et alternative"
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:110
+msgid ""
+"    The prototype approved by IUAC should be duplicated\n"
+"        without changes\n"
+msgstr ""
+"    Le prototype validé par l'IUAC doit être dupliqué sans modifications."
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:32
+msgid ""
+"<strong>Mentors:</strong> Mario Behling, Phuc Hau &amp;\n"
+"      Hong Phuc\n"
+msgstr ""
+"<strong>Mentors :</strong> Mario Behling, Phuc Hau &amp;\n"
+"      Hong Phuc\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:??
+msgid ""
+"<a href=\"http://2010.rmll.info/Experimental-Physics-with-Phoenix-and-Python."
+"html?lang=fr\">PHOENIX\n"
+"          presentation</a>, by Kishore, accepted for RMLL2010\n"
+msgstr ""
+"<a href=\"http://2010.rmll.info/Experimental-Physics-with-Phoenix-and-Python."
+"html?lang=fr\">Présentation de PHOENIX</a>, par Kishore, accepté pour "
+"RMLL2010\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/news.html:26
+msgid "Selected for Google Summer of Code 2014."
+msgstr "Sélectionné pour le « Google Summer of Code » 2014"
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:148
+msgid ""
+"20-Aug-2012: First lot of commercial\n"
+"        production started.\n"
+msgstr "2012-08-20 : Démarrage du premier lot de production commerciale."
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:222
+msgid ""
+"Gravity\n"
+"          by Pendulum\n"
+msgstr "Détermination de la gravité avec un pendule"
+
+#: /home/georgesk/expeyes-web/expeyes-web/people.html:32
+msgid ""
+"<a href=\"http://pramode.net/\">Pramode C E</a>, IC\n"
+"    Software, Trissur, Kerala\n"
+msgstr ""
+"<a href=\"http://pramode.net/\">Pramode C E</a>, IC\n"
+"    Software, Trissur, Kerala\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:48
+msgid ""
+"\n"
+"\tMicrosecond timing resolution.\n"
+"      \n"
+msgstr "Résolution temporelle d'une microseconde."
+
+#: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:108
+msgid ""
+"20-Apr-2012: expEYES tested on Rpi.\n"
+"        Everything is fine except a USB error that allows only keyboard or "
+"mouse\n"
+"        along with expEYES. Bug report filed.\n"
+msgstr ""
+"2012-04-20 : test de expEYES sur Raspberry Pi. Tout va bien sauf une erreur "
+"USB qui autorise seulement le clavier ou la souris en même temps qu'expEYES. "
+"Envoi d'un rapport de bug."
+
+#: /home/georgesk/expeyes-web/expeyes-web/android.html:36
+msgid ""
+"\n"
+"\t  The downside of the Android version is that one cannot\n"
+"        write simple Python scripts to develop new experiments, as done on "
+"the\n"
+"        GNU/Linux version. An option to execute a sequence of function call "
+"is\n"
+"        provided to remedy this.\n"
+msgstr ""
+"L'inconvénient de la version Android est qu'on ne peut pas écrire des "
+"scripts\n"
+"Python simples pour développer de nouvelles expériences, comme cela se fait\n"
+"dans la version GNU/Linux. Une option reste d'exécuter une séquence "
+"d'appels\n"
+"de fonction mises à disposition pour y remédier."
+
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
+msgid "Hardwere"
+msgstr "Matériel"
+
+#: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
+msgid "Library and Examples"
+msgstr "Bibliothèque et exemples"
+
+#: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
+msgid ""
+"Vibrant Systems and Softwares<br/>\n"
+"            1/4869H, 1st Floor Koyisco Building,<br/>\n"
+"            Wyanad Road, East Nadakkavu,<br/>\n"
+"            Calicut-673011.<br/>\n"
+"            Ph: 9847193371.<br/>\n"
+"            email: vibsys_n_soft at yahoo.com<br/>\n"
+"\n"
+msgstr ""
+"Vibrant Systems and Softwares<br/>\n"
+"            1/4869H, 1st Floor Koyisco Building,<br/>\n"
+"            Wyanad Road, East Nadakkavu,<br/>\n"
+"            Calicut-673011.<br/>\n"
+"            Tél. : 9847193371.<br/>\n"
+"            Courriel : vibsys_n_soft at yahoo.com<br/>\n"
+"\n"
+
+#: /home/georgesk/expeyes-web/expeyes-web/index.html:210
+msgid ""
+"Blinking\n"
+"          LED\n"
+msgstr "DEL clignotante"
 
 #~ msgid "<b>Student : </b>Praveen Patil"
 #~ msgstr "<b>Étudiant :</b> Praveen Patil"
