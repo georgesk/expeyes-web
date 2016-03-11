@@ -10,32 +10,32 @@
         width="420" alt="eyes-logo"/></a>
     <div id="mynb">
       <ul>
-        <li><a href="../design.html"> <span>Design</span></a></li>
-        <li><a href="../hardware.html"> <span>How to Buy</span></a></li>
-        <li><a href="../software.html"> <span>Software</span></a></li>
-        <li><a href="../android.html"> <span>Android</span></a></li>
-        <li><a href="../python.html"> <span>python</span></a></li>
-        <li><a href="../microhope.html"><span>MicroHOPE</span></a></li>
-        <li><a href="../people.html"> <span>People</span></a></li>
-        <li><a href="../news.html"><span>News</span></a></li>
+        <li><a href="../design.html"> <span class="tr">Design</span></a></li>
+        <li><a href="../hardware.html"> <span class="tr">How to Buy</span></a></li>
+        <li><a href="../software.html"> <span class="tr">Software</span></a></li>
+        <li><a href="../android.html"> <span class="tr">Android</span></a></li>
+        <li><a href="../python.html"> <span class="tr">python</span></a></li>
+        <li><a href="../microhope.html"><span class="tr">MicroHOPE</span></a></li>
+        <li><a href="../people.html"> <span class="tr">People</span></a></li>
+        <li><a href="../news.html"><span class="tr">News</span></a></li>
       </ul>
     </div>
-    <h3>Period of a Pendulum, value of 'g'</h3>
-    <p> Period of oscillation of a pendulum can be measured by allowing it to
+    <h3 class="tr">Period of a Pendulum, value of 'g'</h3>
+    <p class="tr"> Period of oscillation of a pendulum can be measured by allowing it to
       intercept a beam of light falling on a photo-transistor. The LED is
       powered by SQR1 and the photo-transistor collector is connected to SEN,
       which goes to the internal analog comparator of the micro-controller.
       Oscillate the pendulum and measure the time period between alternate
       interceptions, count only for one direction. </p>
-    <p><span>import expeyes.eyesj, sys<br/>
+    <p class="tr">import expeyes.eyesj, sys<br/>
         p = expeyes.eyesj.open()<br/>
         p.set_sqr1(0)        # set SQR1 HIGH
         to light LED<br/>
         for k in range(10):<br/>
-            print p.multi_r2rtime(0,1)</span>   #
+            print p.multi_r2rtime(0,1)   #
       Rising edge to rising edge on comparator output, skip one edge in between
     </p>
-    <p>643253.0<br/>
+    <p class="tr">643253.0<br/>
       643262.0<br/>
       643251.0<br/>
       643273.0<br/>
@@ -45,10 +45,9 @@
       643205.0<br/>
       643252.0<br/>
       643228.0</p>
-    <p>Acceleration due to gravity can be calculated from the period measured.
-      Since we have used a rod pendulum, the relation</p>
-    <p>is g = 4 * pi * pi * L / (T*T) = 4*pi**2*15.4/.6432**2*2/3 = 979.7</p>
-    <p>Don't get exited with the accuracy of the result. It might have come
+    <p class="tr">Acceleration due to gravity can be calculated from the period measured.
+      Since we have used a rod pendulum, the relation is g = 4 * pi * pi * L / (T*T) = 4*pi**2*15.4/.6432**2*2/3 = 979.7</p>
+    <p class="tr">Don't get exited with the accuracy of the result. It might have come
       closer to the actual value due to the error in measuring the length. What
       really maters is the small spread in the measured value. The frequency
       change due to large amplitudes can be easily observed.</p>
