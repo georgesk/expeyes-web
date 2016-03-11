@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <link rel="stylesheet" type="text/css" href="../css/menu.css">
-    <meta name="keywords" content="expeyes, experiment, science, usb interface, engineering">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <link rel="stylesheet" type="text/css" href="../css/menu.css"/>
+    <meta name="keywords" content="expeyes, experiment, science, usb interface, engineering"/>
     <title>pers. vision</title>
   </head>
   <body> <a href="../index.html"><img src="../images/eyes-logo.png" height="100"
-        width="420"></a>
+        width="420" alt="eyes-logo"/></a>
     <div id="mynb">
       <ul>
         <li><a href="../design.html"> <span>Design</span></a></li>
@@ -28,20 +28,25 @@
       Connection: SQR1 --LED-- GND. No need of series resistor since SQR1 comes
       out via a 100 Ohm resistor. </p>
     <p>The program listed below gives a slider to change the SQR1 frequency.</p>
-    <p><br>
-      from Tkinter import *<br>
-      import expeyes.eyesj<br>
-      p=expeyes.eyesj.open()<br>
-      <br>
-      def set_freq(w):<br>
-      &nbsp;&nbsp;&nbsp; state = int(Sqr1.get())<br>
-      &nbsp;&nbsp;&nbsp; fr = float(Sqr1.get())<br>
-      &nbsp;&nbsp;&nbsp; res = p.set_sqrs(fr)<br>
-      <br>
-      w = Tk()<br>
+    <p><br/>
+      from Tkinter import *<br/>
+      import expeyes.eyesj<br/>
+      p=expeyes.eyesj.open()<br/>
+      <br/>
+      def set_freq(w):<br/>
+          state = int(Sqr1.get())<br/>
+          fr = float(Sqr1.get())<br/>
+          res = p.set_sqrs(fr)<br/>
+      <br/>
+      w = Tk()<br/>
       Sqr1 = Scale(w,command = set_freq, orient=HORIZONTAL, length=200,
-      showvalue=True, from_ = 1, to=50, resolution=.1)<br>
-      Sqr1.pack()<br>
+      showvalue=True, from_ = 1, to=50, resolution=.1)<br/>
+      Sqr1.pack()<br/>
       w.mainloop()</p>
   </body>
 </html>
+<!--
+ Local Variables:
+ mode: nxml
+ End:
+-->

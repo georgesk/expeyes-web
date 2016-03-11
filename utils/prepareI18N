@@ -1,0 +1,18 @@
+#!/bin/sh
+
+if [ $# -lt 1 ]; then
+    echo USAGE: $0 fileToPrepare.html
+    exit 1
+fi
+
+
+f=$1 # first argument: the file which must be prepared
+
+g=$f.tmp
+
+sed -e '$ a <!--\n Local Variables:\n mode: nxml\n End:\n-->'\
+    -e 's/&nbsp;/ /g' -e 's%<br>%<br/>%g'\
+    -e 's%\(<link.*\)>%\1/>%'  -e 's%\(<meta.*\)>%\1/>%'\
+    -e 's% width="420">% width="420" alt="eyes-logo"/>%'\
+    -e 's%<\(img[^>]*\)>%<\1/>%' -e 's%<html>%<html xmlns="http://www.w3.org/1999/xhtml">%'\
+    $f > $g && mv $g $f
