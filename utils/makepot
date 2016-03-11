@@ -12,6 +12,15 @@ def has_class_tr(tag):
 
 tagpattern=re.compile(r"<[^>]+>(.*)</[^>]+>(.*)", re.MULTILINE|re.DOTALL)
 
+def protectTag(tag):
+    """
+    returns a protected version of a string where special characters which
+    can be interpreted in a regular expression are escaped
+    @param tag a string
+    @return a string with excaped characters
+    """
+    return tag.replace("*",r"\*").replace("?",r"\?").replace("(",r"\(").replace(")",r"\)")
+
 def stripTag(tag, f, lines):
     """
     @param tag a tag isolated by BeautifulSoup
@@ -23,7 +32,7 @@ def stripTag(tag, f, lines):
     m=tagpattern.match(str(tag))
     innerHTML=m.group(1)
     f.seek(0)
-    found=re.finditer(str(tag), f.read(), re.MULTILINE)
+    found=re.finditer(protectTag(str(tag)), f.read(), re.MULTILINE)
     matchinglines=[]
     for s in found:
         l= next(i for i in range(len(lines)) if lines[i]>s.start())
