@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: expEYES website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-22 20:21+0200\n"
-"PO-Revision-Date: 2016-03-06 19:51+0100\n"
+"PO-Revision-Date: 2016-03-12 17:03+0100\n"
 "Last-Translator: Georges Khaznadar <georgesk@debian.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -26,17 +26,13 @@ msgid ""
 "      function of temperature. It is connected to a constant current source "
 "and\n"
 "      the voltage drop is amplified and recorded. \n"
-msgstr ""
+msgstr "On enregistre la température de l'eau qui refroidit en fonction du temps, à l'aide d'une sonde de température PT100. On répète l'expérience avec de l'eau colorée, en ajoutant un peu de permangante de potassium. La résistance d'un capteur PT100 est une fonction de la température. On la connecte à une source de courant constant et la chute de tension est amplifiée et enregistrée."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "Filter\n"
-#| "          Circuits\n"
 msgid ""
 "Transient\n"
 "          Response of RC circuits\n"
-msgstr "Circuits de filtrage"
+msgstr "Réponse transitoire de circuits RC"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/rc-transient.html:24
 msgid ""
@@ -48,20 +44,18 @@ msgid ""
 "      with the equation. The capacitor charging is exponential only when it "
 "is\n"
 "      through a linear element like a resistor. \n"
-msgstr ""
+msgstr "On étudie la réponse transitoire de circuits RC. Les changements de tension aux bornes du condensateur après l'application d'un échelon de tensio à travers une résistance sont représentés. La constante de temps RC est calculée en modélisant la courbe de décharge avec l'équation. La charge du condensateur est exponentielle seulement quand elles se produit à travers un élément linéaire tel qu'un conducteur ohmique."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:88
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/capacitance.html:23
-#, fuzzy
-#| msgid "Capacitance"
 msgid "Measuring Capacitance"
-msgstr "Capacité électrique"
+msgstr "Mesure de capacité électrique"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/resistance.html:30
 msgid ""
 "Voltage measured at IN1 (across 1k\n"
 "        resistor) = 1.254\n"
-msgstr ""
+msgstr "Tension mesurée à l'entrée IN1 (à travers une résistance de 1k) = 1,254"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:12
 #: /home/georgesk/expeyes-web/expeyes-web/design.html:12
@@ -142,7 +136,7 @@ msgid ""
 " A voltage controller oscillator is connected to PVS to generate a\n"
 "      sinewave. The amplitude of the sinewave is measured by scanning the\n"
 "      frequency. \n"
-msgstr ""
+msgstr "Un oscillateur commandé en tension est connecté à la sortie PVS pour générer un signal sinusoïdal. L'amplitude de ce signal est mesurée en scannant la fréquence."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/rl-transient.html:24
 msgid ""
@@ -160,7 +154,7 @@ msgid ""
 "      value of inductor is obtained. We have used a 1k resistor and a 3000 "
 "turns\n"
 "      coil of SWG44 wire. \n"
-msgstr ""
+msgstr "On étudie la réponse transitoire d'un circuit RL en appliquant un échelon de tension et en observant la tension au bornes de l'inductance en fonction du temps.  Connecter la résistance entre OD1 et A1 et l'inductance entre A1 et la masse (GND). En réponse à l'échelon 5-&gt;0 V, la tension aux bornes de l'inductance devient soudainement proche de -3 V (la force contre-électromotrice) puis se décharge exponentiellement à travers la résistance. Le quotient R/L est calculé en modélisant la courbe et on obtient la valeur de L. On utilise une résistance de 1k et une bobine de 3000 tours de fil SWG44."
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -194,7 +188,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/555-monoshot.html:23
 msgid "IC555 Monostable Multivibrator"
-msgstr ""
+msgstr "Multivibrateur Monostable à circuit 555"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:68
 msgid ""
@@ -215,17 +209,17 @@ msgstr "DEL clignotante"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:102
 msgid "IC555 monoshot circuit"
-msgstr ""
+msgstr "Monostable à circuit 555"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:119
 msgid "Cooling curve, water"
-msgstr ""
+msgstr "Courbe de refroisiddement, eau"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
 msgid ""
 "Measuring\n"
 "          resistance, by comparison\n"
-msgstr ""
+msgstr "Mesure de résistance, par comparaison"
 
 #: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
 msgid "Infrared Receiver"
@@ -271,11 +265,11 @@ msgstr "RLC, régime transitoire"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:125
 msgid "Cantilever, oscillations"
-msgstr ""
+msgstr "Oscillations, cantilever"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:44
 msgid "Phase difference of AC waveforms"
-msgstr ""
+msgstr "Déphasage de signaux alternatifs"
 
 #: /home/georgesk/expeyes-web/expeyes-web/people.html:83
 msgid ""
@@ -289,7 +283,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:69
 msgid "Sound from a Magnet"
-msgstr ""
+msgstr "Faire un son avec un aimant"
 
 #: /home/georgesk/expeyes-web/expeyes-web/people.html:32
 msgid ""
@@ -303,7 +297,7 @@ msgstr ""
 msgid ""
 " Thermistor: Resistance changes considerably with temperature. Positive\n"
 "      and negative temperature coefficient versions available.\n"
-msgstr ""
+msgstr "Thermistances : leur résistance change considérablement avec la température. Il en existe avec des coefficients de température positifs ou négatifs."
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:16
 #: /home/georgesk/expeyes-web/expeyes-web/design.html:16
@@ -368,15 +362,15 @@ msgstr "MicroHOPE"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/ac-circuits.html:30
 msgid "Resistor = 1000 Ohm,  Inductor = 300 mH, 5Ohms , Capacitor = 1 uF "
-msgstr ""
+msgstr "Résistance = 1000 Ohm ; inductance = 300 mH ; capacité = 1 µF"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/resistance.html:29
 msgid "Voltage applied to PVS = 4.0 volts"
-msgstr ""
+msgstr "Tension appliquée au PVS = 4,0 V"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:87
 msgid "Filter Circuit, Frequency &amp; Phase"
-msgstr ""
+msgstr "Circuit de filtre, fréquence et phase"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/555-oscillator.html:??
 msgid ""
@@ -387,7 +381,7 @@ msgid ""
 "      HIGH. The frequency is given by f = 1/ (ln 2 × C × (R1 + 2R2 )). The "
 "HIGH\n"
 "      time is given by ln 2×C ×(R1 + R2 ) and LOW time by ln 2 × C × R2 . \n"
-msgstr ""
+msgstr "Un multivibrateur astable est réalisé à l'aide d'un circuit 555, la fréquence et le rapport cyclique sont mesurées à la sortie. Le circuit et le signal de sortie sont montés ci-dessous. L'alimentation 5V pour le circuit 555 est fournie par OD1, en réglant la sortie à HAUT. La fréquence est donnée par f = 1/ (ln 2 × C × (R1 + 2R2 )). La durée correspondant au signal HAUT est donnée par ln 2×C ×(R1 + R2 ) et la durée du signal BAS par ln 2 × C × R2."
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:148
 msgid ""
@@ -442,21 +436,21 @@ msgstr "Matériel"
 msgid ""
 "Current = V/R = 1.254/1000 = 1.254 mA . The same amount of current\n"
 "        flows through the unknown resistor.\n"
-msgstr ""
+msgstr "Courant = U/R = 1,254/1000 = 1,254 mA. Un courant de même valeur traverse la résistance inconnue."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:49
 msgid ""
 "The sliders on right sides can be used\n"
 "          for adding offset to traces.\n"
-msgstr ""
+msgstr "Les ascenseurs sur le côté droit peuvent être utilisés pour ajouter un décalage aux traces."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:41
 msgid "Channel removed by dragging it to DEL"
-msgstr ""
+msgstr "On efface un canal en le tirant vers DEL"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:121
 msgid "Cooling curve, opaque solutions"
-msgstr ""
+msgstr "Courbe de refroidissement, solution opaque"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:56
 msgid ""
@@ -470,7 +464,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/driven-pendulum.html:23
 msgid "Driven Pendulum, Resonance"
-msgstr ""
+msgstr "Pendule entretenu, résonance"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:180
 msgid ""
@@ -493,33 +487,21 @@ msgstr ""
 "TC1240A après des tests approfondis."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "RC\n"
-#| "          integration \n"
 msgid ""
 "Squarewave\n"
 "          to RC circuit, Integration\n"
-msgstr "Intégration RC"
+msgstr "Signal carré dans un circuit RC, intégration"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:??
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\tPython Programming of ExpEYES ,\n"
-#| "\t<a href=\"https://www.youtube.com/watch?v=5P5Qu1qnYWY\">\n"
-#| "\t  video\n"
-#| "\t</a>\n"
-#| "\n"
 msgid ""
 "Videos on using the GUI:   <a href=\"https://www.youtube.com/watch?"
 "v=uCOGrrcaS_A\">video1</a>\n"
 "<br/>\n"
 "\n"
 msgstr ""
-"La programmation d'expEYES en Python,\n"
-"<a href=\"https://www.youtube.com/watch?v=5P5Qu1qnYWY\">\n"
-"en vidéo</a>"
+"Vidéos sur l'utilisation de l'interface graphique : <a href=\"https://www.youtube.com/watch?v=uCOGrrcaS_A\">vidéo1</a>\n"
+"<br/>\n"
+"\n"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:47
 msgid ""
@@ -538,10 +520,6 @@ msgid "Project Title :"
 msgstr "Titre du projet :"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/half-wave.html:23
-#, fuzzy
-#| msgid ""
-#| "Halfwave\n"
-#| "          Rectifier\n"
 msgid "Halfwave Rectifier"
 msgstr "Redressement demi-onde"
 
@@ -554,7 +532,7 @@ msgstr "Matériel ouvert et logiciel libre."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/sound-velocity.html:23
 msgid "Velocity of Sound"
-msgstr ""
+msgstr "Vitesse du son"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -576,11 +554,11 @@ msgid ""
 "material\n"
 "      and the dimensions. The 27 mm diameter disc used in this case has a\n"
 "      resonant frequency of around 3800 Hz. \n"
-msgstr ""
+msgstr "Le matériau piézoélectrique subit des compressions et des expansions sous l'effet de la tension appliquée. La fréquence de résonance dépend du matériau de support et des dimensions. Le disque de 25 mm de diamètre utilisé dans ce cas a une fréquence de résonance proche de 3800 Kz."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:99
 msgid "FET, DS Characteristic"
-msgstr ""
+msgstr "Transistor à effet de champ, caractéristique DS"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/rc-integration.html:36
 msgid ""
@@ -589,7 +567,7 @@ msgid ""
 "      spike at every rising edge of the input and a negative spike every "
 "falling\n"
 "      edge \n"
-msgstr ""
+msgstr "    on différencie un signal carré de 100 Hz à l'aide du circuit RC montré ci-dessous. Dans un cas idéal, le signal de sortie devrait être un pic positif à chaque front montant du signal d'entrée et un pic négatif à chaque front descendant."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/driven-pendulum.html:24
 msgid ""
@@ -601,7 +579,7 @@ msgid ""
 "button\n"
 "      magnets. The distance from the center of the magnet to the point of\n"
 "      suspension is taken as its length. \n"
-msgstr ""
+msgstr "Si on excite un oscillateur à sa fréquence de résonance naturelle il ira plus haut, c'est à dire à son amplitude maximale. On réalise un pendule à l'aide d'un aimant suspendu à un bout de papier et l'excitation est réalisée à l'aide d'un bobinage alimenté par SQR1. Une extrémité d'une bande de papier repliée est pincée entre deux aimants-boutons. La distance du centre de l'aimant au point de suspension est prise comme longueur de ce pendule."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:??
 msgid ""
@@ -616,7 +594,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:120
 msgid "Cooling curve, coloured solutions"
-msgstr ""
+msgstr "Courbe de refroidissement, solution colorée"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:62
 msgid ""
@@ -633,19 +611,19 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:108
 msgid "Op-amp Integrator"
-msgstr ""
+msgstr "Intégrateur à amplificateur opérationnel"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/logic-gates.html:23
 msgid "Study of Logic Gates"
-msgstr ""
+msgstr "Étude de portes logiques"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/resistance.html:23
 msgid "Measuring resistance by comparison"
-msgstr ""
+msgstr "Mesure de résistances par comparaison"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/ultra-sound.html:23
 msgid "Velocity of sound, using 40kHz piezo"
-msgstr ""
+msgstr "Vitesse du son, à l'aide d'un piézo 40 kHz"
 
 #: /home/georgesk/expeyes-web/expeyes-web/android.html:34
 msgid ""
@@ -664,7 +642,7 @@ msgid ""
 "      which goes to the internal analog comparator of the micro-controller.\n"
 "      Oscillate the pendulum and measure the time period between alternate\n"
 "      interceptions, count only for one direction. \n"
-msgstr ""
+msgstr "La période d'oscillation d'un pendule peut être mesurée en le laissant couper un faisceau de lumière qui arrive sur un photo-transistor. La DEL est alimentée par SQR1 et le collecteur du phototransistor est connecté à l'entrée SEN, qui est reliée au comparateur analogique du micro-contrôleur. Mettre le pendule en oscillation et mesurer la période entre interceptions successives ; compter dans une direction seulement."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/clock-divider.html:24
 msgid ""
@@ -673,11 +651,11 @@ msgid ""
 "duty\n"
 "      cycle is always 50% irrespective of the input waveform dutycycle. The\n"
 "      flipflop toggles the output at every rising edge of the clock input. \n"
-msgstr ""
+msgstr "On câble un diviseur de fréquence à l'aide de bascules de type D, basées sur le circuit TTL 7474. Le schéma et le signal sont montrés ci-dessous. Le rapport cyclique est toujours 50 % quel que soit le rapport cyclique du signal d'entrée. La bascule modifie l'état logique de la sortie à chaque front montant de l'entrée d'horloge."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:128
 msgid "Velocity of moving body, photogates"
-msgstr ""
+msgstr "Vitesse de mobiles, à l'aide de barrières photo-électriques"
 
 #: /home/georgesk/expeyes-web/expeyes-web/design.html:??
 msgid ""
@@ -714,7 +692,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/rc-transient.html:23
 msgid "Transient response of RC Circuit"
-msgstr ""
+msgstr "Réponse transitoire d'un circuit RC"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:80
 msgid ""
@@ -729,7 +707,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/transistor-ce.html:23
 msgid "Transistor CE characteristic"
-msgstr ""
+msgstr "Caractéristique CE d'un transistor"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:38
 msgid ""
@@ -844,17 +822,13 @@ msgstr "Ressources pour démarrer avec expEYES :"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:107
 msgid "2bit Binary Counter"
-msgstr ""
+msgstr "Compteur binaire 2 bit"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "Filter\n"
-#| "          Circuits\n"
 msgid ""
 "Linear\n"
 "          Charging of Capacitor\n"
-msgstr "Circuits de filtrage"
+msgstr "Charle linéaire d'un condensateur"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:48
 msgid ""
@@ -905,7 +879,7 @@ msgid ""
 "      really maters is the small spread in the measured value. The "
 "frequency\n"
 "      change due to large amplitudes can be easily observed.\n"
-msgstr ""
+msgstr "Il ne faut pas trop s'enthousiasmer de la précision du résultat. On pourrait arriver plus près de la vraie valeur grâce à une erreur dans la mesure de longueur. Ce qui compte vraiment c'est la faible dispersion des valeurs mesurées. Le changement de fréquence dû à des grandes amplitudes s'observe aisément."
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:15
 #: /home/georgesk/expeyes-web/expeyes-web/design.html:15
@@ -980,7 +954,7 @@ msgid ""
 "      voltage across R from the total. The phase relationships and the "
 "vector\n"
 "      diagrams are graphically displayed.\n"
-msgstr ""
+msgstr "On peut utiliser expEYES pour l'étude d'éléments résistifs, inductifs et capacitifs en alternatif. On connecte R, L et C en série. La tension totale et la tension aux bornes de la résistance sont mesurées en fontion du temps. La tensio aux bornes de l'association LC est obtenue par soustraction de la tension aux bornes de R du total. Le déphasage et le diagramme des vecteurs de Fresnel sont présentés sous forme graphique."
 
 #: /home/georgesk/expeyes-web/expeyes-web/software.html:??
 msgid ""
@@ -1004,7 +978,7 @@ msgid ""
 "ones\n"
 "      already tested.\n"
 "    \n"
-msgstr ""
+msgstr "La liste des activités qu'on peut faire à l'aide d'expEYES Junior ; les premières permettent de se familiariser avec le matériel. Des liens sont disponibles, pour celles qui sont déjà testées."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:260
 msgid ""
@@ -1031,7 +1005,7 @@ msgstr ""
 msgid ""
 "WLO -- Wait for LOW on  the\n"
 "        selected input\n"
-msgstr ""
+msgstr "WLO -- attente d'un état BAS sur l'entrée sélectionnée"
 
 #: /home/georgesk/expeyes-web/expeyes-web/people.html:22
 msgid ""
@@ -1064,7 +1038,7 @@ msgid ""
 "      given to SEN via a PN junction diode. The time from a falling edge on "
 "OD1\n"
 "      to a rising edge on SEN is measured using software. \n"
-msgstr ""
+msgstr "On peut calculer l'accélération de la gravité en mesurant le temps que met un objet soumis à la gravité pour tomber d'une hauteur donnée. Une bille de métal est retenue par un électro-aimant alimenté par OD1. Un haut-parleur produit un signal électrique quand la bille touche la surface. Celui-ci est amplifié et envoyé vers l'entrée SEN à travers la jonction PN d'une diode. La durée depuis le front descendant sur OD1 jusqu'au front montant sur SEN est mesuré par le logiciel."
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:29
 msgid ""
@@ -1085,7 +1059,7 @@ msgid ""
 "      the length of the wire and its proximity to the power line. Try doing "
 "this\n"
 "      using a laptop, far away from AC power lines.\n"
-msgstr ""
+msgstr "La tenson alternative du secteur peut être observée en utilisant un morceau de fil électrique comme antenne (PAS DE CONTACT direct avec les fils électriques du secteur !). On extrait la fréquence du signal capturé, en le modélisant avec une fonction sinusoïdale. Connecter une extrémité d'un fil électrique long à l'entrée A0 et laisser l'autre exptémité pendre près d'un câble branché à la tension du secteur. L'amplitude du signal dépend de la longueur du fil et de sa proximité avec le câble électrique. On peut essayer de le faire avec un ordinateur portable, loin de câbles électriques."
 
 #: /home/georgesk/expeyes-web/expeyes-web/software.html:67
 msgid "Then run the program croplus.py"
@@ -1113,7 +1087,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:124
 msgid "Oscillations of a Pendulum"
-msgstr ""
+msgstr "Oscillation d'un pendule"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/gravity-tof.html:??
 msgid ""
@@ -1123,7 +1097,7 @@ msgid ""
 "      systematic error due to the finite time taken by the coil to release "
 "the\n"
 "      ball. \n"
-msgstr ""
+msgstr "La vleur de g est donnée par g= 2*h/t^2. La mesure de temps a une précision d'une milliseconde. On répète l'expérience en variant la hauteur pour éliminer l'erreur systématique due au temps fini nécessaire pour que l'électro-aimant relâche la bille."
 
 #: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
 msgid "Library and Examples"
@@ -1138,11 +1112,11 @@ msgstr "50 expériences documentées, et plus, faciles à créer."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:135
 msgid "Interference of ultra-sound"
-msgstr ""
+msgstr "Interférences en ultra-sons"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/water-resistance.html:23
 msgid "Conductivity of water"
-msgstr ""
+msgstr "Conductivité de l'eau"
 
 #: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
 msgid ""
@@ -1188,17 +1162,13 @@ msgid ""
 "collector\n"
 "      voltage is plotted against the collector current for different base\n"
 "      currents. Base current is calculated by (SQR1 out - 0.65)/200k . \n"
-msgstr ""
+msgstr "Il faut deux tensions variables pour mesurer la caractéristique en émetteur commun d'un transistor, pour le collecteur et pour la base. la sortie PVS est connectée au collecteur via une résistance de 1k. Une tension continue est créée en faisant fonctionner SQR1 en mode rapport cyclique variable. Sa sortie est filtrée à l'aide d'un circuit RC (R = 200 k, C = 100 µF). Cette tension est appliquée à la base du transistor. On varie la tension du PVS, et on trace la coube de la tension de collecteur en fonction du courant de collecteur pour diverses valeurs du courant de base. Le courant de base se calcule comme (sortie de SQR1 - 0.65)/200k)."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "Filter\n"
-#| "          Circuits\n"
 msgid ""
 "Transient\n"
 "          Response of RL circuits\n"
-msgstr "Circuits de filtrage"
+msgstr "Réponse transitoire de circuits RL"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:236
 msgid "Transistor-CE"
@@ -1216,7 +1186,7 @@ msgstr "Modulation d'amplitude et de fréquence"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:136
 msgid "Ultrasound ranging"
-msgstr ""
+msgstr "Mesure de distance à l'aide d'ultra-sons"
 
 #: /home/georgesk/expeyes-web/expeyes-web/microhope.html:??
 msgid "Assembler Examples"
@@ -1242,11 +1212,11 @@ msgstr ""
 msgid ""
 "Two\n"
 "          kinds of current, DC and AC\n"
-msgstr ""
+msgstr "Deux sotes de courant, continu et alternatif"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/rc-integration.html:??
 msgid "RC Differentiation"
-msgstr ""
+msgstr "Différenciation RC"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:??
 msgid ""
@@ -1281,7 +1251,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/resistance.html:35
 msgid "value of the unknown resistor = 2.746 / 1.254 = 2190 Ohm"
-msgstr ""
+msgstr "valeur de la résistance inconnue = 2,746 / 1,254 = 2190 Ohm."
 
 #: /home/georgesk/expeyes-web/expeyes-web/software.html:60
 msgid " MCP2200 Driver"
@@ -1314,7 +1284,7 @@ msgstr "Interface grphique EYES"
 msgid ""
 "ATR -- Analog Trigger, the trace\n"
 "        starts when the voltage is at the selected trigger level.\n"
-msgstr ""
+msgstr "ATR -- Trigger analogique, la trace débute quand la tension atteint la valeur seuil pour ce trigger."
 
 #: /home/georgesk/expeyes-web/expeyes-web/people.html:??
 msgid ""
@@ -1338,14 +1308,10 @@ msgid "Diode IV"
 msgstr "Caractéristique IU d'une diode"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "Resistance\n"
-#| "          of water\n"
 msgid ""
 "Resistance\n"
 "          of Human body\n"
-msgstr "Résistance de l'eau"
+msgstr "Résistance électrique du corps humain"
 
 #: /home/georgesk/expeyes-web/expeyes-web/microhope.html:52
 msgid "IR Receiver"
@@ -1373,7 +1339,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:132
 msgid "Ultra-sound, Generate &amp; measure"
-msgstr ""
+msgstr "Ultrasons, émission et mesure"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/pendulum.html:24
 msgid ""
@@ -1383,13 +1349,13 @@ msgid ""
 "to\n"
 "      the angular velocity. Fitting this curve also gives the period of\n"
 "      oscillation of the pendulum. \n"
-msgstr ""
+msgstr "Pour étudier la nature des oscillations d'un pendule, il faut mesurer le déplacement angulaire en fonction du temps. Comme les encodeurs angulaires sont chers, on a untilisé un moteur en courant continu, qui donne une tension proportionnelle à la vitesse angulaire. Si on modélise cette courbe on obtient aussi la période des oscillations du pendule."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/half-wave.html:24
 msgid ""
 " Working of a half wave rectifier converting AC to DC is demonstrated.\n"
 "      Effect of capacitor filter across the output is also shown. \n"
-msgstr ""
+msgstr "On démontre le fonctionnement d'un système de redressement simple alternance convertissant un courant alternatif en continu. L'effet d'un condensateur de filtrage en parallèle sur la sortie est aussi montré."
 
 #: /home/georgesk/expeyes-web/expeyes-web/software.html:64
 msgid "Python Imaging Library module"
@@ -1417,7 +1383,7 @@ msgstr "Testé en écrivant les programmes requis en C et Python, comme CRO."
 msgid ""
 "Temperature sensor ICs , LM35 : 3 pin IC operated at 5 volt. Designed to\n"
 "      give an output voltage = Temp in degree Celsius * 10 mV \n"
-msgstr ""
+msgstr "Circuit capteur de température, LM35: circuit à trois bornes fonctionnant sous 5 V. Prévu pour donner une tension de sortie égale à la température : U = Temp en °C * 10 mV"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:62
 msgid ""
@@ -1438,14 +1404,10 @@ msgstr ""
 "PIC24FV32KA302. Supporté par gcc."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "AC\n"
-#| "          and DC Separation\n"
 msgid ""
 "AC\n"
 "          plus DC, separte using capacitor \n"
-msgstr "Séparation de composantes continue et alternative"
+msgstr "Séparation de composantes continue et alternative à l'aide d'un condensateur"
 
 #: /home/georgesk/expeyes-web/expeyes-web/header.html:23
 msgid "T"
@@ -1453,17 +1415,15 @@ msgstr "T"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:131
 msgid "Measuring speed of rotation"
-msgstr ""
+msgstr "Mesure de vitesse de rotation"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/pickup.html:23
 msgid "AC mains pickup "
-msgstr ""
+msgstr "Influence du secteur alternatif"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/am-fm.html:23
-#, fuzzy
-#| msgid "AC &amp; DC"
 msgid "Am &amp; FM"
-msgstr "Courant continu et alternatif"
+msgstr "Modulation d'amplitude, modulation de fréquence"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:281
 msgid "Pendulum"
@@ -1471,7 +1431,7 @@ msgstr "Pendule"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:66
 msgid "Electromagnetic Induction"
-msgstr ""
+msgstr "induction électromagnétique"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:39
 msgid ""
@@ -1516,10 +1476,14 @@ msgid ""
 "or\n"
 "        CCS)\n"
 msgstr ""
+"SHI -- Set HIGH (régler à HAUT) la sortie numérique sélectionnée (OD1 ou CCS)<br/>\n"
+"SLO -- Set LOW (régler à BAS) la sortie numérique sélectionnée (OD1 ou CCS)<br/>\n"
+"HTP -- High True Pulse (impulsion HAUTE 0V-5V-0V) à la sortie numérique sélectionnée (OD1 ou CCS)<br/>\n"
+"LTP -- Low True Pulse (impulsion BASSE 5V-0V-5V)  à la sortie numérique sélectionnée (OD1 ou CCS)<br/>"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/rc-integration.html:23
 msgid "RC Integration &amp; Differentiation "
-msgstr ""
+msgstr "Intégration et différentiation RC"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:111
 msgid ""
@@ -1533,14 +1497,10 @@ msgstr ""
 "a été envoyé à la fabrication."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "Singing\n"
-#| "          magnet\n"
 msgid ""
 "Generating\n"
 "          DC voltage\n"
-msgstr "Aimant chanteur"
+msgstr "Générer une tension continue"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:174
 msgid ""
@@ -1566,7 +1526,7 @@ msgid ""
 "      between the axes of the two coils. In the normal 3-phase supply lines, "
 "it\n"
 "      will be 120 degrees. \n"
-msgstr ""
+msgstr "    On alimente le moteur à l'aide de SQR2 mais le rapport cyclique des impulsions sur SQR2 ne devrait pas dépasser 50%, pour éviter un excès de courant consommé par le moteur. La figure montre un courant alternatif biphasé généré grâce à deux bobines. La différence de phase entre les deus sorties de courant alternatif est commandée par l'angle entre les axes des deux bobines. Dans le cas des lignes triphasées, cet angle doit être de 120°."
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -1588,29 +1548,29 @@ msgstr "<a href=\"Code/eyesj.py\">La bibliothèque Python</a>, du côté du PC"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:106
 msgid "Frequency Divider using D flipflop"
-msgstr ""
+msgstr "Diviseur de fréquence à l'aide d'une bascule D"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:70
 msgid "RC Network, voltage addition"
-msgstr ""
+msgstr "Réseau RC, addition de tensions"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:112
 msgid "Resonance of Piezo disc"
-msgstr ""
+msgstr "Résonance d'un disque piézo"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:73
 msgid ""
 "WFE -- Wait for Falling Edge on \n"
 "        the selected input\n"
-msgstr ""
+msgstr "WFE -- Wait for Falling Edge (attente de front descendant) sur l'entrée sélectionnée"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/sound-beats.html:23
 msgid "Interference of Sound"
-msgstr ""
+msgstr "Interférences sonores"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:115
 msgid "Interference of sound"
-msgstr ""
+msgstr "Interférences sonores"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -1668,14 +1628,12 @@ msgstr ""
 "Delhi 110067, bpajith at gmail.com"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:98
-#, fuzzy
-#| msgid "Transistor-CE"
 msgid "Transistor Ib Vs Ic"
-msgstr "Caractéristique CE d'un transitor"
+msgstr "Caractéristique d'un transitor : courant de base, courant de collecteur"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/ac-dc-separation.html:23
 msgid "AC and DC components of a voltage "
-msgstr ""
+msgstr "Composantes continue et alternative d'un signal"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -1701,7 +1659,7 @@ msgid ""
 "below\n"
 "      show measurement of a parallel plate capacitor and a 20pF dipped mica\n"
 "      capacitor. \n"
-msgstr ""
+msgstr "ExpEYES Junior peut mesurer des capacités proches du picofarad. La capacité entre les bornes IN1 et GND est mesurée en utilisant une source de courant constant interne. Les mesures sont faite avant et après la connexion d'un condensateur, afin de soustraire la capacité interne. Les figures ci-dessous montrent la mesure de capacité d'un condensateur plan à plteaux parallèles et d'un condensateur de 20 pF au mica."
 
 #: /home/georgesk/expeyes-web/expeyes-web/people.html:57
 msgid ""
@@ -1713,7 +1671,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:110
 msgid "Loudspeaker as a Microphone"
-msgstr ""
+msgstr "Haut-parleur utilisé comme microphone"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:141
 msgid ""
@@ -1730,12 +1688,8 @@ msgstr ""
 "en cours de réalisation."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/temp-sensors.html:23
-#, fuzzy
-#| msgid ""
-#| "Temperature\n"
-#| "          Sensors\n"
 msgid "Temperature Sensors"
-msgstr "Capteur de température"
+msgstr "Capteurs de température"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:54
 msgid ""
@@ -1767,7 +1721,7 @@ msgstr ""
 msgid ""
 "Up to 4 analog channels, chosen from the\n"
 "          seven input sources can be plotted  at a time.\n"
-msgstr ""
+msgstr "Jusqu'a 4 canaux analogiques, choisis parmi sept sources d'entrées peuvent être représentés graphiquement ensemble."
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:119
 msgid ""
@@ -1801,7 +1755,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/ldr.html:23
 msgid "Light Dependent Resistor, LDR"
-msgstr ""
+msgstr "Photorésistance, LDR"
 
 #: /home/georgesk/expeyes-web/expeyes-web/hardware.html:110
 msgid ""
@@ -1812,7 +1766,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:68
 msgid "Simple AC generator"
-msgstr ""
+msgstr "Générateur alternatif simple"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/ldr.html:24
 msgid ""
@@ -1825,7 +1779,7 @@ msgid ""
 "      from PVS. Using these and the value of current, the resistance of LDR "
 "is\n"
 "      calculated. \n"
-msgstr ""
+msgstr "La résistance d'une LDR est mesurée en la comparant à une résistance fixe de 10k. On règle PVS à 4 V, la LDR et la résistance de 10k sont connectées en sérien entre PVS et GND. La tensio aux bornes de la réistance de 10k est mesurée pour déterminer le courant. La tension aux bornes de la LDR est calculée en soustrayant la velaur de IN1 de celle de PVS. En utilsant celle-ci et la valeur du courant, on calcule la résistance de la LDR."
 
 #: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
 msgid ""
@@ -1868,14 +1822,14 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:61
 msgid "Optical transmission of signals"
-msgstr ""
+msgstr "Transmission optique de signaux"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/temp-sensors.html:26
 msgid ""
 "\n"
 "      Resistance Temperature Detector (RTD) PT100 : Platinum element whose\n"
 "      resistance is 100 Ohm at zero degree Celsius. \n"
-msgstr ""
+msgstr "Sonde PT100 : c'est un élément en platine dont la résistance est 100 Ohm à zéro degré Celsius."
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:60
 msgid ""
@@ -1899,7 +1853,7 @@ msgid ""
 "      light falling on it. The built-in analog comparator on SEN input is "
 "used\n"
 "      for timing measurements when the light crosses a certain threshold. \n"
-msgstr ""
+msgstr "Une combinaison DEL + photo-transistor peut être utilisée pour mesurer la transmission de lumière et pour capter les durées de mouvements mécaniques. On aliment la DEL à l'aide de SQR1. Le collecteur du photo-transistor est connecté à l'entrée SEN, qui est relevée à 5V par une résistance de 5,1k interne. La tension au collecteur du photo-transitor change selon la quantité de lumière qu'il reçoit. On utilise la comparateur intégré sur l'entrée SEN pour les mesures de durées, quand la lumière franchit un certain seuil."
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:59
 msgid ""
@@ -1941,13 +1895,9 @@ msgid ""
 "      between the driving waveform and the MIC output is measured for "
 "different\n"
 "      distances between the buzzer and the microphone. \n"
-msgstr ""
+msgstr "     On peut calculer la vitesse du son en multipliant la fréquence par ceci. On pilote le buzzer piézo à l'aide de SQR1 et on le place en face du microphone intégré. La sortie MIC est connectée à l'entrée A1. Le dépahasage entre la tension de pilotage et la sortie MIC est déterminée à différentes distances entre le buzzer et le microphone."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:101
-#, fuzzy
-#| msgid ""
-#| "555\n"
-#| "          oscillator\n"
 msgid "IC555 oscillator"
 msgstr "Oscillateur 555"
 
@@ -1957,7 +1907,7 @@ msgid ""
 "          dragging <span style=\"color:#0000ff;\">ATR</span> to the desired "
 "input\n"
 "          source.\n"
-msgstr ""
+msgstr "On choisit la source pur le trigger en tirant <span style=\"color:#0000ff;\">ATR</span> vers l'entrée de signal désirée."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:165
 msgid ""
@@ -1976,10 +1926,6 @@ msgid "You need to install"
 msgstr "Il faut installer"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/full-wave.html:23
-#, fuzzy
-#| msgid ""
-#| "Fulwave\n"
-#| "          Rectifier\n"
 msgid "Full-wave Rectifier"
 msgstr "Redressement double alternance"
 
@@ -2023,15 +1969,15 @@ msgid ""
 "the\n"
 "        frequency is either 50 or 60 Hz. <br/>\n"
 "\n"
-msgstr ""
+msgstr "Le courant d'une pile s'écoule dans le même sens tout le temps et la valeur du courant ne change pas tant que la résistance du circuit reste constante. On appelle ça le courant continu. Un pile fournit du courant continu. La tension du secteur fournit du courant alternatif. Celui-ci varie avec le temps. Un façon simple de les comparer est de tracer la courbe de la tension en fonction du temps. La sortie PVS d'expEYES est une source de tension continue, et la sortie SINE est une source alternative. Connecter PVS à A1 et SINE à A2 et observer le résultat à l'aide du programme CRO. La tension crête de notre source alternative est 3,73 V et sa fréquence est 151,5 Hz. Pour ce qui est de la tension du secteur, les tensions sont de l'ordre de centaines de volt et la fréquence est soit 50 soit 60 Hz.<br/>\n"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:67
 msgid "Mutual induction, Transformer"
-msgstr ""
+msgstr "Induction mutuelle, transformateur"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:53
 msgid "XMG transfers data in an Xmgrace window."
-msgstr ""
+msgstr "XMG transfère les données dans une fenêtre Xmgrace."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:162
 msgid "Resistance"
@@ -2061,7 +2007,7 @@ msgid ""
 "      degree out of phase are required. The Sine wave generator and the "
 "same\n"
 "      signal inverted are used. \n"
-msgstr ""
+msgstr "Redressement double alternance à l'aide de jonction PN. Il faut deux signaux alternatifs déphasés de 180°. On utilise le générateur de signal sinusoïdal et le même signal, inversé."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/rc-integration.html:24
 msgid ""
@@ -2074,7 +2020,7 @@ msgid ""
 "      this case RC = 1.0e-6 x 1000 = 1 millisecond. The period of 1kHz wave "
 "is\n"
 "      also the same. \n"
-msgstr ""
+msgstr "On applique un signal carré à un circuit RC comme montré dans la ficgure ci-dessous. La tesnion aux bornes du condensateur a une allure quasiment triangulaire. Quand on intègre un signal carré on obtien un signal traiangulaire. La réponse dépend de la période du signal appliqué et de la constante de temps RC. Dans ce cas, RC = 1.0e-6 x 1000 = 1 ms. La période du signal de 1 kHz est du même ordre de grandeur."
 
 #: /home/georgesk/expeyes-web/expeyes-web/people.html:47
 msgid ""
@@ -2123,14 +2069,10 @@ msgid ""
 msgstr "RC, régime transitoire"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "Cooling\n"
-#| "          Curve\n"
 msgid ""
 "Measuring\n"
 "          DC voltage\n"
-msgstr "Courbe de refroidissement"
+msgstr "Mesure de tension continue"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -2167,7 +2109,7 @@ msgstr ""
 msgid ""
 "Digital Output OD1 and the Constant\n"
 "          Current Source CCS can be controlled using the Checkbuttons.\n"
-msgstr ""
+msgstr "La sortie numérique OD1 et la sortie de courant constant CSS peuvent être contrôlées à l'aide des boutons à cocher."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:227
 msgid ""
@@ -2185,7 +2127,7 @@ msgid ""
 "      225pF. The dielectric constant calculated is 7.38. This experiments "
 "can be\n"
 "      repeated using other insulating materials. \n"
-msgstr ""
+msgstr "On mesure la constante diélectrique de vitres ordinaires. On réalise un condensateur en collant des feuilles d'aluminium des deux côtés. Les dimensions sont 13 cm x 10.6 cm x 0.4 cm et la capacité mesurée est 225 pF. La constante diélectrique calculée est donc 7,38. On peut refaire la même expérience avec divers matériaux isolants."
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:90
 msgid ""
@@ -2204,7 +2146,7 @@ msgstr ""
 msgid ""
 "Flickering\n"
 "          LED, persistance of vision\n"
-msgstr ""
+msgstr "DEL clignotante, persistance de la vision"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:195
 msgid ""
@@ -2220,14 +2162,14 @@ msgstr "Courbe de refroidissement"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:113
 msgid "Digitizing sound waves"
-msgstr ""
+msgstr "Numérisation d'ondes sonores"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/stroboscope.html:24
 msgid ""
 " A rotating motor is illuminated by a blinking LED powered by SQR1. The\n"
 "      motor appears stationary when the rotations per second is same as the\n"
 "      frequency of SQR1. \n"
-msgstr ""
+msgstr "On illumine un moteur en rotation à l'aide d'une DEL qui clignote grâce à SQR1. Le moteur apparaît stationnaire quand son nombre de tours par seconde est le même que la fréquence de SQR1."
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -2274,14 +2216,10 @@ msgstr ""
 "forme de paquet Debian."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "Filter\n"
-#| "          Circuits\n"
 msgid ""
 "Transient\n"
 "          Response of LCR circuits\n"
-msgstr "Circuits de filtrage"
+msgstr "Réponse transitoire de circuits RLC"
 
 #: /home/georgesk/expeyes-web/expeyes-web/android.html:50
 msgid "The Oscilloscope Screen"
@@ -2293,7 +2231,7 @@ msgid ""
 "      40.8 deg (calculator on the right bottom side) and the measured Phase\n"
 "      shift is 40.1 deg, well within the tolerance values of the\n"
 "      components. \n"
-msgstr ""
+msgstr "     Le déphasage calculé en utilisant les valeurs ci-dessus est 40,8° (calculatrice en bas à droite) et le déphasage mesuré est 40,1°, bien en accord avec les valeurs des tolérances des composants."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:??
 msgid ""
@@ -2309,11 +2247,11 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:57
 msgid "Potentiometer, Angle encoder"
-msgstr ""
+msgstr "Potentiomètre, encodeur angulaire"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:95
 msgid "DC, by filtering PWM waveform"
-msgstr ""
+msgstr "Courant continu, en filtrant un signal en modulation de largeur d'impulsion"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:14
 #: /home/georgesk/expeyes-web/expeyes-web/design.html:14
@@ -2382,7 +2320,7 @@ msgstr "Enregistrement audio &amp; restitution"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/rl-transient.html:23
 msgid "Transient response of RL circuit"
-msgstr ""
+msgstr "Réponse transitoire d'un circuit RL"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:21
 msgid "Evolution of expEYES Junior"
@@ -2407,7 +2345,7 @@ msgid ""
 "and\n"
 "      measuring their frequency. For demonstration, use the Piezo buzzer\n"
 "      connected to SQ1 to generate sound. \n"
-msgstr ""
+msgstr "ExpEYES Junior dispose d'un microphone intégré, dont la sortie amplifiée apparaît sur la borne marquée MIC. On peut l'utiliser pour capturer des signaux sonores et mesurer leur fréquence. Pour la démonstration, utiliser le buzzer piézo connecté à SQR1 pour créer un son."
 
 #: /home/georgesk/expeyes-web/expeyes-web/software.html:61
 msgid "Python Interpreter version 2.7xx"
@@ -2415,7 +2353,7 @@ msgstr "Interpréteur Python version 2.7xx"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/gravity-tof.html:23
 msgid "Gravity, by time of flight"
-msgstr ""
+msgstr "Gravité, méthode du temps de vol"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/rc-transient.html:32
 msgid ""
@@ -2424,13 +2362,9 @@ msgid ""
 "CC\n"
 "      Charge to get the output shown below. After 3 volts the graph is not\n"
 "      linear due to the limitations of the current source. \n"
-msgstr ""
+msgstr "La tension aux bornes d'un condensateur change linéairement si on utilise une soruce de courant constant. Connecter CCS au lieu de OD1 et cliquer sur CC Charge pour avoir l'affichage présenté ci-dessous. Au-delà de 3 V la courbe n'est plus linéaire à cause de limitations de la source de courant."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/singing-magnet.html:23
-#, fuzzy
-#| msgid ""
-#| "Singing\n"
-#| "          magnet\n"
 msgid "Singing Magnet"
 msgstr "Aimant chanteur"
 
@@ -2453,14 +2387,10 @@ msgstr ""
 "\n"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "AC\n"
-#| "          Circuits\n"
 msgid ""
 "Phase\n"
 "          Shift of AC, RC Circuits\n"
-msgstr "Circuits en courant alternatif"
+msgstr "Déphasage du courant alternatif, circuits RC"
 
 #: /home/georgesk/expeyes-web/expeyes-web/microhope.html:34
 msgid ""
@@ -2485,7 +2415,7 @@ msgstr "Programmation Python"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:65
 msgid "Resistance of ionic solutions"
-msgstr ""
+msgstr "Résistance de solutions ioniques"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/diode-iv.html:24
 msgid ""
@@ -2499,7 +2429,7 @@ msgid ""
 "      drop across the 1k resistor. The data is fitted with the diode "
 "equation to\n"
 "      extract the ideality factor of the diode. \n"
-msgstr ""
+msgstr "On représente la caractéristique U-I d'une diode en utilisant le montage montré ci-dessous. UNe diode 1N4148 au silicium et une résistance de 1k sont connectées en série entre la sortie PVS et la masse GND. On fait varier PVS de 0 à 5 V et la tension aux bornes de la diode est mesurée en permanence. La valeur du courant est obtenue à partir de la tension aux bornes de la résistance de 1k. Les données sont modélisées à l'aide de l'équation de la diode pour extraire le facteur d'idéalité de la diode."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:239
 msgid ""
@@ -2572,7 +2502,7 @@ msgstr "Personnes impliquées"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:105
 msgid "Study AND Gate &amp; OR Gate"
-msgstr ""
+msgstr "Étude d'une porte ET, d'une porte OU"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:106
 msgid ""
@@ -2591,7 +2521,7 @@ msgstr "Le logiciel est intégré à Débian et Ubuntu"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/ac-circuits.html:23
 msgid "Steady state response of LCR elements to applied AC voltage "
-msgstr ""
+msgstr "Réponse à l'état stationnaire d'éléments RLC auxquels on applique une tension alternative"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:127
 msgid ""
@@ -2620,7 +2550,7 @@ msgid ""
 "resistance\n"
 "      of around 600 Ohms) and a capacitor of 0.1 uF, the circuit shows\n"
 "      under-damped response. \n"
-msgstr ""
+msgstr "La réponse transitoire d'un circuit RLC est étudiée en appliquant un échelon de tension  5-&gt;0 V et en mesurant l'évolution de la tensio aux bornes du condensateur. On extrait la fréquence de résonnance et l'amortissement en modélisant les données avec l'équation d'une sinusoïde amortie. Pour une inductance de 130 mH (avec une résistance du bobinage de quelques 600 Ohm) et un condensateur de 0,1 µF, le circuit présente une réponse sous-amortie."
 
 #: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
 msgid ""
@@ -2642,11 +2572,11 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:??
 msgid "The main features of CRO+ are:"
-msgstr ""
+msgstr "Les caractéristiques principales de CRO+ sont :"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:62
 msgid "Absorbtion of light in solutions"
-msgstr ""
+msgstr "Absorption de lumière dans des solutions"
 
 #: /home/georgesk/expeyes-web/expeyes-web/microhope.html:64
 msgid "MicroHOPE software"
@@ -2659,10 +2589,8 @@ msgid ""
 msgstr "Vitesse du son"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:97
-#, fuzzy
-#| msgid "Transformer"
 msgid "Transistor Amplifier"
-msgstr "Transformateur"
+msgstr "Amplificateur à transistor"
 
 #: /home/georgesk/expeyes-web/expeyes-web/software.html:62
 msgid "Python Serial module"
@@ -2723,7 +2651,7 @@ msgstr "Barrière lumineuse"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:96
 msgid "Transistor CE Characteristic"
-msgstr ""
+msgstr "Caractéristique CE de transistor"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:11
 #: /home/georgesk/expeyes-web/expeyes-web/design.html:11
@@ -2848,14 +2776,10 @@ msgid "People"
 msgstr "L'équipe"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "AC\n"
-#| "          Generator\n"
 msgid ""
 "A\n"
 "          voltmeter program\n"
-msgstr "Générateur de courant alternatif"
+msgstr "Un programme de voltmètre"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -2897,11 +2821,11 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:103
 msgid "Hartley Oscillator"
-msgstr ""
+msgstr "Oscillateur d'Hartley"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:133
 msgid "Velocity of sound, by time of flight"
-msgstr ""
+msgstr "Vitesse du son, par temps de vol"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -2968,18 +2892,14 @@ msgstr ""
 "la fonction scipy.integrate.quad()"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "Resistance\n"
-#| "          of water\n"
 msgid ""
 "Resonance,\n"
 "          of a swing\n"
-msgstr "Résistance de l'eau"
+msgstr "Résonance pour une masse pendue à un ressort"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/piezo-buzzer.html:23
 msgid "Piezo Buzzer, Frequency response"
-msgstr ""
+msgstr "Buzzer piézo, réponse en fréquence"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:94
 msgid ""
@@ -2997,14 +2917,10 @@ msgid "MicroHOPE Library"
 msgstr "Bibliothèque microHOPE"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "Resistance\n"
-#| "          of water\n"
 msgid ""
 "Various\n"
 "          AC waveforms\n"
-msgstr "Résistance de l'eau"
+msgstr "Divers signaux alternatifs"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:??
 msgid ""
@@ -3069,7 +2985,7 @@ msgstr "Stroboscope"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/persistance-vision.html:23
 msgid "Persistence of vision, flickering LED"
-msgstr ""
+msgstr "Persistance de la vision, clignotement d'une DEL"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:278
 msgid ""
@@ -3108,7 +3024,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:104
 msgid "Colpitt Oscillator"
-msgstr ""
+msgstr "Oscillateur de ColPitt"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:30
 msgid " - An Open Source Portable Science Lab"
@@ -3120,11 +3036,11 @@ msgstr " - Un laboratoire de sciences portable à source ouverte"
 msgid ""
 "The <br/>\n"
 "\n"
-msgstr ""
+msgstr "The <br/>\n\n"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/pendulum.html:23
 msgid "Pendulum, Nature of Oscillation"
-msgstr ""
+msgstr "Pendule, nature des oscillations"
 
 #: /home/georgesk/expeyes-web/expeyes-web/software.html:??
 msgid ""
@@ -3162,7 +3078,7 @@ msgstr ""
 msgid ""
 "PN\n"
 "          Junction, Haf-wave rectifier\n"
-msgstr ""
+msgstr "Jonction PN, redressement  simple alternance"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:45
 msgid ""
@@ -3172,7 +3088,7 @@ msgid ""
 "          The selected actions are performed before every capture and "
 "display.\n"
 "          Available modifier actions are listed below.\n"
-msgstr ""
+msgstr "Les modificateurs de capture comme <i>Wait for Rising Edge</i> peuvent être activés en les tirant sur les sources de données désirées. Les actions sélectionnées seront effectuées avant chaque capture et chaque affichage. Voici la liste des modificateurs ci-dessous :"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -3191,17 +3107,13 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/opto-coupler.html:23
 msgid "Optical Transmission of signals"
-msgstr ""
+msgstr "Transmission optique de signaux"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "AC\n"
-#| "          Circuits\n"
 msgid ""
 "AC\n"
 "          power line pickup\n"
-msgstr "Circuits en courant alternatif"
+msgstr "Effet d'antenne dû aux tensions du secteur"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:23
 msgid ""
@@ -3214,17 +3126,13 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:137
 msgid "Amplitude Modulation"
-msgstr ""
+msgstr "Modulation d'amplitude"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "Filter\n"
-#| "          Circuits\n"
 msgid ""
 "Diode\n"
 "          IV Characteristic\n"
-msgstr "Circuits de filtrage"
+msgstr "Caractéristique U-I d'une diode"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -3262,35 +3170,31 @@ msgstr ""
 msgid ""
 "Detecting\n"
 "          voltage levels, Digital\n"
-msgstr ""
+msgstr "Détection de niveau de tension, numérique"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:46
 msgid "Measurig Frequency"
-msgstr ""
+msgstr "Mesure de la fréquence"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:51
 msgid ""
 "There is a button to measure capacitance\n"
 "          connected to IN1.\n"
-msgstr ""
+msgstr "Il y a un bouton pour mesurer la capacité connectée à IN1."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/dielectric.html:23
-#, fuzzy
-#| msgid ""
-#| "Dielectric\n"
-#| "          Constant\n"
 msgid "Dielectric Constant"
 msgstr "Constante diélectrique"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/rlc-transient.html:23
 msgid "Transient Response of LCR Circuits "
-msgstr ""
+msgstr "Réponse transitoire de circuits RLC"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:54
 msgid ""
 "SQR1, SQR2 or both together with phase\n"
 "          shift can be set from top-right window.\n"
-msgstr ""
+msgstr "On peut régler SQR1, SQR2 séparément ou ensemble, avec un déphasage, à l'aide de contrôles en haut à droite de la fenêtre."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:245
 msgid ""
@@ -3300,17 +3204,15 @@ msgstr "Monostable 555"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/filters.html:23
 msgid "Studying Filter"
-msgstr ""
+msgstr "Étude de filtres"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:85
-#, fuzzy
-#| msgid "Transformer"
 msgid "Fourier Transform"
-msgstr "Transformateur"
+msgstr "Transformée de Fourier"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/water-cooling.html:??
 msgid "The rate of cooling for clear and coloured water is almost identical."
-msgstr ""
+msgstr "Les vitesses de refroidissement de l'eau clair et de l'eau colorée sont quasiment identiques."
 
 #: /home/georgesk/expeyes-web/expeyes-web/android.html:31
 msgid ""
@@ -3385,11 +3287,11 @@ msgstr "Logiciel"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:134
 msgid "Velocity of sound, by phase shift method"
-msgstr ""
+msgstr "Vitesse du son, par la méthode du déphasage"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:114
 msgid "Velocity of sound in air"
-msgstr ""
+msgstr "Vitesse du son dans l'air"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/logic-gates.html:24
 msgid ""
@@ -3399,13 +3301,13 @@ msgid ""
 "      by SQR1 and SQR2 set at 90deg phase difference. The experimental setup "
 "and\n"
 "      outputs for AND and OR gates are shown below. \n"
-msgstr ""
+msgstr "On peut utiliser expEYES comme appareil de test pour l'étude de portes logiques. Les circuits TTL 7432 et 7408 sont alimentés par OD1. Leurs signaux d'entrées sont fournis par SQR1 et SQR2, réglés pour un déphasage de 90°. le montage expérimental et les résultats pour les portes ET et OU sont montrés ci-dessous."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:71
 msgid ""
 "WRE -- Wait for Rising Edge on \n"
 "        the selected input\n"
-msgstr ""
+msgstr "WRE -- Wait for Rising Edge (attente de front montant) sur l'entrée sélectionnée"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:145
 msgid ""
@@ -3428,19 +3330,19 @@ msgid ""
 "      though a capacitor. The experimental setup and the results are shown "
 "in\n"
 "      the figures below. The DC component is stopped by the capacitor.\n"
-msgstr ""
+msgstr "    Un signal d'entrée peut ne pas être purement continu ou alternatif. Toute tension moyenne signifie une composant continue et tout variotion de tension siginife une composante alterntive. On va le démontrer en séparant les composantes continue et alternative d'un signal carré oscillant entre 0 et 5 V, en le passant à travers un condensateur. Le montage expérimental et les résultats sont montrés dans les figures ci-dessous. La composante continue est stoppée par le condensateur."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:116
 msgid "Generating beats"
-msgstr ""
+msgstr "Créer des battements"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/resistance.html:34
 msgid "Voltage across the unknown resistor = 4.0 - 1.254 = 2.746 volts"
-msgstr ""
+msgstr "Tension aux bornes de la résistance inconnue  = 4,0 - 1,254 = 2,746 V"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/clock-divider.html:23
 msgid "Clock Divider, using D Flipflop"
-msgstr ""
+msgstr "Diviseur de fréquence, à l'aide d'une bascule D"
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -3456,7 +3358,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:111
 msgid "Generating Sound, Piezo disc"
-msgstr ""
+msgstr "Créer un son, disque piézo"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:71
 msgid ""
@@ -3490,7 +3392,7 @@ msgid ""
 "      Connection: SQR1 --LED-- GND. No need of series resistor since SQR1 "
 "comes\n"
 "      out via a 100 Ohm resistor. \n"
-msgstr ""
+msgstr "Alimenter une DEL à l'aide de SQR1 et chager la fréquence progressivement de 1 Hz à 50 Hz pour observer à quelle fréquence le clignotement cesse. Cela peut dépendre de l'observateur et de l'intensité de la lumière. J'ai ressenti l'arrêt du clignotement vers quelques 40 Hz, cependant que mon fils disait que la diode clignotait toujours à cette fréquence. Connexion : SQR1 ---DEL--- GND. Inutile d'ajouter une résistance en série comme SQR1 traverse une résistance de 100 Ohm."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/measure-dc.html:??
 msgid ""
@@ -3515,7 +3417,7 @@ msgid ""
 "the\n"
 "        frequency is either 50 or 60 Hz.<br/>\n"
 "\n"
-msgstr ""
+msgstr "Le courant d'une pile s'écoule dans le même sens tout le temps et la valeur du courant ne change pas tant que la résistance du circuit reste constante. On appelle ça le courant continu. Un pile fournit du courant continu. La tension du secteur fournit du courant alternatif. Celui-ci varie avec le temps. Un façon simple de les comparer est de tracer la courbe de la tension en fonction du temps. La sortie PVS d'expEYES est une source de tension continue, et la sortie SINE est une source alternative. Connecter PVS à A1 et SINE à A2 et observer le résultat à l'aide du programme CRO. La tension crête de notre source alternative est 3,73 V et sa fréquence est 151,5 Hz. Pour ce qui est de la tension du secteur, les tensions sont de l'ordre de centaines de volt et la fréquence est soit 50 soit 60 Hz.<br/>"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:26
 msgid ""
@@ -3563,7 +3465,7 @@ msgstr ""
 msgid ""
 "Can call programs for different\n"
 "          experiments from a popup menu.\n"
-msgstr ""
+msgstr "Possibilité d'appeler les programmes pour diverses expériences depuis un menu déroulant"
 
 #: /home/georgesk/expeyes-web/expeyes-web/hardware.html:115
 msgid ""
@@ -3591,7 +3493,7 @@ msgstr "<a href=\"images/eyes.pdf\">Schémas du circuit</a>"
 msgid ""
 "The voltage induced across a solenoid coil when a magnet passes through\n"
 "      it can be captured and analyzed.\n"
-msgstr ""
+msgstr "La tension induite dans un solénoïde quand un aimant la traverse peut être capturée et analysée."
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:34
 msgid "Short description:"
@@ -3607,15 +3509,15 @@ msgid ""
 "circuits.\n"
 "        An example screen is shown below. The EXPERIMENTS button provides a\n"
 "        popup menu of programs required for various experiments.\n"
-msgstr ""
+msgstr "L'interface graphique principale d'expEYES Junior est un oscillographe à mémoire numérique à quatre canaux, pour les signaux audio, avec plusieurs fonctions additionnelles. Un oscilloscope affiche la tension en fonction du temps et c'est un outil très utile pour l'étude des circuits électriques et électroniques. UNe copie d'écran typique est présentée ci-dessous. Le bouton EXPÉRIENCES fournit un menu déroulant de programmes relatifs à diverses expériences."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/water-cooling.html:23
 msgid "Cooling of Water"
-msgstr ""
+msgstr "Refroidissement de l'eau"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/555-monoshot.html:24
 msgid " A monostable multivibrator is wired and tested using IC555. "
-msgstr ""
+msgstr "On câble et on teste un multivibrateur astable à l'aide d'un circuit 555."
 
 #: /home/georgesk/expeyes-web/expeyes-web/people.html:75
 msgid "V V V Satyanarayana, Data Support laboratory, IUAC"
@@ -3623,11 +3525,11 @@ msgstr "V V V Satyanarayana, Data Support laboratory, IUAC"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:86
 msgid "Probability Density Function"
-msgstr ""
+msgstr "Fonction de probabilité de densité"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:90
 msgid "Dielectric constant of organic liquids"
-msgstr ""
+msgstr "Constante diélectrique de liquides organiques"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:139
 msgid ""
@@ -3638,7 +3540,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:45
 msgid "Measuring time intervals"
-msgstr ""
+msgstr "Mesures d'intervalles de temps"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/resistance.html:24
 msgid ""
@@ -3649,21 +3551,13 @@ msgid ""
 "      voltage drop with that of a known resistor. Figure shows a 1k "
 "resistor\n"
 "      from IN1 to Ground and an unknown resistor from PVS to IN1.\n"
-msgstr ""
+msgstr "Selon la loi d'Ohm, le courant qui traverse une résistance est proportionnel à la tension à ses bornes. Si on connaît à la fois la tension et le courant, on peut calculer la résistance. On peut mesurer une résistance inconnue en comparant la tension à ses bornes avec celle d'une résistance connue. Dans la figure on voit une résistance de 1k entre IN1 et GND et une résistance inconnue entre PVS et IN1."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:117
-#, fuzzy
-#| msgid ""
-#| "Temperature\n"
-#| "          Sensors\n"
 msgid "PT100, Temperature sensor"
-msgstr "Capteur de température"
+msgstr "PT100, capteur de température"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/ac-generator.html:23
-#, fuzzy
-#| msgid ""
-#| "AC\n"
-#| "          Generator\n"
 msgid "AC generator "
 msgstr "Générateur de courant alternatif"
 
@@ -3672,22 +3566,16 @@ msgid "Selected for Google Summer of Code 2014."
 msgstr "Sélectionné pour le « Google Summer of Code » 2014"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:58
-#, fuzzy
-#| msgid "Transistor-CE"
 msgid "Thermistor"
-msgstr "Caractéristique CE d'un transitor"
+msgstr "Thermistance"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/croplus.html:60
 msgid ""
 "Python library functions can be\n"
 "          executed, by typing them inside the command window.\n"
-msgstr ""
+msgstr "Des fonction de la bibliothèque Python peuvent être exécutées, en les tapant dans la fenêtre de commande."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/555-oscillator.html:23
-#, fuzzy
-#| msgid ""
-#| "555\n"
-#| "          oscillator\n"
 msgid "IC555 Oscillator"
 msgstr "Oscillateur 555"
 
@@ -3710,7 +3598,7 @@ msgstr "Redressement double alternance"
 msgid ""
 "Enabling FIT on any channel calculates\n"
 "          the Amplitude and Frequency by fitting the data.\n"
-msgstr ""
+msgstr "Si on active FIT sur chaque canal on calcule l'amplitude et la fréquence par modélisation des données."
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -3752,7 +3640,7 @@ msgstr ""
 msgid ""
 "Test\n"
 "          equipment, the CRO+ program\n"
-msgstr ""
+msgstr "Matériel de test, le programm CRO+"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:54
 msgid ""
@@ -3774,7 +3662,7 @@ msgstr "Effet d'antenne"
 msgid ""
 "The Programmable Voltage Source, PVS,\n"
 "          can be set by entering a voltage between 0 and 5 volts.\n"
-msgstr ""
+msgstr "La source de tension programmable, PVS, peut être réglée en saisissantune tension entre 0 et 5 V."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:248
 msgid ""
@@ -3788,7 +3676,7 @@ msgstr "ExpEYES est actuellement disponible chez les firmes suivantes :"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:122
 msgid "Temperature controller"
-msgstr ""
+msgstr "Contrôleur de température"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:45
 msgid ""
@@ -3814,7 +3702,7 @@ msgid ""
 "      added up to give an envelope. The frequency difference between the "
 "two\n"
 "      sources in the beat frequency. \n"
-msgstr ""
+msgstr "Deux fréquences différentes sont créées par SQR1 et SQR2 et chacune est connectée à un buzzer piézo passif. Le son est recueilli par le microphone intégré et connecté à A1 après amplification. Les deux sinusoïdes sont additionnées et cela forme une enveloppe. La différence de fréquence entre les deux sources donne la fréquence des battements."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:225
 msgid "Study LDR"
@@ -3831,7 +3719,7 @@ msgid ""
 "      working principle is same as that of a loudspeaker, where the magnet "
 "is\n"
 "      fixed and the coil moves along with the paper cone. \n"
-msgstr ""
+msgstr "On fait la démonstrattion de la force ressentie par un conducteur porteur de courant placé dans une champ magnétique en plaçant un aimant permanent dans un solénoïde et en y appliqant un signal alternatif. L'aimant se déplace de part et d'autre à une fréquence proche de 2000 Hz et un bourdonnement est produit. Le principe de fonctionnement est le même que celui d'un haut-parleur, quand l'aimant est fixe et que le bobinage se déplace en entraînant un cône de papier."
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -3849,7 +3737,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/persistance-vision.html:30
 msgid "The program listed below gives a slider to change the SQR1 frequency."
-msgstr ""
+msgstr "Le programm listé ci-dessous donne un ascenseur graphique pour changer la fréquence de SQR1."
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:??
 msgid ""
@@ -3893,7 +3781,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:60
 msgid "Light Sensing, Photo-transistor"
-msgstr ""
+msgstr "Capteur de lumière, photo-transistor"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:207
 msgid ""
@@ -3917,12 +3805,13 @@ msgid ""
 "between\n"
 "    \n"
 msgstr ""
+"import expeyes.eyesj, sys<br/>\n"
+"        p = expeyes.eyesj.open()<br/>\n"
+"        p.set_sqr1(0)        # signal HAUT sur SQR1 pour allumer la DEL<br/>\n"
+"        for k in range(10):<br/>\n"
+"            print p.multi_r2rtime(0,1)   # Front montant à front montants, sur la sortie du comparateur, on saute un front sur deux"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/light-barrier.html:23
-#, fuzzy
-#| msgid ""
-#| "Light\n"
-#| "          Barrier\n"
 msgid "Light-Barrier"
 msgstr "Barrière lumineuse"
 
@@ -3939,7 +3828,7 @@ msgid ""
 "waveform\n"
 "      is preserved but the photo-transistor OFF time is slower than ON "
 "time. \n"
-msgstr ""
+msgstr "On démontre la conversion de signaux électriques en lumière, la transmission des signaux lumineux, et leur conversion en signaux électriques. Un signal carré (trace noire) est appliqué à la DEL et la lumière est envoyée à un photo-transistor. La sortie du photo-transistor (trace rouge) est présentée aussi. L'information de fréquence du signal d'origine est préservée, mais le temps de descente du photo-transistor est plus lent que son temps de montée."
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/ultra-sound.html:24
 msgid ""
@@ -3949,7 +3838,7 @@ msgid ""
 "      the sine wave received at A1 is measured as a function of distance "
 "between\n"
 "      the transmitter and the receiver. \n"
-msgstr ""
+msgstr "On pilote le transmetteur piézo 40 kHz par SQR1. La sortie du récepteur est connectée à A1. Le déphasage entre le signal pilote et le signal reçu en A1 est mesuré en fonction de la distance entre émetteur et récepteur."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:272
 msgid ""
@@ -3966,14 +3855,10 @@ msgstr ""
 "    IUAC\n"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:??
-#, fuzzy
-#| msgid ""
-#| "AC\n"
-#| "          Circuits\n"
 msgid ""
 "RL\n"
 "          Circuit, phase shift\n"
-msgstr "Circuits en courant alternatif"
+msgstr "Déphasage, circuits RL"
 
 #: /home/georgesk/expeyes-web/expeyes-web/ej-history.html:29
 msgid ""
@@ -3990,7 +3875,7 @@ msgid ""
 "Acceleration due to gravity can be calculated from the period measured.\n"
 "      Since we have used a rod pendulum, the relation is g = 4 * pi * pi * "
 "L / (T*T) = 4*pi**2*15.4/.6432**2*2/3 = 979.7\n"
-msgstr ""
+msgstr "On peut calculer l'accélération de la gravité à partir de la mesure de prériode. Comme on a utilisé un pendule en barre, la relation est g = 4 * pi * pi * L / (T*T) = 4*pi**2*0,154/0,6432**2*2/3 = 9,797"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:254
 msgid ""
@@ -4023,7 +3908,7 @@ msgid ""
 "      degrees for D cm change in distance, the wavelength is given by λ = "
 "360×\n"
 "      D/X .\n"
-msgstr ""
+msgstr "On calcule la vitesse du son en mesurant la variation de pression avec la distance. Le son voyage comme une série de compressions et d'expansions. La figure montrer les régions de haute et basse pression le long de la direction de propagation, en même temps que la sortie du capteur de pression aux positions correspondantes. On peut affichier la variation de pression en tout point en fonction de la variation de pression au point de départ. La phase du signal de la sortie du microphone change quand on change sa distance au piézo. Quand on le déplace d'une logueur d'onde, la phase change de 360°. Si la phase change de X degrés pour une distance d cm, la longueur d'onde (en cm) sera donnée par 360&times;D/X ."
 
 #: /home/georgesk/expeyes-web/expeyes-web/python.html:??
 msgid ""
@@ -4070,7 +3955,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/gravity-pendulum.html:23
 msgid "Period of a Pendulum, value of 'g'"
-msgstr ""
+msgstr "Période d'un pendule, valeur de « g »"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:31
 msgid "Organization:"
@@ -4089,10 +3974,20 @@ msgid ""
 "      643252.0<br/>\n"
 "      643228.0\n"
 msgstr ""
+"643253.0<br/>\n"
+"      643262.0<br/>\n"
+"      643251.0<br/>\n"
+"      643273.0<br/>\n"
+"      643249.0<br/>\n"
+"      643281.0<br/>\n"
+"      643245.0<br/>\n"
+"      643205.0<br/>\n"
+"      643252.0<br/>\n"
+"      643228.0\n"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:129
 msgid "Vibrating String, resonant frequency"
-msgstr ""
+msgstr "Corde vibrante, fréquence de résonance"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:18
 #: /home/georgesk/expeyes-web/expeyes-web/design.html:18
@@ -4157,7 +4052,7 @@ msgstr "Nouveautés"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/sound-frequency.html:23
 msgid "Frequency of Sound"
-msgstr ""
+msgstr "Fréquence du son"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:30
 msgid ""
@@ -4171,7 +4066,7 @@ msgstr ""
 msgid ""
 "Pendulum,\n"
 "          Value of 'g'\n"
-msgstr ""
+msgstr "Pendule, valeur de « g »"
 
 #: /home/georgesk/expeyes-web/expeyes-web/hardware.html:??
 msgid ""
@@ -4191,7 +4086,7 @@ msgstr ""
 msgid ""
 "WHI -- Wait for HIGH on  the\n"
 "        selected input\n"
-msgstr ""
+msgstr "WHI -- Wait for HIGH (attente d'un état HAUT) sur l'entrée sélectionnée"
 
 #: /home/georgesk/expeyes-web/expeyes-web/software.html:21
 msgid " ExpEYES Software"
@@ -4201,7 +4096,7 @@ msgstr "Logiciel expEYES"
 msgid ""
 "Clicking on any of the Input Source (A1\n"
 "          to SQ2) will read the voltage and display it in the message area.\n"
-msgstr ""
+msgstr "Si on clique sur n'importe quelle source de signal d'entrée (A1 jusqu'à SQ2), la tension sera lue et affichée dans la zone des messages."
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:186
 msgid ""
@@ -4236,6 +4131,17 @@ msgid ""
 "<br/>\n"
 "      Resistance offered by the solution = 0.65 / .00026 = 2500 Ohms\n"
 msgstr ""
+"On explique ici comment mesurer la résistance de l'eau ordinaire en la comparant avec une résistance connue. Pour les solutions ionique, mesurer la résistance en courant continu donneune erreur, due à l'électrolyse et la formation de bulles de gaz sur les électrodes. La tension alternative de la borne SINE est connectée à GND à travers les électrodes et une résistance de 10k en série. La trace noir est la tension totale et la rouge est la tension aux bornes de la résistance de 10k.<br/>\n"
+"<br/>\n"
+"Tension totale Ut = 3,25 V<br/>\n"
+"<br/>\n"
+"Tension aux bornes des 10k = 2,6 V<br/>\n"
+"<br/>\n"
+"Courant = 2,6 / 10000 = 0,26 mA<br/>\n"
+"<br/>\n"
+"Tensions aux électrodes = 0,65 V<br/>\n"
+"<br/>\n"
+"Résistance de la solution = 0,65 / 0,00026 = 2500 Ohm\n"
 
 #: /home/georgesk/expeyes-web/expeyes-web/android.html:49
 msgid "The Opening Screen of ExpEYES program"
@@ -4302,7 +4208,7 @@ msgstr ""
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:56
 msgid "Resistor network, Ohm's Law"
-msgstr ""
+msgstr "Combinaison de résistances, loi d'Ohm"
 
 #: /home/georgesk/expeyes-web/expeyes-web/index.html:42
 msgid ""
@@ -4325,20 +4231,12 @@ msgstr ""
 "en vidéo</a>"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:89
-#, fuzzy
-#| msgid ""
-#| "Dielectric\n"
-#| "          Constant\n"
 msgid "Dielectric constant of glass"
-msgstr "Constante diélectrique"
+msgstr "Constante diélectrique du verre"
 
 #: /home/georgesk/expeyes-web/expeyes-web/experiments/exp-list.html:118
-#, fuzzy
-#| msgid ""
-#| "Temperature\n"
-#| "          Sensors\n"
 msgid "LM35, Temperature sensor"
-msgstr "Capteur de température"
+msgstr "LM35, capteur de température"
 
 #: /home/georgesk/expeyes-web/expeyes-web/news.html:64
 msgid ""
