@@ -104,3 +104,29 @@ hr {
 .font14{
     font-size:14px;
 }
+
+pre{
+    width: 80%;
+    margin-left: 10%;
+    padding: 0.5em;
+    border: 1px black solid;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
+    background: white;
+    color: brown;
+    overflow: auto;
+    counter-reset: line;
+}
+
+code{
+    counter-increment: line;
+}
+code:before{
+    display: inline-block;
+    content: counter(line);
+    border-right: 1px solid red;
+    padding: 0 .5em;
+    margin-right: .5em;
+    color: navy;
+    width: 1.5em;
+}
