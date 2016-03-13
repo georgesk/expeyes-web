@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <link rel="stylesheet" type="text/css" href="../css/menu.css">
-    <meta name="keywords" content="expeyes, experiment, science, usb interface, engineering">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    <link rel="stylesheet" type="text/css" href="../css/menu.css"/>
+    <meta name="keywords" content="expeyes, experiment, science, usb interface, engineering"/>
     <title>IR receiver</title>
   </head>
   <body> <a href="../index.html"><img src="../images/eyes-logo.png" height="100"
-        width="420"></a>
+        width="420" alt="eyes-logo"/></a>
     <div id="mynb">
       <ul>
-        <li><a href="../design.html"> <span>Design</span></a></li>
-        <li><a href="../hardware.html"> <span>How to Buy</span></a></li>
-        <li><a href="../software.html"> <span>Software</span></a></li>
-        <li><a href="../android.html"> <span>Android</span></a></li>
-        <li><a href="../python.html"> <span>python</span></a></li>
-        <li><a href="../microhope.html"><span>MicroHOPE</span></a></li>
-        <li><a href="../people.html"> <span>People</span></a></li>
-        <li><a href="../news.html"><span>News</span></a></li>
+        <li><a href="../design.html"> <span class="tr">Design</span></a></li>
+        <li><a href="../hardware.html"> <span class="tr">How to Buy</span></a></li>
+        <li><a href="../software.html"> <span class="tr">Software</span></a></li>
+        <li><a href="../android.html"> <span class="tr">Android</span></a></li>
+        <li><a href="../python.html"> <span class="tr">python</span></a></li>
+        <li><a href="../microhope.html"><span class="tr">MicroHOPE</span></a></li>
+        <li><a href="../people.html"> <span class="tr">People</span></a></li>
+        <li><a href="../news.html"><span class="tr">News</span></a></li>
       </ul>
     </div>
-    <h3>Infrared Receiver</h3>
-    <p> he infrared signals emitted by the remote controls of TVs etc can be
+    <h3 class="tr">Infrared Receiver</h3>
+    <p class="tr"> he infrared signals emitted by the remote controls of TVs etc can be
       captured using the TSOP1738 IR receiver. The program ir-recv.c uses an
       interrupt sevice routine to decode this signal. The output of the chip is
       connected to bit 2 of PORTD, as shown in the figure below.
@@ -30,9 +30,14 @@
       modified to work with the single byte IR transmitted from expEYES. The
       received byte is displayed on the LCD display.
       Dowload ir-recv.c </p>
-    <img alt="" src="images/ir-receiver.png"><span style="color: #0a0a0a;">
-      &nbsp;<img style="width: 428px; height: 367px;" alt="" src="images/ir-receive-proto.jpg"><br>
-      <br>
+    <img alt="" src="images/ir-receiver.png"/><span style="color: #0a0a0a;">
+       <img style="width: 428px; height: 367px;" alt="" src="images/ir-receive-proto.jpg"/><br/>
+      <br/>
     </span>
   </body>
 </html>
+<!--
+ Local Variables:
+ mode: nxml
+ End:
+-->
