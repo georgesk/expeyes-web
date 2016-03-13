@@ -42,3 +42,12 @@ if __name__=="__main__":
     )
     #print(cmd)
     call(cmd, shell=True)
+    ########### try to restart the server ################
+    """
+    cmd="ssh {} 'if grep -q 8081 /etc/apache2/sites-available/*; then cd {}; translator/restartServer; fi'".format(destIP, destDIR)
+    print(cmd)
+    p=Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE)
+    res=p.communicate()
+    print("OUT=", res[0])
+    print("ERR=", res[1])
+    """
