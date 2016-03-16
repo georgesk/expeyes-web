@@ -1,10 +1,6 @@
 var supportedLang=["en", "fr"];
 
 $(function(){ 
-    var cklanguage=document.cookie.replace(/(?:(?:^|.*;\s*)lang\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-    if(cklanguage){
-	console.log("Cookie set for language", cklanguage);
-    }
     var path=window.location.pathname;
     if (! path || path=="/"){
 	// no path means index.html
@@ -14,6 +10,22 @@ $(function(){
 	// remove leading slash
 	path=path.substr(1);
     }
+    /**
+    var ckLanguage=document.cookie.replace(/(?:(?:^|.*;\s*)lang\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+    if(ckLanguage){
+	console.log("Cookie set for language", ckLanguage);
+    } else {
+	// no cookie named "lang",
+	// so the browser's language should be considered
+	var browserLanguage = window.navigator.userLanguage || window.navigator.language;
+	var prefix=browserLanguage+"/";
+	if (browserLanguage != "en" && ! path.startsWith(prefix)){
+	    // the non-English language is not the preferred one
+	    // so the prefix will be inserted.
+	    window.location.pathname="/"+prefix+path;
+	}
+    }
+    **/
     for(var l =0; l < supportedLang.length; l++){
 	// computes the path of the English page
 	var lang=supportedLang[l];
