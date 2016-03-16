@@ -4,13 +4,13 @@ $(function(){
     var langFlags=$("<div>",{id: "languages"});
     for(var l =0; l < supportedLang.length; l++){
 	var target="/";
-	if (l!="en"){
-	    target="/"+l+"/";
+	if (l!=0){ //non-English languages
+	    target="/"+supportedLang[l]+"/";
 	}
 	var anchor=$("<a>",{href: target, "class": "lang"});
-	var img=$("<img>",{src: "images/lang-"+l+".png", alt: "language "+l});
+	var img=$("<img>",{src: "images/lang-"+supportedLang[l]+".png", alt: supportedLang[l]+ " language"});
+	anchor.text(supportedLang[l]);
 	anchor.append(img)
-	anchor.text(l);
 	mynb.append(anchor);
     }
 });

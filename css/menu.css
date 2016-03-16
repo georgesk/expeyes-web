@@ -130,3 +130,8 @@ code:before{
     color: navy;
     width: 1.5em;
 }
+
+a.lang {
+    margin: 5px;
+    text-decoration: none;
+}
