@@ -131,7 +131,7 @@ code:before{
     width: 1.5em;
 }
 
-a.lang {
-    margin: 5px;
+button.lang {
+    margin: 2px 5px;
     text-decoration: none;
 }
