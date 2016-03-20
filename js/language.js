@@ -42,7 +42,7 @@ $(function(){
 	var button=$("<button>",{
 	    "class": "lang"
 	}).on("click", changeLanguageMaker(lang, path));
-	var img=$("<img>",{src: "images/lang-"+lang+".png", alt: lang+" language"});
+	var img=$("<img>",{src: "/images/lang-"+lang+".png", alt: lang+" language"});
 	button.text(lang);
 	button.append(img)
 	mynb.append(button);
