@@ -74,7 +74,11 @@ function changeLanguageMaker(lang, path){
     }
     return function(){
 	document.cookie="lang="+lang;
-	window.location.pathname=location;
+	if (location.beginsWith("http://")){
+	    window.location=location;
+	} else {
+	    window.location.pathname=location;
+	}
     };
 }
 
