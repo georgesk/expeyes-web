@@ -1,38 +1,35 @@
 var supportedLang=["en", "fr"];
 
-$(function(){ 
-    var path=window.location.pathname;
-    if (! path || path=="/"){
-	// no path means index.html
-	path="index.html";
-    }
-    if (path.startsWith("/")){
-	// remove leading slash
-	path=path.substr(1);
-    }
-    /**
-    var ckLanguage=document.cookie.replace(/(?:(?:^|.*;\s*)lang\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-    if(ckLanguage){
-	console.log("Cookie set for language", ckLanguage);
-    } else {
-	// no cookie named "lang",
-	// so the browser's language should be considered
-	var browserLanguage = window.navigator.userLanguage || window.navigator.language;
-	var prefix=browserLanguage+"/";
-	if (browserLanguage != "en" && ! path.startsWith(prefix)){
-	    // the non-English language is not the preferred one
-	    // so the prefix will be inserted.
-	    window.location.pathname="/"+prefix+path;
-	}
-    }
-    **/
-    for(var l =0; l < supportedLang.length; l++){
-	// computes the path of the English page
-	var lang=supportedLang[l];
-	var prefix=supportedLang[l]+"/"
-	if (path.startsWith(prefix)){
-	    path=path.substr(prefix.length - 1);
-	    break;
+// root should be changed to the root of the website's pages
+// for example, when the main page is:
+// http://www.iuac.res.in/~elab/expeyes-web-master/index.html
+// root should be: /~elab/expeyes-web-master/
+var root="/";
+
+var langDirs=[];
+for (var i =1; i < supportedLang.length; i++){
+    // consider all non-English languages
+    langDirs.push(supportedLang[i]+"/");
+}
+
+var pattern = "^"+root+"("+langDirs.join("|")+")?"+"(.*)$"
+var pathRe=new RegExp(pattern);
+
+$(function(){
+    // default values if the regular expression does not match the path
+    var lang="en";
+    var path="index.html"
+    // try to match the path
+    var match=pathRe.exec(window.location.pathname);
+    if (match){
+	if (match[1]!=undefined){ // got a non-English language
+	    lang=match[1];
+	    while (lang.endsWith("/")){
+		lang=lang.substr(0 , lang.length-1);
+	    }
+	}	
+	if (match[2]!=undefined){ // fetch the path
+	    path=match[2];
 	}
     }
     var mynb=$("#mynb");
@@ -42,7 +39,10 @@ $(function(){
 	var button=$("<button>",{
 	    "class": "lang"
 	}).on("click", changeLanguageMaker(lang, path));
-	var img=$("<img>",{src: "/images/lang-"+lang+".png", alt: lang+" language"});
+	var img=$("<img>",{
+	    src: root + "images/lang-" + lang + ".png",
+	    alt: lang + " language"
+	});
 	button.text(lang);
 	button.append(img)
 	mynb.append(button);
@@ -57,15 +57,20 @@ $(function(){
  * change of location
  **/
 function changeLanguageMaker(lang, path){
-    while(path.startsWith("/")){
-	// no leading slash
-	path=path.substr(1);
-    }
-    var location="/";
-    if (lang=="en"){ // English
-	location="/"+path;
+    var location = root;
+    if (lang == "en"){ // English
+	location = root + path;
     } else { //non-English languages
-	location="/"+lang+ "/"+ path;
+	//////// this one should be kept if the translation service is local
+	// location = root + lang + "/" + path;
+	///////////////////////////////////////
+	//////// redirection to a server with translation service
+	if (window.location.hostname == "expeyes.freeduc.org"){
+	    location = root + lang + "/" + path;
+	} else {
+	    location = "http://expeyes.freeduc.org/" + lang + "/" + path;
+	}
+	
     }
     return function(){
 	document.cookie="lang="+lang;
